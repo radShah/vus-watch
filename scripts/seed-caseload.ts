@@ -145,6 +145,15 @@ export function normalize(desc: string): ClassCategory {
   return 'Other'
 }
 
+/** Clinically meaningful tier: an LP ↔ P shift doesn't change management, so it isn't a reclassification here. */
+export function tier(desc: string): 'P/LP' | 'VUS' | 'Conflicting' | 'B/LB' | 'Other' {
+  const c = normalize(desc)
+  if (c === 'Pathogenic' || c === 'Likely pathogenic') return 'P/LP'
+  if (c === 'Likely benign' || c === 'Benign') return 'B/LB'
+  if (c === 'Uncertain significance') return 'VUS'
+  return c
+}
+
 const isMissense = (title: string) => /\(p\.[A-Z][a-z]{2}\d+(?!Ter)[A-Z][a-z]{2}\)$/.test(title)
 
 // ---------------------------------------------------------------------------
@@ -280,7 +289,7 @@ async function main() {
   for (let i = 1; i < 36; i++) plans.push({ result: 'VUS', area: areaDraw(), vusCount: i <= 5 ? 2 : 1, changed: i > 5 && i <= 16 ? 1 : 0 })
   for (let i = 0; i < 14; i++) plans.push({ result: i < 8 ? 'Pathogenic' : 'Likely pathogenic', area: areaDraw(), vusCount: 0, changed: 0 })
 
-  const nowIso = TODAY.toISOString()
+  const nowIso = new Date().toISOString()
   const usedNames = new Set<string>()
   const usedMrns = new Set<string>()
   const patients = shuffle(plans).map((plan, idx) => {
@@ -312,13 +321,12 @@ async function main() {
     }
     if (plan.result === 'Pathogenic' || plan.result === 'Likely pathogenic') {
       const rec = take(pools[area].plp, pools.Cancer.plp)
-      chosen.push({ rec, reported: normalize(rec.classification) === 'Pathogenic' ? 'Pathogenic' : 'Likely pathogenic' })
+      chosen.push({ rec, reported: plan.result })
     }
     const gene = chosen[0]?.rec.gene
 
     const variantsOut = chosen.map(({ rec, reported }) => {
-      const current = normalize(rec.classification)
-      const changed = current !== normalize(reported)
+      const changed = tier(rec.classification) !== tier(reported)
       return {
         gene: rec.gene,
         hgvs: rec.title,
@@ -343,10 +351,10 @@ async function main() {
 
     const activeVariant = variantsOut.find((v) => v.classification_changed)
     const next_action = activeVariant
-      ? `Review ClinVar reclassification of ${activeVariant.gene} (reported VUS → now ${normalize(activeVariant.clinvar.classification)}); decide whether to contact lab re: amended report`
-      : result === 'VUS' ? 'Routine ClinVar recheck; no action'
-      : result === 'Negative' ? 'None — negative result'
-      : 'Cascade testing offered to relatives; no reclassification watch'
+      ? `Review ${activeVariant.gene}: VUS → ${tier(activeVariant.clinvar.classification)} in ClinVar`
+      : result === 'VUS' ? 'Routine ClinVar recheck'
+      : result === 'Negative' ? '—'
+      : 'Cascade testing offered'
 
     return {
       id: `P${String(idx + 1).padStart(3, '0')}`,

@@ -1,7 +1,7 @@
 {
   "fictional": true,
   "disclaimer": "FICTIONAL DEMO DATA. All patients, names, MRNs, providers and lab-reported classifications are invented. Variants and current classifications are real public ClinVar records.",
-  "generated_at": "2026-09-25T12:00:00.000Z",
+  "generated_at": "2026-09-25T19:20:27.781Z",
   "variant_source": "eutils",
   "clinic": {
     "name": "Cedar Hollow Medical Center",
@@ -26,8 +26,8 @@
       "report_date": "2023-02-12",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -46,8 +46,8 @@
       "report_date": "2024-01-27",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -66,8 +66,8 @@
       "report_date": "2023-08-03",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -86,8 +86,8 @@
       "report_date": "2025-07-28",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -106,8 +106,8 @@
       "report_date": "2021-10-23",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -147,8 +147,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -167,8 +167,8 @@
       "report_date": "2025-02-08",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -208,8 +208,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -228,8 +228,8 @@
       "report_date": "2020-04-19",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -248,8 +248,8 @@
       "report_date": "2026-02-24",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -289,8 +289,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Cascade testing offered to relatives; no reclassification watch",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Cascade testing offered",
       "gc_decisions": [],
       "history": []
     },
@@ -309,8 +309,8 @@
       "report_date": "2025-07-05",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -350,8 +350,8 @@
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Review ClinVar reclassification of ATM (reported VUS → now Conflicting); decide whether to contact lab re: amended report",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Review ATM: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
     },
@@ -411,8 +411,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -452,8 +452,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -493,8 +493,8 @@
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Review ClinVar reclassification of PALB2 (reported VUS → now Conflicting); decide whether to contact lab re: amended report",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Review PALB2: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
     },
@@ -554,8 +554,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -574,8 +574,8 @@
       "report_date": "2023-02-20",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -615,8 +615,8 @@
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Review ClinVar reclassification of MSH6 (reported VUS → now Conflicting); decide whether to contact lab re: amended report",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Review MSH6: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
     },
@@ -656,8 +656,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Cascade testing offered to relatives; no reclassification watch",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Cascade testing offered",
       "gc_decisions": [],
       "history": []
     },
@@ -697,8 +697,8 @@
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Review ClinVar reclassification of MYBPC3 (reported VUS → now Conflicting); decide whether to contact lab re: amended report",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Review MYBPC3: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
     },
@@ -717,8 +717,8 @@
       "report_date": "2023-08-11",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -737,8 +737,8 @@
       "report_date": "2026-03-28",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -757,8 +757,8 @@
       "report_date": "2019-06-20",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -777,8 +777,8 @@
       "report_date": "2019-08-15",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -818,8 +818,8 @@
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Review ClinVar reclassification of MSH6 (reported VUS → now Conflicting); decide whether to contact lab re: amended report",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Review MSH6: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
     },
@@ -838,8 +838,8 @@
       "report_date": "2026-07-12",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -858,8 +858,8 @@
       "report_date": "2022-03-18",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -878,8 +878,8 @@
       "report_date": "2024-11-10",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -919,8 +919,8 @@
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Review ClinVar reclassification of SCN1A (reported VUS → now Conflicting); decide whether to contact lab re: amended report",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Review SCN1A: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
     },
@@ -960,8 +960,8 @@
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Review ClinVar reclassification of SCN1A (reported VUS → now Conflicting); decide whether to contact lab re: amended report",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Review SCN1A: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
     },
@@ -1001,8 +1001,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Cascade testing offered to relatives; no reclassification watch",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Cascade testing offered",
       "gc_decisions": [],
       "history": []
     },
@@ -1021,8 +1021,8 @@
       "report_date": "2022-08-06",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1041,8 +1041,8 @@
       "report_date": "2025-07-11",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1059,14 +1059,14 @@
       "testing_lab": "Ambry Genetics",
       "test_name": "Exome sequencing (trio)",
       "report_date": "2025-07-25",
-      "result_category": "Pathogenic",
+      "result_category": "Likely pathogenic",
       "variants": [
         {
           "gene": "SCN1A",
           "hgvs": "NM_001165963.4(SCN1A):c.195T>A (p.Tyr65Ter)",
           "zygosity": "Heterozygous",
           "reported_classification": {
-            "classification": "Pathogenic",
+            "classification": "Likely pathogenic",
             "lab": "Ambry Genetics",
             "date": "2025-07-25"
           },
@@ -1082,8 +1082,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Cascade testing offered to relatives; no reclassification watch",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Cascade testing offered",
       "gc_decisions": [],
       "history": []
     },
@@ -1143,8 +1143,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -1184,8 +1184,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -1225,8 +1225,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -1243,14 +1243,14 @@
       "testing_lab": "Ambry Genetics",
       "test_name": "Comprehensive epilepsy panel (296 genes)",
       "report_date": "2020-06-18",
-      "result_category": "Pathogenic",
+      "result_category": "Likely pathogenic",
       "variants": [
         {
           "gene": "SCN1A",
           "hgvs": "NM_001165963.4(SCN1A):c.3306C>G (p.Tyr1102Ter)",
           "zygosity": "Heterozygous",
           "reported_classification": {
-            "classification": "Pathogenic",
+            "classification": "Likely pathogenic",
             "lab": "Ambry Genetics",
             "date": "2020-06-18"
           },
@@ -1266,8 +1266,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Cascade testing offered to relatives; no reclassification watch",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Cascade testing offered",
       "gc_decisions": [],
       "history": []
     },
@@ -1286,8 +1286,8 @@
       "report_date": "2022-02-16",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1306,8 +1306,8 @@
       "report_date": "2023-03-18",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1326,8 +1326,8 @@
       "report_date": "2021-02-15",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1367,8 +1367,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -1408,8 +1408,8 @@
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Review ClinVar reclassification of GRIN2A (reported VUS → now Conflicting); decide whether to contact lab re: amended report",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Review GRIN2A: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
     },
@@ -1428,8 +1428,8 @@
       "report_date": "2020-05-27",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1469,8 +1469,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Cascade testing offered to relatives; no reclassification watch",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Cascade testing offered",
       "gc_decisions": [],
       "history": []
     },
@@ -1510,8 +1510,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -1530,8 +1530,8 @@
       "report_date": "2025-02-14",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1550,8 +1550,8 @@
       "report_date": "2020-02-27",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1591,8 +1591,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -1611,8 +1611,8 @@
       "report_date": "2023-08-05",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1631,8 +1631,8 @@
       "report_date": "2024-02-03",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1651,8 +1651,8 @@
       "report_date": "2021-07-27",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1671,8 +1671,8 @@
       "report_date": "2022-08-25",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1691,8 +1691,8 @@
       "report_date": "2021-07-04",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1732,8 +1732,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -1752,8 +1752,8 @@
       "report_date": "2024-09-14",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1793,8 +1793,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -1813,8 +1813,8 @@
       "report_date": "2024-10-23",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1833,8 +1833,8 @@
       "report_date": "2023-02-17",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1853,8 +1853,8 @@
       "report_date": "2019-12-07",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1894,8 +1894,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Cascade testing offered to relatives; no reclassification watch",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Cascade testing offered",
       "gc_decisions": [],
       "history": []
     },
@@ -1914,8 +1914,8 @@
       "report_date": "2024-01-27",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -1932,14 +1932,14 @@
       "testing_lab": "Ambry Genetics",
       "test_name": "Hereditary pancreatic cancer panel (18 genes)",
       "report_date": "2025-06-20",
-      "result_category": "Pathogenic",
+      "result_category": "Likely pathogenic",
       "variants": [
         {
           "gene": "MSH2",
           "hgvs": "NM_000251.3(MSH2):c.1510+2T>G",
           "zygosity": "Heterozygous",
           "reported_classification": {
-            "classification": "Pathogenic",
+            "classification": "Likely pathogenic",
             "lab": "Ambry Genetics",
             "date": "2025-06-20"
           },
@@ -1955,8 +1955,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Cascade testing offered to relatives; no reclassification watch",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Cascade testing offered",
       "gc_decisions": [],
       "history": []
     },
@@ -1975,8 +1975,8 @@
       "report_date": "2025-04-04",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2016,8 +2016,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Cascade testing offered to relatives; no reclassification watch",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Cascade testing offered",
       "gc_decisions": [],
       "history": []
     },
@@ -2057,8 +2057,8 @@
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Review ClinVar reclassification of MLH1 (reported VUS → now Pathogenic); decide whether to contact lab re: amended report",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Review MLH1: VUS → P/LP in ClinVar",
       "gc_decisions": [],
       "history": []
     },
@@ -2098,8 +2098,8 @@
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Review ClinVar reclassification of PALB2 (reported VUS → now Conflicting); decide whether to contact lab re: amended report",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Review PALB2: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
     },
@@ -2118,8 +2118,8 @@
       "report_date": "2019-05-27",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2159,8 +2159,8 @@
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Review ClinVar reclassification of MYH7 (reported VUS → now Pathogenic); decide whether to contact lab re: amended report",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Review MYH7: VUS → P/LP in ClinVar",
       "gc_decisions": [],
       "history": []
     },
@@ -2179,8 +2179,8 @@
       "report_date": "2024-12-22",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2220,8 +2220,8 @@
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Review ClinVar reclassification of SCN5A (reported VUS → now Conflicting); decide whether to contact lab re: amended report",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Review SCN5A: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
     },
@@ -2240,8 +2240,8 @@
       "report_date": "2022-11-17",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2260,8 +2260,8 @@
       "report_date": "2021-09-04",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2280,8 +2280,8 @@
       "report_date": "2024-05-20",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2341,8 +2341,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -2361,8 +2361,8 @@
       "report_date": "2022-12-14",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2381,8 +2381,8 @@
       "report_date": "2023-04-10",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2401,8 +2401,8 @@
       "report_date": "2024-11-27",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2421,8 +2421,8 @@
       "report_date": "2022-12-01",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2441,8 +2441,8 @@
       "report_date": "2025-08-28",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2461,8 +2461,8 @@
       "report_date": "2025-07-27",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2481,8 +2481,8 @@
       "report_date": "2019-08-12",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2522,8 +2522,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -2542,8 +2542,8 @@
       "report_date": "2021-06-30",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2562,8 +2562,8 @@
       "report_date": "2024-11-18",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2582,8 +2582,8 @@
       "report_date": "2022-04-05",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2623,8 +2623,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -2643,8 +2643,8 @@
       "report_date": "2024-04-07",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2661,14 +2661,14 @@
       "testing_lab": "Ambry Genetics",
       "test_name": "Lynch syndrome panel (5 genes)",
       "report_date": "2021-08-14",
-      "result_category": "Pathogenic",
+      "result_category": "Likely pathogenic",
       "variants": [
         {
           "gene": "MSH2",
           "hgvs": "NM_000251.3(MSH2):c.2310dup (p.Ala771fs)",
           "zygosity": "Heterozygous",
           "reported_classification": {
-            "classification": "Pathogenic",
+            "classification": "Likely pathogenic",
             "lab": "Ambry Genetics",
             "date": "2021-08-14"
           },
@@ -2684,8 +2684,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Cascade testing offered to relatives; no reclassification watch",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Cascade testing offered",
       "gc_decisions": [],
       "history": []
     },
@@ -2725,8 +2725,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Cascade testing offered to relatives; no reclassification watch",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Cascade testing offered",
       "gc_decisions": [],
       "history": []
     },
@@ -2745,8 +2745,8 @@
       "report_date": "2021-11-21",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2765,8 +2765,8 @@
       "report_date": "2021-01-03",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2826,8 +2826,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -2846,8 +2846,8 @@
       "report_date": "2022-05-20",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2866,8 +2866,8 @@
       "report_date": "2024-09-02",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2886,8 +2886,8 @@
       "report_date": "2025-12-27",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2906,8 +2906,8 @@
       "report_date": "2025-04-02",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2947,8 +2947,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -2967,8 +2967,8 @@
       "report_date": "2022-03-09",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -2987,8 +2987,8 @@
       "report_date": "2019-09-10",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -3005,14 +3005,14 @@
       "testing_lab": "GeneDx",
       "test_name": "Multi-gene hereditary cancer panel (47 genes)",
       "report_date": "2021-08-07",
-      "result_category": "Pathogenic",
+      "result_category": "Likely pathogenic",
       "variants": [
         {
           "gene": "MLH1",
           "hgvs": "NM_000249.4(MLH1):c.2123_2127del (p.Ile708fs)",
           "zygosity": "Heterozygous",
           "reported_classification": {
-            "classification": "Pathogenic",
+            "classification": "Likely pathogenic",
             "lab": "GeneDx",
             "date": "2021-08-07"
           },
@@ -3028,8 +3028,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Cascade testing offered to relatives; no reclassification watch",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Cascade testing offered",
       "gc_decisions": [],
       "history": []
     },
@@ -3069,8 +3069,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -3089,8 +3089,8 @@
       "report_date": "2025-08-18",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -3107,14 +3107,14 @@
       "testing_lab": "Labcorp/Invitae",
       "test_name": "Hereditary breast and ovarian cancer panel (13 genes)",
       "report_date": "2019-04-10",
-      "result_category": "Pathogenic",
+      "result_category": "Likely pathogenic",
       "variants": [
         {
           "gene": "BRCA1",
           "hgvs": "NM_007294.4(BRCA1):c.3504dup (p.Asp1169Ter)",
           "zygosity": "Heterozygous",
           "reported_classification": {
-            "classification": "Pathogenic",
+            "classification": "Likely pathogenic",
             "lab": "Labcorp/Invitae",
             "date": "2019-04-10"
           },
@@ -3130,8 +3130,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Cascade testing offered to relatives; no reclassification watch",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Cascade testing offered",
       "gc_decisions": [],
       "history": []
     },
@@ -3150,8 +3150,8 @@
       "report_date": "2021-05-17",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -3191,8 +3191,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Cascade testing offered to relatives; no reclassification watch",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Cascade testing offered",
       "gc_decisions": [],
       "history": []
     },
@@ -3211,8 +3211,8 @@
       "report_date": "2026-02-04",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -3231,8 +3231,8 @@
       "report_date": "2024-05-03",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -3251,8 +3251,8 @@
       "report_date": "2024-07-13",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -3292,8 +3292,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -3333,8 +3333,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -3353,8 +3353,8 @@
       "report_date": "2020-01-09",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -3373,8 +3373,8 @@
       "report_date": "2022-10-18",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -3414,8 +3414,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -3434,8 +3434,8 @@
       "report_date": "2021-04-16",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -3454,8 +3454,8 @@
       "report_date": "2024-10-05",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -3474,8 +3474,8 @@
       "report_date": "2025-03-01",
       "result_category": "Negative",
       "variants": [],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "None — negative result",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "—",
       "gc_decisions": [],
       "history": []
     },
@@ -3515,8 +3515,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     },
@@ -3556,8 +3556,8 @@
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T12:00:00.000Z",
-      "next_action": "Routine ClinVar recheck; no action",
+      "last_checked": "2026-09-25T19:20:27.781Z",
+      "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     }
