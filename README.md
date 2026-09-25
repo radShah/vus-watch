@@ -27,7 +27,7 @@ npm run dev    # open http://localhost:5173
 ## Sponsor tools
 
 - **Nimble**: _coming soon_ (live ClinVar fetches)
-- **Liquid AI**: _coming soon_ (fact extraction with small models)
+- **Liquid AI**: extracts each lab's submission (classification, dates, SCV, evidence tags) from the ClinVar page with LFM2.5, validated in code. `LIQUID_PROVIDER=openrouter` (hosted `liquid/lfm-2.5-2.6b`, default) or `ollama` (local, e.g. `LiquidAI/lfm2.5-350m`)
 - **Tinybird / RawTree**: _coming soon_ (event log and agent memory)
 - **Black Forest Labs**: _coming soon_
 

@@ -1,21 +1,22 @@
 /**
  * Structured lab submissions from a ClinVar submissions table, extracted by a
- * Liquid model on OpenRouter. The model's output is validated in code against
+ * Liquid model (LFM2.5). LIQUID_PROVIDER picks where it runs: "openrouter"
+ * (hosted, default) or "ollama" (local). The model's output is validated in code against
  * the input text (allowed values, real dates, every accession/lab/date present
  * in the source). An invalid answer is retried once; after that the extraction
  * is "failed" and no fields are filled. Never guessed.
  *
  * Successful extractions are cached by variation_id + record_version in
- * .cache/liquid/, so an unchanged ClinVar record is never re-sent.
+ * .cache/liquid/, so an unchanged ClinVar record is never re-sent. An entry
+ * made by a different model is ignored and re-extracted.
  */
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-const ENDPOINT = 'https://openrouter.ai/api/v1/chat/completions'
 const CACHE_DIR = join(dirname(fileURLToPath(import.meta.url)), '..', '..', '.cache', 'liquid')
 const RETRY_DELAY_MS = 3000
-/** Backoff for rate limits / provider errors (free tier). These don't count as the one retry for an invalid answer. */
+/** Backoff for rate limits and server errors. These don't count as the one retry for an invalid answer. */
 const TRANSIENT_BACKOFF_MS = [5000, 15000, 30000]
 
 export const SUBMISSION_CLASSIFICATIONS = ['Pathogenic', 'Likely pathogenic', 'Uncertain significance', 'Likely benign', 'Benign'] as const
@@ -61,8 +62,8 @@ export interface LiquidCall {
 
 const SYSTEM = `You extract ClinVar lab submissions into JSON. Use ONLY information in the text. Never invent values.
 
-Each input line is one submission row. Return ONLY a JSON array with exactly one object per row, in row order, no prose, no code fences:
-[{"lab": string, "classification": string, "last_evaluated": "YYYY-MM-DD" | null, "first_in_clinvar": "YYYY-MM-DD" | null, "scv_accession": string, "review_status": string | null, "condition": string | null, "evidence_tags": string[]}]
+Each input line is one submission row. Return ONLY a JSON object whose "submissions" array has exactly one object per row, in row order, no prose, no code fences:
+{"submissions": [{"lab": string, "classification": string, "last_evaluated": "YYYY-MM-DD" | null, "first_in_clinvar": "YYYY-MM-DD" | null, "scv_accession": string, "review_status": string | null, "condition": string | null, "evidence_tags": string[]}]}
 
 Rules:
 - lab: the submitter name exactly as written before "Accession:".
@@ -185,25 +186,52 @@ export function validate(content: string, text: string): { ok: true; submissions
 // Liquid call
 // ---------------------------------------------------------------------------
 
-function config(): { apiKey: string; model: string } {
+export type Provider = 'openrouter' | 'ollama'
+
+interface ProviderConfig {
+  provider: Provider
+  baseUrl: string
+  apiKey?: string
+  model: string
+  /** Send response_format json_object (Ollama supports it; not relied on for OpenRouter's Liquid route). */
+  jsonMode: boolean
+}
+
+export function config(): ProviderConfig {
+  const provider = (process.env.LIQUID_PROVIDER || 'openrouter') as Provider
+  if (provider === 'ollama')
+    return {
+      provider,
+      baseUrl: (process.env.OLLAMA_BASE_URL || 'http://localhost:11434/v1').replace(/\/$/, ''),
+      model: process.env.OLLAMA_MODEL || 'LiquidAI/lfm2.5-350m',
+      jsonMode: true,
+    }
+  if (provider !== 'openrouter') throw new Error(`LIQUID_PROVIDER must be "openrouter" or "ollama", got "${provider}"`)
   const apiKey = process.env.OPENROUTER_API_KEY
   const model = process.env.LIQUID_MODEL
   if (!apiKey) throw new Error('OPENROUTER_API_KEY is not set (.env)')
   if (!model) throw new Error('LIQUID_MODEL is not set (.env)')
-  return { apiKey, model }
+  return { provider, baseUrl: 'https://openrouter.ai/api/v1', apiKey, model, jsonMode: false }
 }
 
-/** POST to OpenRouter; returns choices[0].message.content only (any "reasoning" field is ignored). */
+/** POST to an OpenAI-compatible chat endpoint; returns choices[0].message.content only (any "reasoning" field is ignored). */
 async function complete(messages: { role: string; content: string }[]): Promise<string> {
-  const { apiKey, model } = config()
-  const res = await fetch(ENDPOINT, {
-    method: 'POST',
-    headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ model, messages, temperature: 0 }),
-  })
+  const { provider, baseUrl, apiKey, model, jsonMode } = config()
+  let res: Response
+  try {
+    res = await fetch(`${baseUrl}/chat/completions`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...(apiKey ? { Authorization: `Bearer ${apiKey}` } : {}) },
+      body: JSON.stringify({ model, messages, temperature: 0, ...(jsonMode ? { response_format: { type: 'json_object' } } : {}) }),
+    })
+  } catch (e) {
+    const hint = provider === 'ollama' ? '; start it with `ollama serve`' : ''
+    throw new Error(`${provider} not reachable at ${baseUrl}${hint} (${e instanceof Error ? e.message : e})`)
+  }
   const body = (await res.json().catch(() => null)) as { choices?: { message?: { content?: unknown } }[]; error?: { message?: string } } | null
-  if (!res.ok) throw Object.assign(new Error(`HTTP ${res.status}: ${body?.error?.message ?? res.statusText}`), {
-      // A daily quota won't clear with backoff; per-minute limits and provider errors might.
+  if (!res.ok)
+    throw Object.assign(new Error(`HTTP ${res.status}: ${body?.error?.message ?? res.statusText}`), {
+      // OpenRouter's free-model daily quota won't clear with backoff; per-minute limits and server errors might.
       transient: (res.status === 429 && !/per-day/i.test(body?.error?.message ?? '')) || res.status >= 500,
     })
   const content = body?.choices?.[0]?.message?.content
@@ -219,12 +247,12 @@ export async function extractSubmissions(
 ): Promise<ExtractionResult> {
   const { variationId, recordVersion, onCall } = opts
   const path = recordVersion == null ? null : cachePath(variationId, recordVersion)
+  const model = config().model
   if (path && existsSync(path)) {
-    const cached = JSON.parse(readFileSync(path, 'utf8')) as { submissions: Submission[] }
-    return { status: 'ok', from_cache: true, submissions: cached.submissions }
+    const cached = JSON.parse(readFileSync(path, 'utf8')) as { model?: string; submissions: Submission[] }
+    if (cached.model === model) return { status: 'ok', from_cache: true, submissions: cached.submissions }
   }
 
-  const model = config().model
   const messages = [
     { role: 'system', content: SYSTEM },
     { role: 'user', content: submissionsTableText },
@@ -260,7 +288,7 @@ export async function extractSubmissions(
     lastError = v.errors.join('; ')
     onCall?.({ status: 'invalid', attempt, model, duration_ms, error: lastError })
     // Second attempt: show the model its answer and what was wrong with it.
-    messages.push({ role: 'assistant', content }, { role: 'user', content: `That answer is invalid: ${lastError}. Return ONLY the corrected JSON array.` })
+    messages.push({ role: 'assistant', content }, { role: 'user', content: `That answer is invalid: ${lastError}. Return ONLY the corrected JSON object.` })
   }
   return { status: 'failed', from_cache: false, submissions: [], error: lastError }
 }
