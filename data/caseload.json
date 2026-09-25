@@ -145,13 +145,27 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4957473/",
-            "last_checked": "2026-09-25T19:53:20.315Z"
+            "last_checked": "2026-09-25T20:19:21.136Z",
+            "submissions": [
+              {
+                "lab": "Blueprint Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2024-01-26",
+                "first_in_clinvar": "2026-09-22",
+                "scv_accession": "SCV007917346.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "Blueprint: VUS (2024-01-26)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:53:20.315Z",
+      "last_checked": "2026-09-25T20:19:21.136Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -210,13 +224,29 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4860314/",
-            "last_checked": "2026-09-25T19:53:36.914Z"
+            "last_checked": "2026-09-25T20:19:43.349Z",
+            "submissions": [
+              {
+                "lab": "Ambry Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2026-06-02",
+                "first_in_clinvar": "2026-07-19",
+                "scv_accession": "SCV007622289.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Hereditary cancer-predisposing syndrome",
+                "evidence_tags": [
+                  "computational_evidence"
+                ]
+              }
+            ],
+            "submissions_summary": "Ambry: VUS (2026-06-02)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:53:36.914Z",
+      "last_checked": "2026-09-25T20:19:43.349Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -269,7 +299,7 @@
       "age": 26,
       "sex": "M",
       "clinic_area": "Cardio",
-      "indication": "Family history of sudden cardiac death <40",
+      "indication": "Hypertrophic cardiomyopathy, LV wall thickness 18 mm; family history of sudden cardiac death <40",
       "ordering_provider": "Dr. Grace Holm (Pediatric Cardiology)",
       "testing_lab": "Labcorp/Invitae",
       "test_name": "Hypertrophic cardiomyopathy panel (26 genes)",
@@ -356,13 +386,39 @@
             "record_last_updated": "2026-04-13",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3254186/",
-            "last_checked": "2026-09-25T19:53:50.486Z"
+            "last_checked": "2026-09-25T20:20:00.059Z",
+            "submissions": [
+              {
+                "lab": "Myriad Genetics, Inc.",
+                "classification": "Likely benign",
+                "last_evaluated": "2024-05-16",
+                "first_in_clinvar": "2024-07-23",
+                "scv_accession": "SCV005085461.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Familial cancer of breast",
+                "evidence_tags": []
+              },
+              {
+                "lab": "Ambry Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2025-02-26",
+                "first_in_clinvar": "2025-04-28",
+                "scv_accession": "SCV005949637.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Hereditary cancer-predisposing syndrome",
+                "evidence_tags": [
+                  "computational_evidence"
+                ]
+              }
+            ],
+            "submissions_summary": "Myriad: Likely benign (2024-05-16) · Ambry: VUS (2025-02-26)",
+            "extraction_status": "ok"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:53:50.486Z",
+      "last_checked": "2026-09-25T20:20:00.059Z",
       "next_action": "Review ATM: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -375,7 +431,7 @@
       "age": 58,
       "sex": "F",
       "clinic_area": "Cancer",
-      "indication": "Personal history of colorectal cancer, dx age 43",
+      "indication": "Personal history of colorectal cancer, dx age 43; mother with breast cancer <50",
       "ordering_provider": "Dr. Naomi Feld (Primary Care)",
       "testing_lab": "Ambry Genetics",
       "test_name": "Multi-gene hereditary cancer panel (84 genes)",
@@ -401,7 +457,24 @@
             "record_last_updated": "2026-09-13",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4885268/",
-            "last_checked": "2026-09-25T19:53:57.385Z"
+            "last_checked": "2026-09-25T20:20:20.152Z",
+            "submissions": [
+              {
+                "lab": "Dasa",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2025-04-25",
+                "first_in_clinvar": "2026-08-22",
+                "scv_accession": "SCV007669007.2",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": [
+                  "population_data_absent",
+                  "computational_evidence"
+                ]
+              }
+            ],
+            "submissions_summary": "Dasa: VUS (2025-04-25)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
@@ -425,13 +498,29 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4861510/",
-            "last_checked": "2026-09-25T19:54:04.358Z"
+            "last_checked": "2026-09-25T20:20:33.875Z",
+            "submissions": [
+              {
+                "lab": "Ambry Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2026-06-02",
+                "first_in_clinvar": "2026-07-19",
+                "scv_accession": "SCV007624027.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Hereditary cancer-predisposing syndrome",
+                "evidence_tags": [
+                  "computational_evidence"
+                ]
+              }
+            ],
+            "submissions_summary": "Ambry: VUS (2026-06-02)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:54:04.358Z",
+      "last_checked": "2026-09-25T20:20:33.875Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -444,7 +533,7 @@
       "age": 67,
       "sex": "F",
       "clinic_area": "Cancer",
-      "indication": "Personal history of ovarian cancer, dx age 48",
+      "indication": "Personal history of breast cancer, dx age 48",
       "ordering_provider": "Dr. Naomi Feld (Primary Care)",
       "testing_lab": "Ambry Genetics",
       "test_name": "Lynch syndrome panel (5 genes)",
@@ -470,13 +559,27 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4913995/",
-            "last_checked": "2026-09-25T19:54:11.744Z"
+            "last_checked": "2026-09-25T20:20:55.551Z",
+            "submissions": [
+              {
+                "lab": "Blueprint Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2019-08-22",
+                "first_in_clinvar": "2026-09-22",
+                "scv_accession": "SCV007764643.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "Blueprint: VUS (2019-08-22)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:54:11.744Z",
+      "last_checked": "2026-09-25T20:20:55.551Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -489,7 +592,7 @@
       "age": 40,
       "sex": "F",
       "clinic_area": "Cancer",
-      "indication": "Personal history of endometrial cancer, dx age 39",
+      "indication": "Personal history of breast cancer, dx age 39",
       "ordering_provider": "Dr. Samuel Reyes (GI / Colorectal)",
       "testing_lab": "Ambry Genetics",
       "test_name": "Multi-gene hereditary cancer panel (84 genes)",
@@ -515,13 +618,49 @@
             "record_last_updated": "2026-04-13",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3885231/",
-            "last_checked": "2026-09-25T19:54:18.691Z"
+            "last_checked": "2026-09-25T20:21:15.585Z",
+            "submissions": [
+              {
+                "lab": "Ambry Genetics",
+                "classification": "Likely benign",
+                "last_evaluated": "2025-03-08",
+                "first_in_clinvar": "2025-04-28",
+                "scv_accession": "SCV006047912.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Hereditary cancer-predisposing syndrome",
+                "evidence_tags": [
+                  "population_data_absent",
+                  "population_data_present",
+                  "functional_evidence",
+                  "segregation_evidence",
+                  "computational_evidence",
+                  "case_observations"
+                ]
+              },
+              {
+                "lab": "Labcorp Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2025-11-18",
+                "first_in_clinvar": "2026-02-15",
+                "scv_accession": "SCV007354987.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Familial cancer of breast",
+                "evidence_tags": [
+                  "population_data_absent",
+                  "case_observations",
+                  "computational_evidence",
+                  "functional_evidence"
+                ]
+              }
+            ],
+            "submissions_summary": "Ambry: Likely benign (2025-03-08) · Labcorp: VUS (2025-11-18)",
+            "extraction_status": "ok"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:54:18.691Z",
+      "last_checked": "2026-09-25T20:21:15.585Z",
       "next_action": "Review PALB2: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -534,7 +673,7 @@
       "age": 47,
       "sex": "F",
       "clinic_area": "Cancer",
-      "indication": "Known familial BRCA2 variant in first-degree relative",
+      "indication": "Personal history of breast cancer, dx age 44; mother with breast cancer <50",
       "ordering_provider": "Dr. Colette Dubois (Gyn Oncology)",
       "testing_lab": "Labcorp/Invitae",
       "test_name": "Lynch syndrome panel (5 genes)",
@@ -560,7 +699,23 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4861515/",
-            "last_checked": "2026-09-25T19:54:31.980Z"
+            "last_checked": "2026-09-25T20:21:36.392Z",
+            "submissions": [
+              {
+                "lab": "Ambry Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2026-06-12",
+                "first_in_clinvar": "2026-07-19",
+                "scv_accession": "SCV007619616.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Hereditary cancer-predisposing syndrome",
+                "evidence_tags": [
+                  "computational_evidence"
+                ]
+              }
+            ],
+            "submissions_summary": "Ambry: VUS (2026-06-12)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
@@ -584,13 +739,27 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4914000/",
-            "last_checked": "2026-09-25T19:54:44.791Z"
+            "last_checked": "2026-09-25T20:22:00.167Z",
+            "submissions": [
+              {
+                "lab": "Blueprint Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2024-09-03",
+                "first_in_clinvar": "2026-09-22",
+                "scv_accession": "SCV007764730.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "Blueprint: VUS (2024-09-03)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:54:44.791Z",
+      "last_checked": "2026-09-25T20:22:00.167Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -649,13 +818,40 @@
             "record_last_updated": "2026-03-08",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4532890/",
-            "last_checked": "2026-09-25T19:54:57.640Z"
+            "last_checked": "2026-09-25T20:22:19.528Z",
+            "submissions": [
+              {
+                "lab": "Quest Diagnostics Nichols Institute San Juan Capistrano",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2025-10-22",
+                "first_in_clinvar": "2025-12-07",
+                "scv_accession": "SCV007112705.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": [
+                  "population_data_absent",
+                  "computational_evidence"
+                ]
+              },
+              {
+                "lab": "Labcorp Genetics (formerly Invitae), Labcorp",
+                "classification": "Likely benign",
+                "last_evaluated": "2025-06-18",
+                "first_in_clinvar": "2026-03-07",
+                "scv_accession": "SCV007512392.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Hereditary nonpolyposis colorectal neoplasms",
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "Quest: VUS (2025-10-22) · Labcorp: Likely benign (2025-06-18)",
+            "extraction_status": "ok"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:54:57.640Z",
+      "last_checked": "2026-09-25T20:22:19.528Z",
       "next_action": "Review MSH6: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -668,7 +864,7 @@
       "age": 43,
       "sex": "F",
       "clinic_area": "Cardio",
-      "indication": "Dilated cardiomyopathy, LVEF 30%",
+      "indication": "Hypertrophic cardiomyopathy, LV wall thickness 18 mm",
       "ordering_provider": "Dr. Victor Lindahl (Cardiology)",
       "testing_lab": "GeneDx",
       "test_name": "Arrhythmia and long QT panel (35 genes)",
@@ -735,13 +931,14 @@
             "record_last_updated": "2026-02-17",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3070370/",
-            "last_checked": "2026-09-25T19:55:06.772Z"
+            "last_checked": "2026-09-25T20:22:37.322Z",
+            "extraction_status": "failed"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:55:06.772Z",
+      "last_checked": "2026-09-25T20:22:37.322Z",
       "next_action": "Review MYBPC3: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -860,13 +1057,43 @@
             "record_last_updated": "2026-04-13",
             "record_version": 3,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3875106/",
-            "last_checked": "2026-09-25T19:55:13.804Z"
+            "last_checked": "2026-09-25T20:23:14.351Z",
+            "submissions": [
+              {
+                "lab": "Ambry Genetics",
+                "classification": "Likely pathogenic",
+                "last_evaluated": "2025-04-07",
+                "first_in_clinvar": "2025-04-28",
+                "scv_accession": "SCV006030292.2",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Hereditary cancer-predisposing syndrome",
+                "evidence_tags": [
+                  "population_data_absent",
+                  "computational_evidence",
+                  "case_observations"
+                ]
+              },
+              {
+                "lab": "Labcorp Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2026-01-01",
+                "first_in_clinvar": "2026-03-07",
+                "scv_accession": "SCV007501248.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Hereditary nonpolyposis colorectal neoplasms",
+                "evidence_tags": [
+                  "computational_evidence"
+                ]
+              }
+            ],
+            "submissions_summary": "Ambry: Likely pathogenic (2025-04-07) · Labcorp: VUS (2026-01-01)",
+            "extraction_status": "ok"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:55:13.804Z",
+      "last_checked": "2026-09-25T20:23:14.351Z",
       "next_action": "Review MSH6: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -965,13 +1192,56 @@
             "record_last_updated": "2026-09-22",
             "record_version": 3,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4292728/",
-            "last_checked": "2026-09-25T19:55:31.586Z"
+            "last_checked": "2026-09-25T20:23:36.376Z",
+            "submissions": [
+              {
+                "lab": "3billion",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2024-09-05",
+                "first_in_clinvar": "2025-10-25",
+                "scv_accession": "SCV006585356.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Severe myoclonic epilepsy in infancy",
+                "evidence_tags": [
+                  "population_data_absent",
+                  "functional_evidence",
+                  "computational_evidence",
+                  "case_observations"
+                ]
+              },
+              {
+                "lab": "Labcorp Genetics (formerly Invitae), Labcorp",
+                "classification": "Likely pathogenic",
+                "last_evaluated": "2025-09-16",
+                "first_in_clinvar": "2026-02-15",
+                "scv_accession": "SCV007418156.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Early-infantile DEE",
+                "evidence_tags": [
+                  "population_data_absent",
+                  "functional_evidence",
+                  "insufficient_evidence"
+                ]
+              },
+              {
+                "lab": "Blueprint Genetics",
+                "classification": "Likely pathogenic",
+                "last_evaluated": "2023-05-25",
+                "first_in_clinvar": "2026-09-22",
+                "scv_accession": "SCV007910473.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "SCN1A-related disorders",
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "3billion: VUS (2024-09-05) · Labcorp: Likely pathogenic (2025-09-16) · Blueprint: Likely pathogenic (2023-05-25)",
+            "extraction_status": "ok"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:55:31.586Z",
+      "last_checked": "2026-09-25T20:23:36.376Z",
       "next_action": "Review SCN1A: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -1010,13 +1280,39 @@
             "record_last_updated": "2026-03-01",
             "record_version": 3,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3383606/",
-            "last_checked": "2026-09-25T19:55:39.490Z"
+            "last_checked": "2026-09-25T20:23:54.822Z",
+            "submissions": [
+              {
+                "lab": "GeneDx",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2024-05-30",
+                "first_in_clinvar": "2024-12-07",
+                "scv_accession": "SCV005419771.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": [
+                  "computational_evidence"
+                ]
+              },
+              {
+                "lab": "Labcorp Genetics (formerly Invitae), Labcorp",
+                "classification": "Likely benign",
+                "last_evaluated": "2024-04-03",
+                "first_in_clinvar": "2025-02-25",
+                "scv_accession": "SCV005832583.2",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Early-infantile DEE",
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "GeneDx: VUS (2024-05-30) · Labcorp: Likely benign (2024-04-03)",
+            "extraction_status": "ok"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:55:39.490Z",
+      "last_checked": "2026-09-25T20:23:54.822Z",
       "next_action": "Review SCN1A: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -1029,7 +1325,7 @@
       "age": 21,
       "sex": "M",
       "clinic_area": "Cardio",
-      "indication": "Prolonged QTc (510 ms) with syncope",
+      "indication": "Family history of HCM; septal hypertrophy on echo (IVS 16 mm)",
       "ordering_provider": "Dr. Grace Holm (Pediatric Cardiology)",
       "testing_lab": "Labcorp/Invitae",
       "test_name": "Hypertrophic cardiomyopathy panel (26 genes)",
@@ -1151,7 +1447,7 @@
       "age": 51,
       "sex": "F",
       "clinic_area": "Cancer",
-      "indication": "Family history: mother with breast cancer <50",
+      "indication": "Family history: mother with breast cancer <50, father with colorectal cancer at 52",
       "ordering_provider": "Dr. Samuel Reyes (GI / Colorectal)",
       "testing_lab": "Labcorp/Invitae",
       "test_name": "Hereditary breast and ovarian cancer panel (13 genes)",
@@ -1177,7 +1473,24 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4861518/",
-            "last_checked": "2026-09-25T19:55:50.847Z"
+            "last_checked": "2026-09-25T20:24:18.617Z",
+            "submissions": [
+              {
+                "lab": "Ambry Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2026-03-31",
+                "first_in_clinvar": "2026-07-19",
+                "scv_accession": "SCV007624029.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Hereditary cancer-predisposing syndrome",
+                "evidence_tags": [
+                  "insufficient_evidence",
+                  "conflicting_evidence"
+                ]
+              }
+            ],
+            "submissions_summary": "Ambry: VUS (2026-03-31)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
@@ -1201,13 +1514,27 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4895206/",
-            "last_checked": "2026-09-25T19:55:56.189Z"
+            "last_checked": "2026-09-25T20:24:32.733Z",
+            "submissions": [
+              {
+                "lab": "Blueprint Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2024-02-20",
+                "first_in_clinvar": "2026-09-22",
+                "scv_accession": "SCV007694264.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "Blueprint: VUS (2024-02-20)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:55:56.189Z",
+      "last_checked": "2026-09-25T20:24:32.733Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1246,13 +1573,29 @@
             "record_last_updated": "2026-09-13",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4885370/",
-            "last_checked": "2026-09-25T19:56:06.869Z"
+            "last_checked": "2026-09-25T20:24:50.158Z",
+            "submissions": [
+              {
+                "lab": "Dasa",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2025-04-24",
+                "first_in_clinvar": "2026-08-22",
+                "scv_accession": "SCV007666160.2",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": [
+                  "insufficient_evidence"
+                ]
+              }
+            ],
+            "submissions_summary": "Dasa: VUS (2025-04-24)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:56:06.869Z",
+      "last_checked": "2026-09-25T20:24:50.158Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1265,7 +1608,7 @@
       "age": 59,
       "sex": "F",
       "clinic_area": "Cancer",
-      "indication": "Personal history of endometrial cancer, dx age 58",
+      "indication": "Personal history of ovarian cancer, dx age 58",
       "ordering_provider": "Dr. Arjun Patel (Medical Oncology)",
       "testing_lab": "Labcorp/Invitae",
       "test_name": "Hereditary pancreatic cancer panel (18 genes)",
@@ -1291,13 +1634,27 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4919646/",
-            "last_checked": "2026-09-25T19:56:16.924Z"
+            "last_checked": "2026-09-25T20:25:00.556Z",
+            "submissions": [
+              {
+                "lab": "Blueprint Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2024-05-28",
+                "first_in_clinvar": "2026-09-22",
+                "scv_accession": "SCV007788261.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "Blueprint: VUS (2024-05-28)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:56:16.924Z",
+      "last_checked": "2026-09-25T20:25:00.556Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1411,7 +1768,7 @@
       "age": 15,
       "sex": "F",
       "clinic_area": "Neuro",
-      "indication": "Speech regression with CSWS on EEG",
+      "indication": "Infantile-onset epileptic encephalopathy with developmental delay",
       "ordering_provider": "Dr. Tomas Varga (Pediatric Neurology)",
       "testing_lab": "Ambry Genetics",
       "test_name": "Early-onset epilepsy panel (144 genes)",
@@ -1437,13 +1794,30 @@
             "record_last_updated": "2026-09-13",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4882466/",
-            "last_checked": "2026-09-25T19:56:24.407Z"
+            "last_checked": "2026-09-25T20:25:18.309Z",
+            "submissions": [
+              {
+                "lab": "Dasa",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2024-12-12",
+                "first_in_clinvar": "2026-08-16",
+                "scv_accession": "SCV007662458.2",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": [
+                  "population_data_absent",
+                  "insufficient_evidence"
+                ]
+              }
+            ],
+            "submissions_summary": "Dasa: VUS (2024-12-12)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:56:24.407Z",
+      "last_checked": "2026-09-25T20:25:18.309Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1482,13 +1856,40 @@
             "record_last_updated": "2026-07-27",
             "record_version": 3,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3672027/",
-            "last_checked": "2026-09-25T19:56:30.213Z"
+            "last_checked": "2026-09-25T20:25:46.969Z",
+            "submissions": [
+              {
+                "lab": "Labcorp Genetics (formerly Invitae)",
+                "classification": "Likely benign",
+                "last_evaluated": "2025-02-27",
+                "first_in_clinvar": "2025-02-25",
+                "scv_accession": "SCV005775626.2",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Landau-Kleffner syndrome",
+                "evidence_tags": []
+              },
+              {
+                "lab": "Ambry Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2026-04-15",
+                "first_in_clinvar": "2026-07-19",
+                "scv_accession": "SCV007619216.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Inborn genetic diseases",
+                "evidence_tags": [
+                  "population_data_absent",
+                  "insufficient_evidence"
+                ]
+              }
+            ],
+            "submissions_summary": "Labcorp: Likely benign (2025-02-27) · Ambry: VUS (2026-04-15)",
+            "extraction_status": "ok"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:56:30.213Z",
+      "last_checked": "2026-09-25T20:25:46.969Z",
       "next_action": "Review GRIN2A: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -1562,7 +1963,7 @@
       "age": 57,
       "sex": "M",
       "clinic_area": "Cardio",
-      "indication": "First-degree relative with HCM",
+      "indication": "Progressive cardiac conduction disease (first-degree AV block, RBBB)",
       "ordering_provider": "Dr. Victor Lindahl (Cardiology)",
       "testing_lab": "GeneDx",
       "test_name": "Arrhythmia and long QT panel (35 genes)",
@@ -1588,13 +1989,27 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4961793/",
-            "last_checked": "2026-09-25T19:56:40.037Z"
+            "last_checked": "2026-09-25T20:26:00.378Z",
+            "submissions": [
+              {
+                "lab": "Blueprint Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2017-06-08",
+                "first_in_clinvar": "2026-09-22",
+                "scv_accession": "SCV007935955.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "Blueprint: VUS (2017-06-08)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:56:40.037Z",
+      "last_checked": "2026-09-25T20:26:00.378Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1673,13 +2088,30 @@
             "record_last_updated": "2026-09-13",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4886374/",
-            "last_checked": "2026-09-25T19:56:54.522Z"
+            "last_checked": "2026-09-25T20:26:19.595Z",
+            "submissions": [
+              {
+                "lab": "Dasa",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2026-01-25",
+                "first_in_clinvar": "2026-08-22",
+                "scv_accession": "SCV007668610.2",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": [
+                  "population_data_absent",
+                  "insufficient_evidence"
+                ]
+              }
+            ],
+            "submissions_summary": "Dasa: VUS (2026-01-25)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:56:54.522Z",
+      "last_checked": "2026-09-25T20:26:19.595Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1792,7 +2224,7 @@
       "age": 15,
       "sex": "F",
       "clinic_area": "Cardio",
-      "indication": "Dilated cardiomyopathy, LVEF 30%",
+      "indication": "Prolonged QTc (500 ms) with exertional syncope",
       "ordering_provider": "Dr. Victor Lindahl (Cardiology)",
       "testing_lab": "Quest Diagnostics",
       "test_name": "Hypertrophic cardiomyopathy panel (26 genes)",
@@ -1818,13 +2250,29 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4874234/",
-            "last_checked": "2026-09-25T19:57:00.268Z"
+            "last_checked": "2026-09-25T20:26:41.139Z",
+            "submissions": [
+              {
+                "lab": "CeGaT Center for Human Genetics Tuebingen",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2026-05-01",
+                "first_in_clinvar": "2026-07-27",
+                "scv_accession": "SCV007645041.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": [
+                  "case_observations"
+                ]
+              }
+            ],
+            "submissions_summary": "CeGaT: VUS (2026-05-01)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:57:00.268Z",
+      "last_checked": "2026-09-25T20:26:41.139Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1857,7 +2305,7 @@
       "age": 46,
       "sex": "F",
       "clinic_area": "Cardio",
-      "indication": "Family history of sudden cardiac death <40",
+      "indication": "Family history of HCM; LV wall thickness 18 mm on echo",
       "ordering_provider": "Dr. Grace Holm (Pediatric Cardiology)",
       "testing_lab": "Labcorp/Invitae",
       "test_name": "Comprehensive cardiomyopathy panel (102 genes)",
@@ -1883,13 +2331,27 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4911569/",
-            "last_checked": "2026-09-25T19:57:11.044Z"
+            "last_checked": "2026-09-25T20:26:55.538Z",
+            "submissions": [
+              {
+                "lab": "Blueprint Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2022-07-01",
+                "first_in_clinvar": "2026-09-22",
+                "scv_accession": "SCV007751891.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "Blueprint: VUS (2022-07-01)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:57:11.044Z",
+      "last_checked": "2026-09-25T20:26:55.538Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -2151,13 +2613,29 @@
             "record_last_updated": "2026-06-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4856779/",
-            "last_checked": "2026-09-25T19:57:30.631Z"
+            "last_checked": "2026-09-25T20:27:13.155Z",
+            "submissions": [
+              {
+                "lab": "Myriad Genetics, Inc.",
+                "classification": "Pathogenic",
+                "last_evaluated": "2026-03-03",
+                "first_in_clinvar": "2026-06-27",
+                "scv_accession": "SCV007613069.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Colorectal cancer, hereditary nonpolyposis, type 2",
+                "evidence_tags": [
+                  "segregation_evidence"
+                ]
+              }
+            ],
+            "submissions_summary": "Myriad: Pathogenic (2026-03-03)",
+            "extraction_status": "ok"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:57:30.631Z",
+      "last_checked": "2026-09-25T20:27:13.155Z",
       "next_action": "Review MLH1: VUS → P/LP in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -2196,13 +2674,43 @@
             "record_last_updated": "2026-04-13",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3413465/",
-            "last_checked": "2026-09-25T19:57:40.343Z"
+            "last_checked": "2026-09-25T20:27:26.022Z",
+            "submissions": [
+              {
+                "lab": "Ambry Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2024-09-25",
+                "first_in_clinvar": "2025-01-13",
+                "scv_accession": "SCV005462845.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Hereditary cancer-predisposing syndrome",
+                "evidence_tags": [
+                  "population_data_absent",
+                  "computational_evidence",
+                  "insufficient_evidence"
+                ]
+              },
+              {
+                "lab": "Institute for Biomarker Research, Medical Diagnostic Laboratories, L.L.C.",
+                "classification": "Likely benign",
+                "last_evaluated": "2025-09-22",
+                "first_in_clinvar": "2025-11-02",
+                "scv_accession": "SCV006587002.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Hereditary cancer-predisposing syndrome",
+                "evidence_tags": [
+                  "population_data_absent"
+                ]
+              }
+            ],
+            "submissions_summary": "Ambry: VUS (2024-09-25) · Institute for Biomarker: Likely benign (2025-09-22)",
+            "extraction_status": "ok"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:57:40.343Z",
+      "last_checked": "2026-09-25T20:27:26.022Z",
       "next_action": "Review PALB2: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -2235,7 +2743,7 @@
       "age": 41,
       "sex": "F",
       "clinic_area": "Cardio",
-      "indication": "Brugada pattern on ECG",
+      "indication": "Hypertrophic cardiomyopathy on echo (IVS 19 mm)",
       "ordering_provider": "Dr. Amara Nwosu (Electrophysiology)",
       "testing_lab": "GeneDx",
       "test_name": "Comprehensive cardiomyopathy panel (102 genes)",
@@ -2261,13 +2769,32 @@
             "record_last_updated": "2026-08-16",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4884318/",
-            "last_checked": "2026-09-25T19:57:54.123Z"
+            "last_checked": "2026-09-25T20:27:42.757Z",
+            "submissions": [
+              {
+                "lab": "Clinical Genetics, Tokyo Medical University",
+                "classification": "Pathogenic",
+                "last_evaluated": "2026-08-04",
+                "first_in_clinvar": "2026-08-16",
+                "scv_accession": "SCV007656316.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Hypertrophic cardiomyopathy 1 (Autosomal dominant inheritance)",
+                "evidence_tags": [
+                  "population_data_absent",
+                  "segregation_evidence",
+                  "computational_evidence",
+                  "case_observations"
+                ]
+              }
+            ],
+            "submissions_summary": "Tokyo Medical University: Pathogenic (2026-08-04)",
+            "extraction_status": "ok"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:57:54.123Z",
+      "last_checked": "2026-09-25T20:27:42.757Z",
       "next_action": "Review MYH7: VUS → P/LP in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -2300,7 +2827,7 @@
       "age": 69,
       "sex": "F",
       "clinic_area": "Cardio",
-      "indication": "Family history of sudden cardiac death <40",
+      "indication": "Type 1 Brugada pattern on ECG; family history of sudden cardiac death <40",
       "ordering_provider": "Dr. Victor Lindahl (Cardiology)",
       "testing_lab": "GeneDx",
       "test_name": "Comprehensive cardiomyopathy panel (102 genes)",
@@ -2326,13 +2853,55 @@
             "record_last_updated": "2026-02-25",
             "record_version": 5,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/2903685/",
-            "last_checked": "2026-09-25T19:58:00.252Z"
+            "last_checked": "2026-09-25T20:27:54.762Z",
+            "submissions": [
+              {
+                "lab": "All of Us Research Program, National Institutes of Health",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2023-08-28",
+                "first_in_clinvar": "2024-04-20",
+                "scv_accession": "SCV004828012.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Cardiac arrhythmia (Autosomal dominant inheritance)",
+                "evidence_tags": [
+                  "population_data_absent",
+                  "insufficient_evidence",
+                  "case_observations"
+                ]
+              },
+              {
+                "lab": "Color Diagnostics, LLC DBA Color Health",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2025-04-27",
+                "first_in_clinvar": "2026-02-15",
+                "scv_accession": "SCV007438707.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Cardiac arrhythmia",
+                "evidence_tags": [
+                  "case_observations",
+                  "population_data_absent",
+                  "insufficient_evidence"
+                ]
+              },
+              {
+                "lab": "Labcorp Genetics (formerly Invitae), Labcorp",
+                "classification": "Likely benign",
+                "last_evaluated": "2023-09-29",
+                "first_in_clinvar": "2024-02-20",
+                "scv_accession": "SCV004532335.3",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "All of Us: VUS (2023-08-28) · Color: VUS (2025-04-27) · Labcorp: Likely benign (2023-09-29)",
+            "extraction_status": "ok"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:58:00.252Z",
+      "last_checked": "2026-09-25T20:27:54.762Z",
       "next_action": "Review SCN5A: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -2405,7 +2974,7 @@
       "age": 10,
       "sex": "F",
       "clinic_area": "Neuro",
-      "indication": "Speech regression with CSWS on EEG",
+      "indication": "Infantile-onset seizures with developmental delay and speech regression",
       "ordering_provider": "Dr. Leila Haddad (Epilepsy Center)",
       "testing_lab": "Ambry Genetics",
       "test_name": "Comprehensive epilepsy panel (296 genes)",
@@ -2431,7 +3000,21 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4949071/",
-            "last_checked": "2026-09-25T19:58:08.681Z"
+            "last_checked": "2026-09-25T20:28:24.024Z",
+            "submissions": [
+              {
+                "lab": "Blueprint Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2019-04-05",
+                "first_in_clinvar": "2026-09-22",
+                "scv_accession": "SCV007889381.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "Blueprint: VUS (2019-04-05)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
@@ -2455,13 +3038,27 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4928540/",
-            "last_checked": "2026-09-25T19:58:20.144Z"
+            "last_checked": "2026-09-25T20:29:08.022Z",
+            "submissions": [
+              {
+                "lab": "Blueprint Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2022-06-07",
+                "first_in_clinvar": "2026-09-22",
+                "scv_accession": "SCV007811120.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "Blueprint: VUS (2022-06-07)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:58:20.144Z",
+      "last_checked": "2026-09-25T20:29:08.022Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -2614,7 +3211,7 @@
       "age": 37,
       "sex": "F",
       "clinic_area": "Cancer",
-      "indication": "Personal history of pancreatic cancer, dx age 36",
+      "indication": "Personal history of breast cancer, dx age 36",
       "ordering_provider": "Dr. Arjun Patel (Medical Oncology)",
       "testing_lab": "Labcorp/Invitae",
       "test_name": "Hereditary breast and ovarian cancer panel (13 genes)",
@@ -2640,13 +3237,29 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4868937/",
-            "last_checked": "2026-09-25T19:58:29.026Z"
+            "last_checked": "2026-09-25T20:29:26.621Z",
+            "submissions": [
+              {
+                "lab": "Ambry Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2026-05-07",
+                "first_in_clinvar": "2026-07-19",
+                "scv_accession": "SCV007632181.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Hereditary cancer-predisposing syndrome",
+                "evidence_tags": [
+                  "insufficient_evidence"
+                ]
+              }
+            ],
+            "submissions_summary": "Ambry: VUS (2026-05-07)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:58:29.026Z",
+      "last_checked": "2026-09-25T20:29:26.621Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -2745,13 +3358,27 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4919643/",
-            "last_checked": "2026-09-25T19:58:41.827Z"
+            "last_checked": "2026-09-25T20:29:47.884Z",
+            "submissions": [
+              {
+                "lab": "Blueprint Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2024-01-12",
+                "first_in_clinvar": "2026-09-22",
+                "scv_accession": "SCV007783811.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "Blueprint: VUS (2024-01-12)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:58:41.827Z",
+      "last_checked": "2026-09-25T20:29:47.884Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -2825,7 +3452,7 @@
       "age": 65,
       "sex": "F",
       "clinic_area": "Cardio",
-      "indication": "Brugada pattern on ECG",
+      "indication": "Hypertrophic cardiomyopathy with LV outflow tract obstruction",
       "ordering_provider": "Dr. Amara Nwosu (Electrophysiology)",
       "testing_lab": "Ambry Genetics",
       "test_name": "Hypertrophic cardiomyopathy panel (26 genes)",
@@ -2932,7 +3559,21 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4928535/",
-            "last_checked": "2026-09-25T19:58:48.343Z"
+            "last_checked": "2026-09-25T20:29:58.146Z",
+            "submissions": [
+              {
+                "lab": "Blueprint Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2024-01-03",
+                "first_in_clinvar": "2026-09-22",
+                "scv_accession": "SCV007811107.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "Blueprint: VUS (2024-01-03)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
@@ -2956,13 +3597,27 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4957498/",
-            "last_checked": "2026-09-25T19:58:56.160Z"
+            "last_checked": "2026-09-25T20:30:15.532Z",
+            "submissions": [
+              {
+                "lab": "Blueprint Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2024-07-29",
+                "first_in_clinvar": "2026-09-22",
+                "scv_accession": "SCV007917427.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "Blueprint: VUS (2024-07-29)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:58:56.160Z",
+      "last_checked": "2026-09-25T20:30:15.532Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3081,13 +3736,27 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4928536/",
-            "last_checked": "2026-09-25T19:59:06.502Z"
+            "last_checked": "2026-09-25T20:30:42.630Z",
+            "submissions": [
+              {
+                "lab": "Blueprint Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2023-09-07",
+                "first_in_clinvar": "2026-09-22",
+                "scv_accession": "SCV007811111.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "Blueprint: VUS (2023-09-07)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:59:06.502Z",
+      "last_checked": "2026-09-25T20:30:42.630Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3181,7 +3850,7 @@
       "age": 67,
       "sex": "M",
       "clinic_area": "Cardio",
-      "indication": "Brugada pattern on ECG",
+      "indication": "Prolonged QTc (490 ms) with recurrent syncope",
       "ordering_provider": "Dr. Victor Lindahl (Cardiology)",
       "testing_lab": "Quest Diagnostics",
       "test_name": "Hypertrophic cardiomyopathy panel (26 genes)",
@@ -3207,13 +3876,27 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4910307/",
-            "last_checked": "2026-09-25T19:59:51.381Z"
+            "last_checked": "2026-09-25T20:30:52.671Z",
+            "submissions": [
+              {
+                "lab": "Blueprint Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2020-09-03",
+                "first_in_clinvar": "2026-09-22",
+                "scv_accession": "SCV007750212.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "Blueprint: VUS (2020-09-03)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:59:51.381Z",
+      "last_checked": "2026-09-25T20:30:52.671Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3434,13 +4117,27 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4957489/",
-            "last_checked": "2026-09-25T20:00:00.945Z"
+            "last_checked": "2026-09-25T20:31:04.597Z",
+            "submissions": [
+              {
+                "lab": "Blueprint Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2020-08-21",
+                "first_in_clinvar": "2026-09-22",
+                "scv_accession": "SCV007917409.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "Blueprint: VUS (2020-08-21)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T20:00:00.945Z",
+      "last_checked": "2026-09-25T20:31:04.597Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3479,13 +4176,29 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4860123/",
-            "last_checked": "2026-09-25T20:00:06.717Z"
+            "last_checked": "2026-09-25T20:31:25.088Z",
+            "submissions": [
+              {
+                "lab": "Ambry Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2026-05-31",
+                "first_in_clinvar": "2026-07-19",
+                "scv_accession": "SCV007623492.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Hereditary cancer-predisposing syndrome",
+                "evidence_tags": [
+                  "computational_evidence"
+                ]
+              }
+            ],
+            "submissions_summary": "Ambry: VUS (2026-05-31)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T20:00:06.717Z",
+      "last_checked": "2026-09-25T20:31:25.088Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3564,13 +4277,30 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4860308/",
-            "last_checked": "2026-09-25T20:00:13.671Z"
+            "last_checked": "2026-09-25T20:31:42.953Z",
+            "submissions": [
+              {
+                "lab": "Ambry Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2026-05-22",
+                "first_in_clinvar": "2026-07-19",
+                "scv_accession": "SCV007622287.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Hereditary cancer-predisposing syndrome",
+                "evidence_tags": [
+                  "functional_evidence",
+                  "computational_evidence"
+                ]
+              }
+            ],
+            "submissions_summary": "Ambry: VUS (2026-05-22)",
+            "extraction_status": "ok"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T20:00:13.671Z",
+      "last_checked": "2026-09-25T20:31:42.953Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3643,7 +4373,7 @@
       "age": 56,
       "sex": "M",
       "clinic_area": "Cardio",
-      "indication": "Prolonged QTc (510 ms) with syncope",
+      "indication": "Family history of HCM; LV wall thickness 17 mm",
       "ordering_provider": "Dr. Grace Holm (Pediatric Cardiology)",
       "testing_lab": "GeneDx",
       "test_name": "Arrhythmia and long QT panel (35 genes)",
@@ -3669,13 +4399,14 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4921250/",
-            "last_checked": "2026-09-25T20:00:22.053Z"
+            "last_checked": "2026-09-25T20:31:57.342Z",
+            "extraction_status": "failed"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T20:00:22.053Z",
+      "last_checked": "2026-09-25T20:31:57.342Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3714,25 +4445,29 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4867750/",
-            "last_checked": "2026-09-25T20:00:31.057Z"
+            "last_checked": "2026-09-25T20:33:05.763Z",
+            "extraction_status": "failed"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T20:00:31.057Z",
+      "last_checked": "2026-09-25T20:33:05.763Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     }
   ],
   "last_cycle": {
-    "cycle": 1,
-    "started_at": "2026-09-25T19:53:20.312Z",
-    "finished_at": "2026-09-25T20:00:37.209Z",
+    "cycle": 2,
+    "started_at": "2026-09-25T20:19:21.133Z",
+    "finished_at": "2026-09-25T20:34:07.141Z",
     "fetched": 41,
     "unchanged": 41,
     "changed": 0,
-    "failed": 0
+    "failed": 0,
+    "liquid_ok": 38,
+    "liquid_failed": 3,
+    "liquid_cached": 0
   }
 }

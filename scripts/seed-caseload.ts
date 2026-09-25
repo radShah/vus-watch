@@ -204,8 +204,44 @@ const TESTS: Record<Area, string[]> = {
   Neuro: ['Comprehensive epilepsy panel (296 genes)', 'Early-onset epilepsy panel (144 genes)', 'Exome sequencing (trio)'],
 }
 
+/** Indications typical for each gene. d = a diagnosis age. */
+const GENE_INDICATIONS: Record<string, (d: number, sex: 'F' | 'M') => string[]> = {
+  MYH7: () => HCM,
+  MYBPC3: () => HCM,
+  KCNQ1: () => ['Prolonged QTc (510 ms) with syncope', 'Prolonged QTc (490 ms) with recurrent syncope', 'Prolonged QTc (500 ms) with exertional syncope', 'Family history of long QT syndrome'],
+  SCN5A: () => ['Brugada pattern on ECG', 'Type 1 Brugada pattern on ECG; family history of sudden cardiac death <40', 'Progressive cardiac conduction disease (first-degree AV block, RBBB)'],
+  SCN1A: () => ['Febrile seizures progressing to Dravet-like phenotype', 'Infantile-onset epilepsy, drug-resistant', 'Focal epilepsy with language disorder', 'Global developmental delay and seizures'],
+  GRIN2A: () => ['Focal epilepsy with language disorder', 'Speech regression with CSWS on EEG', 'Global developmental delay and seizures'],
+  CDKL5: () => ['Infantile-onset epileptic encephalopathy with developmental delay', 'Epileptic encephalopathy with developmental delay', 'Global developmental delay and seizures'],
+  ...Object.fromEntries(['BRCA1', 'BRCA2', 'PALB2'].map((g) => [g, BREAST_OVARIAN_PANCREATIC])),
+  ...Object.fromEntries(['MLH1', 'MSH2', 'MSH6', 'PMS2'].map((g) => [g, LYNCH])),
+  ...Object.fromEntries(['ATM', 'CHEK2'].map((g) => [g, BREAST])),
+}
+const HCM = ['Hypertrophic cardiomyopathy, LV wall thickness 18 mm', 'Hypertrophic cardiomyopathy on echo (IVS 19 mm)', 'Family history of HCM; septal hypertrophy on echo (IVS 16 mm)', 'First-degree relative with HCM']
+function BREAST_OVARIAN_PANCREATIC(d: number, sex: 'F' | 'M'): string[] {
+  return sex === 'F'
+    ? [`Personal history of breast cancer, dx age ${d}`, `Personal history of ovarian cancer, dx age ${d}`, `Personal history of triple-negative breast cancer, dx age ${d}`, `Personal history of pancreatic cancer, dx age ${d}`, 'Family history: mother with breast cancer <50', 'Family history: sister with ovarian cancer']
+    : [`Personal history of male breast cancer, dx age ${d}`, `Personal history of pancreatic cancer, dx age ${d}`, 'Family history: multiple relatives with breast/ovarian cancer']
+}
+function LYNCH(d: number, sex: 'F' | 'M'): string[] {
+  const both = [`Personal history of colorectal cancer, dx age ${d}`, 'Tumor MSI-high / MMR-deficient on IHC', 'Family history of colorectal and endometrial cancer']
+  return sex === 'F' ? [...both, `Personal history of endometrial cancer, dx age ${d}`] : both
+}
+function BREAST(d: number, sex: 'F' | 'M'): string[] {
+  return sex === 'F'
+    ? [`Personal history of breast cancer, dx age ${d}`, 'Family history: mother with breast cancer <50', `Personal history of bilateral breast cancer, dx age ${d}`]
+    : [`Personal history of male breast cancer, dx age ${d}`, 'Family history: multiple relatives with breast cancer']
+}
+
 function indication(area: Area, sex: 'F' | 'M', age: number, gene?: string): string {
   const dx = () => Math.max(25, Math.min(age - 1, int(30, 70)))
+  const byGene = gene ? GENE_INDICATIONS[gene] : undefined
+  if (byGene) {
+    // Same number of RNG draws as the area-based lists below, so the rest of the seed is unchanged.
+    const draws = area !== 'Cancer' ? 0 : ['MLH1', 'MSH2', 'MSH6', 'PMS2'].includes(gene!) ? 1 : sex === 'F' ? 5 : 4
+    const ds = Array.from({ length: draws }, dx)
+    return pick(byGene(ds[0] ?? Math.max(25, age - 1), sex))
+  }
   if (area === 'Cancer') {
     if (gene && ['MLH1', 'MSH2', 'MSH6', 'PMS2'].includes(gene))
       return pick([`Personal history of colorectal cancer, dx age ${dx()}`, 'Tumor MSI-high / MMR-deficient on IHC', 'Family history of colorectal and endometrial cancer'])

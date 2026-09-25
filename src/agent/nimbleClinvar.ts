@@ -34,6 +34,9 @@ export interface ClinvarRecord {
   review_status: string
   record_last_updated: string
   submissions_table: string
+  /** One labeled line per submission row, whitespace collapsed. Sent to Liquid for extraction. */
+  submissions_text: string
+  submission_rows: number
   fetched_at: string
   source_url: string
   raw_path?: string
@@ -129,6 +132,24 @@ function localFields(html: string): Partial<Record<Field, unknown>> {
   return out
 }
 
+const SUBMISSION_CELLS = ['Classification (last evaluated)', 'Review status (assertion criteria)', 'Condition', 'Submitter', 'Details']
+
+/** Submission rows of the germline table as labeled lines. Detail rows (tr.evidence-full-display) only repeat the comment. */
+export function submissionRows(html: string): string[] {
+  const { document } = parseHTML(html)
+  return [...document.querySelectorAll('table#assertion-list tbody > tr.germline-sub-col')].map((tr, i) => {
+    const cells = [...tr.querySelectorAll(':scope > td')].map((td) =>
+      clean(td.textContent)
+        .replace(/\bC Contributing to aggregate classification\b/, '')
+        .replace(/Comment: show /, 'Comment: ')
+        .replace(/\(less\)/g, '')
+        .trim(),
+    )
+    const labeled = SUBMISSION_CELLS.map((label, k) => (cells[k] ? `${label}: ${cells[k]}` : '')).filter(Boolean)
+    return `Row ${i + 1} | ${labeled.join(' | ')}`
+  })
+}
+
 const hasAny = (f: Partial<Record<Field, unknown>>) => Object.values(f).some((v) => text(v).trim())
 
 /** Nimble's server-side parsing when it returns anything; otherwise local parsing of the returned HTML. */
@@ -154,6 +175,8 @@ export function emptyRecord(variationId: string, error?: string): ClinvarRecord 
     review_status: UNKNOWN,
     record_last_updated: UNKNOWN,
     submissions_table: UNKNOWN,
+    submissions_text: UNKNOWN,
+    submission_rows: 0,
     fetched_at: new Date().toISOString(),
     source_url: `https://www.ncbi.nlm.nih.gov/clinvar/variation/${variationId}/`,
   }
@@ -186,6 +209,10 @@ export async function fetchClinvarVariant(variationId: string): Promise<ClinvarR
     record_last_updated: normalizeDate(text(f.record_last_updated)),
     submissions_table: text(f.submissions_table).trim() || UNKNOWN,
   }
+  const html = (res as { data?: { html?: string } })?.data?.html
+  const rows = html ? submissionRows(html) : []
+  out.submissions_text = rows.join('\n') || UNKNOWN
+  out.submission_rows = rows.length
   // A fetch counts as ok only if we got the accession: proof we parsed the right page.
   out.ok = out.vcv_accession !== UNKNOWN
   if (!out.ok) out.error = `Nimble status ${(res as { status?: string })?.status ?? '?'}; no accession parsed`

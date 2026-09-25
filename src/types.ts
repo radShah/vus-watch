@@ -2,6 +2,18 @@ export type ClinicArea = 'Cancer' | 'Cardio' | 'Neuro'
 export type ResultCategory = 'Negative' | 'VUS' | 'Likely pathogenic' | 'Pathogenic'
 export type WatchStatus = 'quiet' | 'active' | 'waiting_on_gc' | 'letter_drafted' | 'closed'
 
+/** One lab's submitted classification (SCV), extracted from the ClinVar page by Liquid. */
+export interface Submission {
+  lab: string
+  classification: 'Pathogenic' | 'Likely pathogenic' | 'Uncertain significance' | 'Likely benign' | 'Benign'
+  last_evaluated: string | null
+  first_in_clinvar: string | null
+  scv_accession: string
+  review_status: string | null
+  condition: string | null
+  evidence_tags: string[]
+}
+
 export interface Variant {
   gene: string
   hgvs: string
@@ -19,6 +31,10 @@ export interface Variant {
     record_last_updated?: string
     last_checked?: string
     source_url?: string
+    /** Lab submissions extracted by Liquid; kept from the last successful extraction. */
+    submissions?: Submission[]
+    submissions_summary?: string
+    extraction_status?: 'ok' | 'failed'
   }
   classification_changed: boolean
   watch_status: WatchStatus
@@ -26,9 +42,9 @@ export interface Variant {
 
 /** One observed change on ClinVar, recorded by the agent cycle. */
 export interface HistoryEntry {
-  field: 'classification' | 'record_version'
+  field: 'classification' | 'record_version' | 'submission'
   old: string | number | null
-  new: string | number
+  new: string | number | null
   source_url: string
   observed_at: string
 }
@@ -41,6 +57,9 @@ export interface CycleSummary {
   unchanged: number
   changed: number
   failed: number
+  liquid_ok?: number
+  liquid_failed?: number
+  liquid_cached?: number
 }
 
 export interface Patient {

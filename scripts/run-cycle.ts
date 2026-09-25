@@ -1,14 +1,16 @@
 /**
- * One agent cycle: fetch each watched ClinVar variant live via Nimble, compare
- * against the caseload, record changes, and append events.
+ * One agent cycle: fetch each watched ClinVar variant live via Nimble, extract
+ * its lab submissions with Liquid, compare against the caseload, record
+ * changes, and append events.
  *
  * Run: npm run cycle
  */
 import { appendFileSync, readFileSync, renameSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { extractSubmissions, summarizeSubmissions, type ExtractionResult, type LiquidCall } from '../src/agent/liquidExtract.ts'
 import { fetchClinvarVariant, UNKNOWN, type ClinvarRecord } from '../src/agent/nimbleClinvar.ts'
-import type { Caseload, HistoryEntry, Patient, Variant } from '../src/types.ts'
+import type { Caseload, HistoryEntry, Patient, Submission, Variant } from '../src/types.ts'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const CASELOAD = join(ROOT, 'data', 'caseload.json')
@@ -16,6 +18,7 @@ const EVENTS = join(ROOT, 'data', 'events.jsonl')
 const REQUIRED_ID = '3672027'
 const DELAY_MS = 1000
 const CHANGED_ACTION = 'Review: classification changed on ClinVar'
+const SUBMISSION_ACTION = 'Review: lab submission changed on ClinVar'
 
 process.loadEnvFile(join(ROOT, '.env'))
 
@@ -27,7 +30,7 @@ const inScope = (v: Variant) =>
   v.watch_status === 'active' ||
   v.clinvar.variation_id === REQUIRED_ID
 
-type EventType = 'fetch_ok' | 'fetch_failed' | 'compare_unchanged' | 'baseline' | 'changed' | 'field_unknown'
+type EventType = 'fetch_ok' | 'fetch_failed' | 'compare_unchanged' | 'baseline' | 'changed' | 'field_unknown' | 'liquid_extract'
 
 interface CycleEvent {
   ts: string
@@ -40,6 +43,30 @@ interface CycleEvent {
   new: unknown
   source_url: string
   parser_path: ClinvarRecord['parser_path'] | null
+  /** liquid_extract only */
+  status?: LiquidCall['status']
+  attempt?: number
+  model?: string
+  duration_ms?: number
+  error?: string
+}
+
+/** Submissions keyed by SCV accession without its version (a new version of the same SCV is the same lab's record). */
+const scvKey = (s: Submission) => s.scv_accession.split('.')[0] || s.lab
+const call = (s: Submission) => `${s.lab}: ${s.classification}`
+
+/** New labs, labs that changed their call, and labs that dropped out. */
+function submissionDiffs(old: Submission[], nw: Submission[]): { old: string | null; new: string | null }[] {
+  const before = new Map(old.map((s) => [scvKey(s), s]))
+  const after = new Map(nw.map((s) => [scvKey(s), s]))
+  const out: { old: string | null; new: string | null }[] = []
+  for (const [k, s] of after) {
+    const prev = before.get(k)
+    if (!prev) out.push({ old: null, new: call(s) })
+    else if (prev.classification !== s.classification) out.push({ old: call(prev), new: call(s) })
+  }
+  for (const [k, s] of before) if (!after.has(k)) out.push({ old: call(s), new: null })
+  return out
 }
 
 async function fetchWithRetry(id: string): Promise<ClinvarRecord> {
@@ -67,7 +94,7 @@ async function main() {
   targets.set(REQUIRED_ID, targets.get(REQUIRED_ID) ?? [])
 
   const events: CycleEvent[] = []
-  const counts = { fetched: 0, unchanged: 0, changed: 0, failed: 0 }
+  const counts = { fetched: 0, unchanged: 0, changed: 0, failed: 0, liquid_ok: 0, liquid_failed: 0, liquid_cached: 0 }
   const records = new Map<string, ClinvarRecord>()
   const ids = [...targets.keys()]
   console.log(`Cycle ${cycle}: ${ids.length} variants across ${new Set([...targets.values()].flat().map((t) => t.patient.id)).size} cases`)
@@ -78,19 +105,20 @@ async function main() {
     const case_ids = [...new Set(pairs.map((p) => p.patient.id))]
     const rec = await fetchWithRetry(id)
     records.set(id, rec)
+    const base = (event_type: EventType): CycleEvent => ({
+      ts: new Date().toISOString(),
+      cycle,
+      variation_id: id,
+      case_ids,
+      event_type,
+      field: null,
+      old: null,
+      new: null,
+      source_url: rec.source_url,
+      parser_path: rec.parser_path ?? null,
+    })
     const ev = (event_type: EventType, field: string | null = null, old: unknown = null, nw: unknown = null) =>
-      events.push({
-        ts: new Date().toISOString(),
-        cycle,
-        variation_id: id,
-        case_ids,
-        event_type,
-        field,
-        old,
-        new: nw,
-        source_url: rec.source_url,
-        parser_path: rec.parser_path ?? null,
-      })
+      events.push({ ...base(event_type), field, old, new: nw })
 
     if (!rec.ok) {
       counts.failed++
@@ -104,6 +132,19 @@ async function main() {
     for (const field of ['overall_classification', 'review_status', 'record_last_updated', 'submissions_table'] as const)
       if (rec[field] === UNKNOWN) ev('field_unknown', field)
     if (rec.record_version === UNKNOWN) ev('field_unknown', 'record_version')
+
+    // Lab submissions via Liquid, once per variant (cached by variation_id + record_version)
+    const extraction: ExtractionResult =
+      rec.submissions_text === UNKNOWN
+        ? { status: 'failed', from_cache: false, submissions: [], error: 'no submission rows parsed' }
+        : await extractSubmissions(rec.submissions_text, {
+            variationId: id,
+            recordVersion: rec.record_version === UNKNOWN ? null : rec.record_version,
+            onCall: (c) => events.push({ ...base('liquid_extract'), ...c }),
+          })
+    if (extraction.status === 'failed') counts.liquid_failed++
+    else if (extraction.from_cache) counts.liquid_cached++
+    else counts.liquid_ok++
 
     let variantChanged = false
     for (const { patient, variant } of pairs) {
@@ -119,6 +160,17 @@ async function main() {
         else if (rec.record_version !== c.record_version)
           diffs.push({ field: 'record_version', old: c.record_version, new: rec.record_version, source_url: rec.source_url, observed_at: now })
       }
+
+      if (extraction.status === 'ok') {
+        if (!c.submissions) ev('baseline', 'submissions', null, extraction.submissions.length)
+        else
+          for (const d of submissionDiffs(c.submissions, extraction.submissions))
+            diffs.push({ field: 'submission', ...d, source_url: rec.source_url, observed_at: now })
+        c.submissions = extraction.submissions
+        c.submissions_summary = summarizeSubmissions(extraction.submissions)
+      }
+      // A failed extraction keeps the last good submissions
+      c.extraction_status = extraction.status
 
       // Fields that are refreshed but not compared
       if (rec.review_status !== UNKNOWN) c.review_status = rec.review_status
@@ -136,10 +188,10 @@ async function main() {
         if (d.field === 'classification') {
           c.classification = d.new as string
           variant.classification_changed = true
-        } else c.record_version = d.new as number
+        } else if (d.field === 'record_version') c.record_version = d.new as number
       }
       variant.watch_status = 'active'
-      patient.next_action = CHANGED_ACTION
+      patient.next_action = diffs.some((d) => d.field === 'classification') ? CHANGED_ACTION : SUBMISSION_ACTION
     }
 
     if (variantChanged) counts.changed++
@@ -147,7 +199,8 @@ async function main() {
       counts.unchanged++
       ev('compare_unchanged')
     }
-    console.log(`  ${id}  ${variantChanged ? 'CHANGED' : 'unchanged'}  v${rec.record_version}  ${rec.overall_classification}  [${rec.parser_path}]`)
+    const liquid = extraction.status === 'failed' ? `liquid FAILED (${extraction.error})` : extraction.from_cache ? 'liquid cache' : 'liquid ok'
+    console.log(`  ${id}  ${variantChanged ? 'CHANGED' : 'unchanged'}  v${rec.record_version}  ${rec.overall_classification}  [${rec.parser_path}] [${liquid}]`)
   }
 
   caseload.last_cycle = { cycle, started_at, finished_at: new Date().toISOString(), ...counts }
@@ -161,6 +214,7 @@ async function main() {
   console.log(
     `\nCycle ${cycle} summary: ${ids.length} variants · ${counts.fetched} fetched · ${counts.unchanged} unchanged · ${counts.changed} changed · ${counts.failed} failed`,
   )
+  console.log(`Liquid extraction: ${counts.liquid_ok} extracted OK · ${counts.liquid_failed} failed · ${counts.liquid_cached} from cache`)
   console.log(`Parser path: ${paths.filter((p) => p === 'nimble_parser').length} nimble_parser, ${paths.filter((p) => p === 'local_parser').length} local_parser`)
   const req = records.get(REQUIRED_ID)
   if (req) {

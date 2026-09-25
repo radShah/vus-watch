@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react'
-import type { Patient } from '../types'
+import type { HistoryEntry, Patient, Variant } from '../types'
 import { caseStatus, fmtDate, fmtDateTime, reviewStars } from '../lib/clinical'
 import { ClassBadge, Stars, WatchChip } from './Chips'
 
@@ -18,6 +18,68 @@ function Block({ title, children }: { title: string; children: ReactNode }) {
       <h3 className="mb-1.5 text-[11px] font-semibold uppercase tracking-wide text-slate-500">{title}</h3>
       {children}
     </section>
+  )
+}
+
+const HISTORY_LABEL: Record<HistoryEntry['field'], string> = {
+  classification: 'Classification',
+  record_version: 'Record version',
+  submission: 'Lab submission',
+}
+
+function LabSubmissions({ clinvar: c }: { clinvar: Variant['clinvar'] }) {
+  if (!c.submissions && c.extraction_status !== 'failed') return null
+  return (
+    <div className="border-t border-slate-200 px-2 py-1.5">
+      <div className="mb-1 text-[11px] text-slate-500">Lab submissions</div>
+      {c.extraction_status === 'failed' && (
+        <p className="mb-1 text-[11px] text-rose-700">
+          Extraction failed this cycle{c.submissions ? '; showing the last successful extraction.' : '. See ClinVar.'}
+        </p>
+      )}
+      {c.submissions && (
+        <table className="w-full text-[11px]">
+          <thead>
+            <tr className="text-left text-slate-500">
+              <th className="pr-2 font-normal">Lab</th>
+              <th className="pr-2 font-normal">Classification</th>
+              <th className="pr-2 font-normal">Last evaluated</th>
+              <th className="pr-2 font-normal">Review status</th>
+              <th className="font-normal">Evidence</th>
+            </tr>
+          </thead>
+          <tbody>
+            {c.submissions.map((s) => (
+              <tr key={s.scv_accession} className="border-t border-slate-100 align-top">
+                <td className="py-0.5 pr-2 text-slate-800" title={s.scv_accession}>
+                  {s.lab}
+                </td>
+                <td className="py-0.5 pr-2">
+                  <ClassBadge desc={s.classification} />
+                </td>
+                <td className="whitespace-nowrap py-0.5 pr-2 text-slate-600">{fmtDate(s.last_evaluated)}</td>
+                <td className="py-0.5 pr-2 text-slate-600" title={s.review_status ?? undefined}>
+                  <Stars n={reviewStars(s.review_status ?? '')} />
+                </td>
+                <td className="py-0.5">
+                  <div className="flex flex-wrap gap-0.5">
+                    {s.evidence_tags.length ? (
+                      s.evidence_tags.map((t) => (
+                        <span key={t} className="rounded bg-slate-100 px-1 text-[10px] text-slate-700">
+                          {t.replace(/_/g, ' ')}
+                        </span>
+                      ))
+                    ) : (
+                      <span className="text-slate-400">—</span>
+                    )}
+                  </div>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      )}
+    </div>
   )
 }
 
@@ -95,6 +157,7 @@ export function PatientDrawer({ patient: p, onClose }: { patient: Patient; onClo
                   )}
                 </div>
               </div>
+              <LabSubmissions clinvar={v.clinvar} />
               <div className="flex items-center justify-between border-t border-slate-200 px-2 py-1 text-[11px]">
                 <span className="text-slate-500">
                   {v.gene} · {v.zygosity} · watch: <WatchChip status={v.watch_status} />
@@ -118,8 +181,8 @@ export function PatientDrawer({ patient: p, onClose }: { patient: Patient; onClo
               {[...p.history].reverse().map((h, i) => (
                 <li key={i} className="text-xs">
                   <div className="text-slate-800">
-                    <span className="font-semibold">{h.field === 'classification' ? 'Classification' : 'Record version'}</span>
-                    : {String(h.old ?? '—')} → <span className="font-semibold">{String(h.new)}</span>
+                    <span className="font-semibold">{HISTORY_LABEL[h.field]}</span>
+                    : {String(h.old ?? '—')} → <span className="font-semibold">{h.new == null ? 'withdrawn' : String(h.new)}</span>
                   </div>
                   <div className="text-[11px] text-slate-500">
                     Observed {fmtDateTime(h.observed_at)} ·{' '}

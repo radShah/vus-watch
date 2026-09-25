@@ -183,6 +183,11 @@ export function Worklist({ patients, selectedId, onSelect }: Props) {
                         <ClassBadge desc={v.clinvar.classification} />
                         <Stars n={reviewStars(v.clinvar.review_status)} title={v.clinvar.review_status} />
                       </div>
+                      {v.clinvar.submissions_summary && (
+                        <div className="max-w-[260px] truncate text-[10px] text-slate-600" title={v.clinvar.submissions_summary}>
+                          {v.clinvar.submissions_summary}
+                        </div>
+                      )}
                       {v.clinvar.last_checked && (
                         <div className="text-[10px] text-slate-500">
                           {v.clinvar.record_version != null && `v${v.clinvar.record_version} · `}checked{' '}
