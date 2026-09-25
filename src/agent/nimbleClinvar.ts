@@ -51,7 +51,7 @@ const css = (selector: string) => ({
   extractor: { type: 'text' },
 })
 
-const PARSER = {
+export const PARSER = {
   variant_name: css('h2.blue-box'),
   accession: css('.accession-info'),
   overall_classification: css('#germline-somatic-info .germline-section .single-item-value'),
