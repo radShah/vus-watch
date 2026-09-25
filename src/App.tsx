@@ -5,6 +5,7 @@ import type { Caseload, GcPreferences } from './types'
 import { applyFilters, EMPTY_FILTERS, type Filters } from './lib/filters'
 import { TopBar } from './components/TopBar'
 import { SummaryStrip } from './components/SummaryStrip'
+import { CaseloadActivity } from './components/CaseloadActivity'
 import { FilterPanel } from './components/FilterPanel'
 import { Worklist } from './components/Worklist'
 import { PatientDrawer } from './components/PatientDrawer'
@@ -29,6 +30,7 @@ export default function App() {
         gcName={caseload.gc.name}
         onLabTrust={() => setTrustOpen(true)}
       />
+      <CaseloadActivity lastCycle={caseload.last_cycle?.cycle} />
       <SummaryStrip
         patients={patients}
         lastCycle={caseload.last_cycle}

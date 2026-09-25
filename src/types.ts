@@ -159,3 +159,15 @@ export interface Caseload {
   patients: Patient[]
   last_cycle?: CycleSummary
 }
+
+/** Per-cycle counts from RawTree (GET /api/caseload-activity). A count is null when the cycle predates that flag. */
+export interface CycleActivity {
+  cycle: number
+  ts: string
+  /** Set when the cycle ran with --variant */
+  variant_filter: string | null
+  cases_watched: number
+  cases_woke_up: number | null
+  urgent_upgrades: number | null
+  awaiting_gc: number | null
+}

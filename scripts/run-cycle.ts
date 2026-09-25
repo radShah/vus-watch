@@ -16,6 +16,7 @@ import { appendEvents } from '../src/agent/events.ts'
 import { loadPrefs } from '../src/agent/gcPreferences.ts'
 import { extractSubmissions, summarizeSubmissions, type ExtractionResult, type LiquidCall } from '../src/agent/liquidExtract.ts'
 import { fetchClinvarVariant, UNKNOWN, type ClinvarRecord } from '../src/agent/nimbleClinvar.ts'
+import { syncRawtreeSafely } from '../src/agent/rawtree.ts'
 import type { Caseload, DecisionAction, HistoryEntry, Patient, Submission, Variant } from '../src/types.ts'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
@@ -250,6 +251,7 @@ async function main() {
   const tmp = `${CASELOAD}.tmp`
   writeFileSync(tmp, JSON.stringify(caseload, null, 2) + '\n')
   renameSync(tmp, CASELOAD)
+  await syncRawtreeSafely()
 
   const paths = events.filter((e) => e.event_type === 'fetch_ok').map((e) => e.parser_path)
   console.log(

@@ -9,7 +9,8 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "seed": "tsx scripts/seed-caseload.ts",
-    "cycle": "tsx scripts/run-cycle.ts"
+    "cycle": "tsx scripts/run-cycle.ts",
+    "rawtree:sync": "tsx src/agent/rawtree.ts"
   },
   "dependencies": {
     "@nimble-way/nimble-js": "^1.5.0",

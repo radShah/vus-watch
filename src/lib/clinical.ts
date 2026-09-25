@@ -1,4 +1,4 @@
-import type { Patient, WatchStatus } from '../types'
+import type { Patient, WatchStatus } from '../types.ts'
 
 /** ClinVar review status → gold stars (0–4), per ClinVar's documented mapping. */
 export function reviewStars(status: string): number {
@@ -47,6 +47,9 @@ export function caseStatus(p: Patient): WatchStatus | null {
   if (!p.variants.length) return null
   return WATCH_ORDER.find((s) => p.variants.some((v) => v.watch_status === s)) ?? null
 }
+
+/** Statuses the worklist counts as waiting on the GC ("Waiting on me" + "Letters to approve"). */
+export const isAwaitingGc = (s: WatchStatus) => s === 'waiting_on_gc' || s === 'letter_drafted'
 
 export const isUrgent = (p: Patient) => p.variants.some((v) => v.decision?.urgent && v.watch_status === 'waiting_on_gc')
 

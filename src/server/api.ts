@@ -11,6 +11,7 @@ import type { Plugin } from 'vite'
 import { callKey, nextAction } from '../agent/decide.ts'
 import { appendEvents } from '../agent/events.ts'
 import { loadPrefs, savePrefs, setTrust } from '../agent/gcPreferences.ts'
+import { caseloadActivity } from '../agent/rawtree.ts'
 import { SPECIALTIES, TIERS } from '../lib/labTrust.ts'
 import type { Caseload, GcDecision, Specialty, TrustTier } from '../types.ts'
 
@@ -98,6 +99,8 @@ export function gcApi(): Plugin {
       server.middlewares.use('/api', async (req, res) => {
         try {
           if (req.method === 'GET' && req.url === '/gc-preferences') return send(res, 200, loadPrefs())
+          // Read from RawTree on the server so the token never reaches the browser
+          if (req.method === 'GET' && req.url === '/caseload-activity') return send(res, 200, await caseloadActivity())
           if (req.method === 'POST' && req.url === '/lab-trust') return send(res, 200, labTrust(await readJson(req)))
           if (req.method === 'POST' && req.url === '/gc-decision') return send(res, 200, gcDecision(await readJson(req)))
           send(res, 404, { error: 'not found' })
