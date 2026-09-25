@@ -33,3 +33,6 @@ dist-ssr
 .cache
 node_modules/.tmp
 *.tsbuildinfo
+
+# Working prompts (not part of the project)
+prompts/
