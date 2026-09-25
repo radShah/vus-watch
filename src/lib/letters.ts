@@ -12,6 +12,11 @@ export function letterImagePath(patientId: string, variationId: string): string 
   return `/letters/${patientId}-${variationId}.png`
 }
 
+/** Where the FLUX letter video is served from (written by src/agent/fluxLetterVideo.ts); its first frame is `poster`. */
+export function letterVideoPath(patientId: string, variationId: string): { src: string; poster: string } {
+  return { src: `/letters/${patientId}-${variationId}.mp4`, poster: `/letters/${patientId}-${variationId}.start.png` }
+}
+
 /** Protein length in amino acids, checked on NCBI Protein. Genes not listed get no position claim. */
 export const PROTEIN_LENGTH: Record<string, number> = {
   BRCA2: 3418, // NP_000050.3

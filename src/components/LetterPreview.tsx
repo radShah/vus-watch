@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import raw from '../../data/caseload.json'
 import type { Caseload, Patient } from '../types'
-import { isBenignReclassification, letterImagePath, proteinPosition } from '../lib/letters'
+import { isBenignReclassification, letterImagePath, letterVideoPath, proteinPosition } from '../lib/letters'
 
 const gcName = (raw as unknown as Caseload).gc.name
 
@@ -9,6 +9,18 @@ const gcName = (raw as unknown as Caseload).gc.name
 export function LetterPreview({ patient: p }: { patient: Patient }) {
   const v = p.variants.find(isBenignReclassification)
   const [imageMissing, setImageMissing] = useState(false)
+  const [videoMissing, setVideoMissing] = useState(false)
+  const [videoEnded, setVideoEnded] = useState(false)
+  const videoRef = useRef<HTMLVideoElement>(null)
+  const video = v && letterVideoPath(p.id, v.clinvar.variation_id)
+  const videoSrc = video?.src
+  // The dev server answers a missing file with index.html, so check it's really a video.
+  useEffect(() => {
+    if (!videoSrc) return
+    fetch(videoSrc, { method: 'HEAD' })
+      .then((r) => setVideoMissing(!r.ok || !r.headers.get('content-type')?.startsWith('video/')))
+      .catch(() => setVideoMissing(true))
+  }, [videoSrc])
   if (!v) return null
   const firstName = p.name.split(' ')[0]
   const pos = proteinPosition(v)
@@ -37,21 +49,63 @@ export function LetterPreview({ patient: p }: { patient: Patient }) {
                 </span>
               )}
             </p>
-            <img
-              src={letterImagePath(p.id, v.clinvar.variation_id)}
-              alt={`Your ${v.gene} variant: uncertain in ${v.reported_classification.date.slice(0, 4)}, now ${v.clinvar.classification.toLowerCase()}`}
-              className="block w-full"
-              onError={() => setImageMissing(true)}
-            />
-            {/* Pills sit under the image's two cards (each ~44% wide, ~3% in from the edges). */}
-            <div className="grid grid-cols-2 gap-[6%] px-[3%] pb-3 text-center text-[11px] leading-tight">
-              <span className="rounded-full bg-amber-100 px-2 py-1 text-amber-900">
-                {v.reported_classification.date.slice(0, 4)} · {v.reported_classification.lab} · <strong>Uncertain</strong>
-              </span>
-              <span className="rounded-full bg-emerald-100 px-2 py-1 text-emerald-900">
-                {v.clinvar.last_evaluated?.slice(0, 4) ?? 'Now'} · updated · <strong>{v.clinvar.classification}</strong>
-              </span>
-            </div>
+            {!videoMissing ? (
+              <>
+                <div className="relative">
+                  <video
+                    ref={videoRef}
+                    src={video!.src}
+                    poster={video!.poster}
+                    aria-label={`Your ${v.gene} variant: the question mark on it becomes a check as new evidence arrives`}
+                    className="block w-full"
+                    autoPlay
+                    muted
+                    playsInline
+                    onEnded={() => setVideoEnded(true)}
+                    onError={() => setVideoMissing(true)}
+                  />
+                  {videoEnded && (
+                    <button
+                      type="button"
+                      className="absolute right-2 bottom-2 rounded-full bg-white/80 px-2 py-0.5 text-[11px] text-slate-700 shadow-sm hover:bg-white"
+                      onClick={() => {
+                        setVideoEnded(false)
+                        void videoRef.current?.play()
+                      }}
+                    >
+                      ↻ Replay
+                    </button>
+                  )}
+                </div>
+                <p className="px-3 pb-3 text-center text-[11px] leading-tight">
+                  <span className="rounded-full bg-amber-100 px-2 py-1 text-amber-900">
+                    {v.reported_classification.date.slice(0, 4)} · {v.reported_classification.lab} · <strong>Uncertain</strong>
+                  </span>
+                  <span className="px-1.5 text-slate-500">→</span>
+                  <span className="rounded-full bg-emerald-100 px-2 py-1 text-emerald-900">
+                    {v.clinvar.last_evaluated?.slice(0, 4) ?? 'Now'} · updated · <strong>{v.clinvar.classification}</strong>
+                  </span>
+                </p>
+              </>
+            ) : (
+              <>
+                <img
+                  src={letterImagePath(p.id, v.clinvar.variation_id)}
+                  alt={`Your ${v.gene} variant: uncertain in ${v.reported_classification.date.slice(0, 4)}, now ${v.clinvar.classification.toLowerCase()}`}
+                  className="block w-full"
+                  onError={() => setImageMissing(true)}
+                />
+                {/* Pills sit under the image's two cards (each ~44% wide, ~3% in from the edges). */}
+                <div className="grid grid-cols-2 gap-[6%] px-[3%] pb-3 text-center text-[11px] leading-tight">
+                  <span className="rounded-full bg-amber-100 px-2 py-1 text-amber-900">
+                    {v.reported_classification.date.slice(0, 4)} · {v.reported_classification.lab} · <strong>Uncertain</strong>
+                  </span>
+                  <span className="rounded-full bg-emerald-100 px-2 py-1 text-emerald-900">
+                    {v.clinvar.last_evaluated?.slice(0, 4) ?? 'Now'} · updated · <strong>{v.clinvar.classification}</strong>
+                  </span>
+                </div>
+              </>
+            )}
           </div>
         )}
         <div className="space-y-2 px-3 py-2 text-xs leading-relaxed text-slate-800">
@@ -71,7 +125,9 @@ export function LetterPreview({ patient: p }: { patient: Patient }) {
         </div>
       </div>
       <p className="mt-1 text-[11px] text-slate-500">
-        Image: the agent draws this patient's gene and variant position exactly, FLUX.2 [pro] paints it, and the agent redraws the ? and ✓ on top.
+        {videoMissing
+          ? "Image: the agent draws this patient's gene and variant position exactly, FLUX.2 [pro] paints it, and the agent redraws the ? and ✓ on top."
+          : "Video: the agent draws the first frame (? on this patient's variant) and the last (✓), FLUX.2 [pro] paints both, and FLUX 3 Video animates between them."}
       </p>
     </section>
   )
