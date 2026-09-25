@@ -48,6 +48,8 @@ export function caseStatus(p: Patient): WatchStatus | null {
   return WATCH_ORDER.find((s) => p.variants.some((v) => v.watch_status === s)) ?? null
 }
 
+export const isUrgent = (p: Patient) => p.variants.some((v) => v.decision?.urgent && v.watch_status === 'waiting_on_gc')
+
 export const isChanged = (p: Patient) => p.variants.some((v) => v.classification_changed)
 
 export const hasVus = (p: Patient) =>

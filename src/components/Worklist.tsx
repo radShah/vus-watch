@@ -6,11 +6,11 @@ import {
   fmtDate,
   fmtDateTime,
   isChanged,
-  reviewStars,
+  isUrgent,
   shortClass,
   shortVariant,
 } from '../lib/clinical'
-import { ClassBadge, Stars, WatchChip } from './Chips'
+import { ActionChip, ClassBadge, WatchChip } from './Chips'
 
 type SortKey = 'patient' | 'indication' | 'gene' | 'reported' | 'current' | 'changed' | 'status' | 'checked'
 type Dir = 'asc' | 'desc'
@@ -41,9 +41,10 @@ function sortValue(p: Patient, key: SortKey): string | number {
   }
 }
 
-/** Default worklist order: most urgent status, then changed, then most recent report. */
+/** Default worklist order: URGENT upgrades pinned first, then most urgent status, then changed, then most recent report. */
 function defaultCompare(a: Patient, b: Patient): number {
   return (
+    Number(isUrgent(b)) - Number(isUrgent(a)) ||
     (sortValue(a, 'status') as number) - (sortValue(b, 'status') as number) ||
     (sortValue(a, 'changed') as number) - (sortValue(b, 'changed') as number) ||
     b.report_date.localeCompare(a.report_date)
@@ -108,7 +109,7 @@ export function Worklist({ patients, selectedId, onSelect }: Props) {
             <Th k="current" sort={sort} onSort={clickSort}>Current ClinVar</Th>
             <Th k="changed" sort={sort} onSort={clickSort} className="text-center">Changed?</Th>
             <Th k="status" sort={sort} onSort={clickSort}>Watch status</Th>
-            <Th sort={sort} onSort={clickSort}>Next action</Th>
+            <Th sort={sort} onSort={clickSort}>Agent decision</Th>
             <Th k="checked" sort={sort} onSort={clickSort}>Last checked</Th>
           </tr>
         </thead>
@@ -117,12 +118,15 @@ export function Worklist({ patients, selectedId, onSelect }: Props) {
             const status = caseStatus(p)
             const changed = isChanged(p)
             const selected = p.id === selectedId
+            const urgent = isUrgent(p)
             const rowTone = selected
               ? 'bg-blue-50'
-              : status === 'active' || changed
+              : urgent
+                ? 'bg-red-50 hover:bg-red-100/70'
+                : status === 'active' || changed
                 ? 'bg-amber-50/60 hover:bg-amber-50'
                 : 'bg-white hover:bg-slate-50'
-            const accent = status === 'active' || changed ? 'border-l-amber-500' : 'border-l-transparent'
+            const accent = urgent ? 'border-l-red-600' : status === 'active' || changed ? 'border-l-amber-500' : 'border-l-transparent'
             return (
               <tr
                 key={p.id}
@@ -179,10 +183,7 @@ export function Worklist({ patients, selectedId, onSelect }: Props) {
                 <td className="px-2 py-1">
                   {p.variants.map((v, i) => (
                     <div key={i} className="whitespace-nowrap">
-                      <div className="flex items-center gap-1">
-                        <ClassBadge desc={v.clinvar.classification} />
-                        <Stars n={reviewStars(v.clinvar.review_status)} title={v.clinvar.review_status} />
-                      </div>
+                      <ClassBadge desc={v.clinvar.classification} />
                       {v.clinvar.submissions_summary && (
                         <div className="max-w-[260px] truncate text-[10px] text-slate-600" title={v.clinvar.submissions_summary}>
                           {v.clinvar.submissions_summary}
@@ -211,7 +212,15 @@ export function Worklist({ patients, selectedId, onSelect }: Props) {
                 <td className="px-2 py-1">
                   <WatchChip status={status} />
                 </td>
-                <td className="max-w-64 px-2 py-1 text-slate-700">{p.next_action}</td>
+                <td className="w-[360px] max-w-[360px] px-2 py-1 text-slate-700">
+                  {p.variants.filter((v) => v.decision).map((v, i) => (
+                    <div key={i} className="mb-0.5 flex items-center gap-1" title={v.decision!.reason}>
+                      <ActionChip action={v.decision!.action} />
+                      <span className="truncate text-[11px] text-slate-800">{v.decision!.reason}</span>
+                    </div>
+                  ))}
+                  <div className="truncate text-[10px] text-slate-500">Next: {p.next_action}</div>
+                </td>
                 <td className="whitespace-nowrap px-2 py-1 text-[11px] text-slate-500">{fmtDateTime(p.last_checked)}</td>
               </tr>
             )

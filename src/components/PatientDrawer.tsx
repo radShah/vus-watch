@@ -1,7 +1,9 @@
-import type { ReactNode } from 'react'
-import type { HistoryEntry, Patient, Variant } from '../types'
+import { useState, type ReactNode } from 'react'
+import type { GcDecision, GcPreferences, HistoryEntry, Patient, Specialty, Variant } from '../types'
 import { caseStatus, fmtDate, fmtDateTime, reviewStars } from '../lib/clinical'
-import { ClassBadge, Stars, WatchChip } from './Chips'
+import { post } from '../lib/api'
+import { lookupTier, specialtyOf } from '../lib/labTrust'
+import { ActionChip, ClassBadge, Stars, TierChip, WatchChip } from './Chips'
 
 function Field({ label, children }: { label: string; children: ReactNode }) {
   return (
@@ -27,7 +29,7 @@ const HISTORY_LABEL: Record<HistoryEntry['field'], string> = {
   submission: 'Lab submission',
 }
 
-function LabSubmissions({ clinvar: c }: { clinvar: Variant['clinvar'] }) {
+function LabSubmissions({ clinvar: c, prefs, specialty }: { clinvar: Variant['clinvar']; prefs: GcPreferences; specialty: Specialty }) {
   if (!c.submissions && c.extraction_status !== 'failed') return null
   return (
     <div className="border-t border-slate-200 px-2 py-1.5">
@@ -44,7 +46,7 @@ function LabSubmissions({ clinvar: c }: { clinvar: Variant['clinvar'] }) {
               <th className="pr-2 font-normal">Lab</th>
               <th className="pr-2 font-normal">Classification</th>
               <th className="pr-2 font-normal">Last evaluated</th>
-              <th className="pr-2 font-normal">Review status</th>
+              <th className="pr-2 font-normal">Trust (yours)</th>
               <th className="font-normal">Evidence</th>
             </tr>
           </thead>
@@ -58,8 +60,8 @@ function LabSubmissions({ clinvar: c }: { clinvar: Variant['clinvar'] }) {
                   <ClassBadge desc={s.classification} />
                 </td>
                 <td className="whitespace-nowrap py-0.5 pr-2 text-slate-600">{fmtDate(s.last_evaluated)}</td>
-                <td className="py-0.5 pr-2 text-slate-600" title={s.review_status ?? undefined}>
-                  <Stars n={reviewStars(s.review_status ?? '')} />
+                <td className="py-0.5 pr-2" title={`ClinVar review status: ${s.review_status ?? 'unknown'}`}>
+                  <TierChip t={lookupTier(prefs, s.lab, specialty)} />
                 </td>
                 <td className="py-0.5">
                   <div className="flex flex-wrap gap-0.5">
@@ -83,7 +85,82 @@ function LabSubmissions({ clinvar: c }: { clinvar: Variant['clinvar'] }) {
   )
 }
 
-export function PatientDrawer({ patient: p, onClose }: { patient: Patient; onClose: () => void }) {
+const DECISION_LABEL: Record<GcDecision['decision'], string> = {
+  approve: 'Approved / contact patient',
+  hold: 'Hold',
+  dismiss: 'Dismissed',
+}
+
+function GcActions({ patient, variant }: { patient: Patient; variant: Variant }) {
+  const [holding, setHolding] = useState(false)
+  const [reason, setReason] = useState('')
+  const [untilEstablished, setUntilEstablished] = useState(true)
+  const [error, setError] = useState<string | null>(null)
+  const [saving, setSaving] = useState(false)
+
+  async function save(decision: GcDecision['decision']) {
+    setSaving(true)
+    setError(null)
+    try {
+      await post('gc-decision', {
+        patient_id: patient.id,
+        variation_id: variant.clinvar.variation_id,
+        decision,
+        reason,
+        until: decision === 'hold' && untilEstablished ? 'established_lab' : undefined,
+      })
+      setHolding(false)
+      setReason('')
+    } catch (e) {
+      setError(e instanceof Error ? e.message : String(e))
+    } finally {
+      setSaving(false)
+    }
+  }
+
+  const btn = 'rounded border px-2 py-0.5 text-[11px] font-medium disabled:opacity-40'
+  return (
+    <div className="border-t border-slate-200 px-2 py-1.5">
+      <div className="flex flex-wrap gap-1.5">
+        <button disabled={saving} onClick={() => save('approve')} className={`${btn} border-emerald-600 bg-emerald-600 text-white hover:bg-emerald-700`}>
+          Approve / contact patient
+        </button>
+        <button disabled={saving} onClick={() => setHolding((h) => !h)} className={`${btn} border-amber-400 bg-amber-50 text-amber-900 hover:bg-amber-100`}>
+          Hold (with reason)
+        </button>
+        <button disabled={saving} onClick={() => save('dismiss')} className={`${btn} border-slate-300 bg-white text-slate-700 hover:bg-slate-50`}>
+          Dismiss
+        </button>
+      </div>
+      {holding && (
+        <div className="mt-1.5 space-y-1">
+          <input
+            autoFocus
+            value={reason}
+            onChange={(e) => setReason(e.target.value)}
+            placeholder="Reason for holding"
+            className="w-full rounded border border-slate-300 px-1.5 py-0.5 text-xs"
+          />
+          <label className="flex items-center gap-1 text-[11px] text-slate-700">
+            <input type="checkbox" checked={untilEstablished} onChange={(e) => setUntilEstablished(e.target.checked)} />
+            Hold until an established lab weighs in
+          </label>
+          <button
+            disabled={saving || !reason.trim()}
+            onClick={() => save('hold')}
+            className={`${btn} border-amber-500 bg-amber-500 text-white hover:bg-amber-600`}
+          >
+            Save hold
+          </button>
+        </div>
+      )}
+      {error && <p className="mt-1 text-[11px] text-rose-700">{error}</p>}
+    </div>
+  )
+}
+
+export function PatientDrawer({ patient: p, prefs, onClose }: { patient: Patient; prefs: GcPreferences; onClose: () => void }) {
+  const specialty = specialtyOf(p.clinic_area)
   return (
     <aside className="flex w-[500px] shrink-0 flex-col border-l border-slate-300 bg-white shadow-xl">
       <div className="flex items-start justify-between border-b border-slate-200 bg-slate-100 px-4 py-2">
@@ -139,12 +216,11 @@ export function PatientDrawer({ patient: p, onClose }: { patient: Patient; onClo
                 </div>
                 <div className="px-2 py-1.5">
                   <div className="mb-0.5 text-[11px] text-slate-500">Current ClinVar</div>
-                  <div className="flex items-center gap-1">
-                    <ClassBadge desc={v.clinvar.classification} />
-                    <Stars n={reviewStars(v.clinvar.review_status)} />
-                  </div>
+                  <ClassBadge desc={v.clinvar.classification} />
                   <div className="mt-0.5 text-[11px] text-slate-600">{v.clinvar.classification}</div>
-                  <div className="text-[11px] text-slate-600">Review status: {v.clinvar.review_status}</div>
+                  <div className="text-[10px] text-slate-400">
+                    Review status: {v.clinvar.review_status} <Stars n={reviewStars(v.clinvar.review_status)} />
+                  </div>
                   <div className="text-[11px] text-slate-600">Last evaluated: {fmtDate(v.clinvar.last_evaluated)}</div>
                   {v.clinvar.record_version != null && (
                     <div className="text-[11px] text-slate-600">
@@ -157,7 +233,23 @@ export function PatientDrawer({ patient: p, onClose }: { patient: Patient; onClo
                   )}
                 </div>
               </div>
-              <LabSubmissions clinvar={v.clinvar} />
+              {v.decision && (
+                <div className={`border-t px-2 py-1.5 ${v.decision.urgent ? 'border-red-300 bg-red-50' : 'border-slate-200 bg-slate-50'}`}>
+                  <div className="mb-0.5 flex items-center gap-1.5 text-[11px] text-slate-500">
+                    Agent decision <ActionChip action={v.decision.action} />
+                    <span>· {fmtDateTime(v.decision.decided_at)}</span>
+                  </div>
+                  <p className="text-xs text-slate-800">{v.decision.reason}</p>
+                  {v.decision.trust_snapshot.length > 0 && (
+                    <p className="mt-0.5 text-[10px] text-slate-500">
+                      Trust used:{' '}
+                      {v.decision.trust_snapshot.map((t) => `${t.lab} = ${t.tier} (${t.source === 'default' ? 'default' : t.source === 'all' ? 'all' : t.specialty})`).join(' · ')}
+                    </p>
+                  )}
+                </div>
+              )}
+              <LabSubmissions clinvar={v.clinvar} prefs={prefs} specialty={specialty} />
+              {v.decision && <GcActions patient={p} variant={v} />}
               <div className="flex items-center justify-between border-t border-slate-200 px-2 py-1 text-[11px]">
                 <span className="text-slate-500">
                   {v.gene} · {v.zygosity} · watch: <WatchChip status={v.watch_status} />
@@ -203,7 +295,24 @@ export function PatientDrawer({ patient: p, onClose }: { patient: Patient; onClo
         </Block>
 
         <Block title="GC decisions">
-          <p className="text-xs italic text-slate-400">No decisions recorded.</p>
+          {p.gc_decisions.length ? (
+            <ul className="space-y-1.5">
+              {[...p.gc_decisions].reverse().map((d, i) => (
+                <li key={i} className="text-xs">
+                  <div className="text-slate-800">
+                    <span className="font-semibold">{DECISION_LABEL[d.decision]}</span>
+                    {d.until === 'established_lab' && ' until an established lab weighs in'}
+                    {d.reason && <span>: {d.reason}</span>}
+                  </div>
+                  <div className="text-[11px] text-slate-500">
+                    {fmtDateTime(d.at)} · {p.variants.find((v) => v.clinvar.variation_id === d.variation_id)?.gene ?? d.variation_id}
+                  </div>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="text-xs italic text-slate-400">No decisions recorded.</p>
+          )}
         </Block>
       </div>
     </aside>

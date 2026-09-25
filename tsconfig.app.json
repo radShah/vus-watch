@@ -23,6 +23,6 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "data/caseload.json"],
-  "exclude": ["src/agent"]
+  "include": ["src", "data/caseload.json", "data/gc_preferences.json"],
+  "exclude": ["src/agent", "src/server"]
 }

@@ -1,0 +1,36 @@
+{
+  "lab_trust": [
+    {
+      "lab": "Myriad Genetics",
+      "specialty": "all",
+      "tier": "established",
+      "set_at": "2026-09-25T21:20:00.000Z",
+      "note": "Named by a practicing GC: large tested population and internal validation."
+    },
+    {
+      "lab": "Ambry Genetics",
+      "specialty": "all",
+      "tier": "established",
+      "set_at": "2026-09-25T21:20:00.000Z",
+      "note": "Named by a practicing GC: large tested population and internal validation."
+    }
+  ],
+  "trust_history": [
+    {
+      "lab": "Myriad Genetics",
+      "specialty": "all",
+      "old_tier": null,
+      "new_tier": "established",
+      "at": "2026-09-25T21:20:00.000Z",
+      "note": "Seed: named by a practicing GC."
+    },
+    {
+      "lab": "Ambry Genetics",
+      "specialty": "all",
+      "old_tier": null,
+      "new_tier": "established",
+      "at": "2026-09-25T21:20:00.000Z",
+      "note": "Seed: named by a practicing GC."
+    }
+  ]
+}

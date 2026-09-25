@@ -1,25 +1,34 @@
 import { useMemo, useState } from 'react'
 import raw from '../data/caseload.json'
-import type { Caseload } from './types'
+import rawPrefs from '../data/gc_preferences.json'
+import type { Caseload, GcPreferences } from './types'
 import { applyFilters, EMPTY_FILTERS, type Filters } from './lib/filters'
 import { TopBar } from './components/TopBar'
 import { SummaryStrip } from './components/SummaryStrip'
 import { FilterPanel } from './components/FilterPanel'
 import { Worklist } from './components/Worklist'
 import { PatientDrawer } from './components/PatientDrawer'
+import { LabTrustPanel } from './components/LabTrustPanel'
 
 const caseload = raw as Caseload
+const prefs = rawPrefs as GcPreferences
 
 export default function App() {
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS)
   const [selectedId, setSelectedId] = useState<string | null>(null)
+  const [trustOpen, setTrustOpen] = useState(false)
   const patients = caseload.patients
   const visible = useMemo(() => applyFilters(patients, filters), [patients, filters])
   const selected = patients.find((p) => p.id === selectedId) ?? null
 
   return (
     <div className="flex h-screen flex-col bg-slate-100 text-slate-800">
-      <TopBar clinic={caseload.clinic.name} department={caseload.clinic.department} gcName={caseload.gc.name} />
+      <TopBar
+        clinic={caseload.clinic.name}
+        department={caseload.clinic.department}
+        gcName={caseload.gc.name}
+        onLabTrust={() => setTrustOpen(true)}
+      />
       <SummaryStrip
         patients={patients}
         lastCycle={caseload.last_cycle}
@@ -42,8 +51,9 @@ export default function App() {
           </div>
           <Worklist patients={visible} selectedId={selectedId} onSelect={(p) => setSelectedId(p.id)} />
         </main>
-        {selected && <PatientDrawer patient={selected} onClose={() => setSelectedId(null)} />}
+        {selected && <PatientDrawer patient={selected} prefs={prefs} onClose={() => setSelectedId(null)} />}
       </div>
+      {trustOpen && <LabTrustPanel prefs={prefs} patients={patients} onClose={() => setTrustOpen(false)} />}
     </div>
   )
 }

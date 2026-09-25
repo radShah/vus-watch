@@ -1,20 +1,23 @@
 /**
  * One agent cycle: fetch each watched ClinVar variant live via Nimble, extract
  * its lab submissions with Liquid, compare against the caseload, record
- * changes, and append events.
+ * changes, decide what to do with each watched case (decide.ts), and append
+ * events.
  *
  * Run: npm run cycle
  */
-import { appendFileSync, readFileSync, renameSync, writeFileSync } from 'node:fs'
+import { readFileSync, renameSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { applyDecision, decide, nextAction } from '../src/agent/decide.ts'
+import { appendEvents } from '../src/agent/events.ts'
+import { loadPrefs } from '../src/agent/gcPreferences.ts'
 import { extractSubmissions, summarizeSubmissions, type ExtractionResult, type LiquidCall } from '../src/agent/liquidExtract.ts'
 import { fetchClinvarVariant, UNKNOWN, type ClinvarRecord } from '../src/agent/nimbleClinvar.ts'
-import type { Caseload, HistoryEntry, Patient, Submission, Variant } from '../src/types.ts'
+import type { Caseload, DecisionAction, HistoryEntry, Patient, Submission, Variant } from '../src/types.ts'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const CASELOAD = join(ROOT, 'data', 'caseload.json')
-const EVENTS = join(ROOT, 'data', 'events.jsonl')
 const REQUIRED_ID = '3672027'
 const DELAY_MS = 1000
 const CHANGED_ACTION = 'Review: classification changed on ClinVar'
@@ -30,7 +33,7 @@ const inScope = (v: Variant) =>
   v.watch_status === 'active' ||
   v.clinvar.variation_id === REQUIRED_ID
 
-type EventType = 'fetch_ok' | 'fetch_failed' | 'compare_unchanged' | 'baseline' | 'changed' | 'field_unknown' | 'liquid_extract'
+type EventType = 'fetch_ok' | 'fetch_failed' | 'compare_unchanged' | 'baseline' | 'changed' | 'field_unknown' | 'liquid_extract' | 'decision'
 
 interface CycleEvent {
   ts: string
@@ -49,6 +52,9 @@ interface CycleEvent {
   model?: string
   duration_ms?: number
   error?: string
+  /** decision only */
+  action?: DecisionAction
+  reason?: string
 }
 
 /** Submissions keyed by SCV accession without its version (a new version of the same SCV is the same lab's record). */
@@ -79,6 +85,7 @@ async function fetchWithRetry(id: string): Promise<ClinvarRecord> {
 
 async function main() {
   const caseload = JSON.parse(readFileSync(CASELOAD, 'utf8')) as Caseload
+  const prefs = loadPrefs()
   const cycle = (caseload.last_cycle?.cycle ?? 0) + 1
   const started_at = new Date().toISOString()
 
@@ -203,9 +210,38 @@ async function main() {
     console.log(`  ${id}  ${variantChanged ? 'CHANGED' : 'unchanged'}  v${rec.record_version}  ${rec.overall_classification}  [${rec.parser_path}] [${liquid}]`)
   }
 
-  caseload.last_cycle = { cycle, started_at, finished_at: new Date().toISOString(), ...counts }
+  // Decide what to do with each watched case (deterministic GC rules; see decide.ts)
+  const actions: Partial<Record<DecisionAction, number>> = {}
+  const decidedPatients = new Set<Patient>()
+  for (const [id, pairs] of targets)
+    for (const { patient, variant } of pairs) {
+      const rec = records.get(id)
+      const prev = variant.decision
+      const d = decide(patient, variant, prefs, { now: new Date().toISOString(), readOk: !!rec?.ok })
+      applyDecision(patient, variant, d)
+      decidedPatients.add(patient)
+      actions[d.action] = (actions[d.action] ?? 0) + 1
+      if (prev?.action !== d.action || prev?.reason !== d.reason)
+        events.push({
+          ts: d.decided_at,
+          cycle,
+          variation_id: id,
+          case_ids: [patient.id],
+          event_type: 'decision',
+          field: null,
+          old: prev?.action ?? null,
+          new: d.action,
+          source_url: rec?.source_url ?? variant.clinvar.url,
+          parser_path: rec?.parser_path ?? null,
+          action: d.action,
+          reason: d.reason,
+        })
+    }
+  for (const patient of decidedPatients) patient.next_action = nextAction(patient) ?? patient.next_action
 
-  appendFileSync(EVENTS, events.map((e) => JSON.stringify(e)).join('\n') + '\n')
+  caseload.last_cycle = { cycle, started_at, finished_at: new Date().toISOString(), ...counts, actions }
+
+  appendEvents(events)
   const tmp = `${CASELOAD}.tmp`
   writeFileSync(tmp, JSON.stringify(caseload, null, 2) + '\n')
   renameSync(tmp, CASELOAD)
@@ -216,6 +252,7 @@ async function main() {
   )
   console.log(`Liquid extraction: ${counts.liquid_ok} extracted OK · ${counts.liquid_failed} failed · ${counts.liquid_cached} from cache`)
   console.log(`Parser path: ${paths.filter((p) => p === 'nimble_parser').length} nimble_parser, ${paths.filter((p) => p === 'local_parser').length} local_parser`)
+  console.log(`Decisions: ${Object.entries(actions).map(([a, n]) => `${n} ${a}`).join(' · ')}`)
   const req = records.get(REQUIRED_ID)
   if (req) {
     const { raw_path: _raw, ...shown } = req

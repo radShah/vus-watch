@@ -38,6 +38,69 @@ export interface Variant {
   }
   classification_changed: boolean
   watch_status: WatchStatus
+  /** Set by decide.ts after each cycle. */
+  decision?: Decision
+}
+
+// ---------------------------------------------------------------------------
+// GC preferences and decisions
+// ---------------------------------------------------------------------------
+
+export type Specialty = 'all' | 'cancer' | 'cardio' | 'neuro'
+export type TrustTier = 'established' | 'standard' | 'low'
+
+/** One row of the GC's lab trust list (data/gc_preferences.json). */
+export interface LabTrust {
+  lab: string
+  specialty: Specialty
+  tier: TrustTier
+  set_at: string
+  note: string
+}
+
+/** Every change to the trust list; entries are never overwritten silently. */
+export interface TrustChange {
+  lab: string
+  specialty: Specialty
+  old_tier: TrustTier | null
+  new_tier: TrustTier
+  at: string
+  note: string
+}
+
+export interface GcPreferences {
+  lab_trust: LabTrust[]
+  trust_history: TrustChange[]
+}
+
+/** The tier used for one submitting lab in a decision; `source` says which trust entry (or the default) supplied it. */
+export interface TrustUsed {
+  lab: string
+  specialty: Specialty
+  tier: TrustTier
+  source: 'specialty' | 'all' | 'default'
+}
+
+export type DecisionAction = 'quiet' | 'hold' | 'flag_downgrade' | 'flag_upgrade' | 'recheck'
+
+export interface Decision {
+  action: DecisionAction
+  reason: string
+  urgent: boolean
+  trust_snapshot: TrustUsed[]
+  decided_at: string
+}
+
+/** A GC's decision on one variant, saved from the patient drawer. */
+export interface GcDecision {
+  at: string
+  variation_id: string
+  decision: 'approve' | 'hold' | 'dismiss'
+  reason: string
+  /** Hold only: keep holding until an established lab calls it benign/likely benign. */
+  until?: 'established_lab'
+  /** "lab: classification" for each submission when the decision was made; later calls count as new. */
+  calls_at_decision: string[]
 }
 
 /** One observed change on ClinVar, recorded by the agent cycle. */
@@ -60,6 +123,7 @@ export interface CycleSummary {
   liquid_ok?: number
   liquid_failed?: number
   liquid_cached?: number
+  actions?: Partial<Record<DecisionAction, number>>
 }
 
 export interface Patient {
@@ -79,7 +143,7 @@ export interface Patient {
   variants: Variant[]
   last_checked: string
   next_action: string
-  gc_decisions: unknown[]
+  gc_decisions: GcDecision[]
   history: HistoryEntry[]
 }
 

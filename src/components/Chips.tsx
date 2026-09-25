@@ -1,4 +1,4 @@
-import type { WatchStatus } from '../types'
+import type { DecisionAction, TrustTier, TrustUsed, WatchStatus } from '../types'
 import { WATCH_LABEL, shortClass } from '../lib/clinical'
 
 const WATCH_STYLE: Record<WatchStatus, string> = {
@@ -39,11 +39,51 @@ export function ClassBadge({ desc, title }: { desc: string; title?: string }) {
   )
 }
 
+/** ClinVar review stars, deliberately small and gray: counselors decide on lab trust, not stars. */
 export function Stars({ n, title }: { n: number; title?: string }) {
   return (
-    <span title={title} className="whitespace-nowrap text-[11px] tracking-tight" aria-label={`${n} of 4 review stars`}>
-      <span className="text-amber-500">{'★'.repeat(n)}</span>
-      <span className="text-slate-300">{'★'.repeat(4 - n)}</span>
+    <span title={title} className="whitespace-nowrap text-[9px] tracking-tight" aria-label={`${n} of 4 review stars`}>
+      <span className="text-slate-400">{'★'.repeat(n)}</span>
+      <span className="text-slate-200">{'★'.repeat(4 - n)}</span>
+    </span>
+  )
+}
+
+const ACTION_STYLE: Record<DecisionAction, string> = {
+  flag_upgrade: 'bg-red-600 text-white ring-red-700',
+  flag_downgrade: 'bg-emerald-50 text-emerald-800 ring-emerald-300',
+  hold: 'bg-amber-50 text-amber-800 ring-amber-300',
+  recheck: 'bg-slate-100 text-slate-700 ring-slate-400',
+  quiet: 'bg-white text-slate-500 ring-slate-200',
+}
+
+const ACTION_LABEL: Record<DecisionAction, string> = {
+  flag_upgrade: 'URGENT upgrade',
+  flag_downgrade: 'Likely downgrade',
+  hold: 'Hold',
+  recheck: 'Recheck',
+  quiet: 'Quiet',
+}
+
+export function ActionChip({ action }: { action: DecisionAction }) {
+  return (
+    <span className={`inline-block whitespace-nowrap rounded px-1.5 py-px text-[11px] font-semibold ring-1 ring-inset ${ACTION_STYLE[action]}`}>
+      {ACTION_LABEL[action]}
+    </span>
+  )
+}
+
+const TIER_STYLE: Record<TrustTier, string> = {
+  established: 'text-emerald-800 bg-emerald-50 ring-emerald-200',
+  standard: 'text-slate-600 bg-slate-50 ring-slate-200',
+  low: 'text-rose-700 bg-rose-50 ring-rose-200',
+}
+
+export function TierChip({ t }: { t: TrustUsed }) {
+  const where = t.source === 'default' ? 'default' : t.source === 'all' ? 'all' : t.specialty
+  return (
+    <span className={`inline-block whitespace-nowrap rounded px-1 py-px text-[10px] font-medium ring-1 ring-inset ${TIER_STYLE[t.tier]}`}>
+      {t.tier} · {where}
     </span>
   )
 }

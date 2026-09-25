@@ -145,7 +145,7 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4957473/",
-            "last_checked": "2026-09-25T20:19:21.136Z",
+            "last_checked": "2026-09-25T21:32:11.891Z",
             "submissions": [
               {
                 "lab": "Blueprint Genetics",
@@ -162,10 +162,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2026-02-17.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Blueprint Genetics",
+                "specialty": "neuro",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.159Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:19:21.136Z",
+      "last_checked": "2026-09-25T21:32:11.891Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -224,7 +238,7 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4860314/",
-            "last_checked": "2026-09-25T20:19:43.349Z",
+            "last_checked": "2026-09-25T21:32:21.869Z",
             "submissions": [
               {
                 "lab": "Ambry Genetics",
@@ -243,10 +257,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2021-07-12.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Ambry Genetics",
+                "specialty": "cancer",
+                "tier": "established",
+                "source": "all"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.160Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:19:43.349Z",
+      "last_checked": "2026-09-25T21:32:21.869Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -386,7 +414,7 @@
             "record_last_updated": "2026-04-13",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3254186/",
-            "last_checked": "2026-09-25T20:20:00.059Z",
+            "last_checked": "2026-09-25T21:32:28.473Z",
             "submissions": [
               {
                 "lab": "Myriad Genetics, Inc.",
@@ -415,11 +443,31 @@
             "extraction_status": "ok"
           },
           "classification_changed": true,
-          "watch_status": "active"
+          "watch_status": "waiting_on_gc",
+          "decision": {
+            "action": "flag_downgrade",
+            "reason": "Myriad Genetics (established, cancer) now calls it Likely benign. Other labs: Ambry Genetics Uncertain significance.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Myriad Genetics, Inc.",
+                "specialty": "cancer",
+                "tier": "established",
+                "source": "all"
+              },
+              {
+                "lab": "Ambry Genetics",
+                "specialty": "cancer",
+                "tier": "established",
+                "source": "all"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.160Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:20:00.059Z",
-      "next_action": "Review ATM: VUS → Conflicting in ClinVar",
+      "last_checked": "2026-09-25T21:32:28.473Z",
+      "next_action": "Review likely downgrade → patient letter",
       "gc_decisions": [],
       "history": []
     },
@@ -457,7 +505,7 @@
             "record_last_updated": "2026-09-13",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4885268/",
-            "last_checked": "2026-09-25T20:20:20.152Z",
+            "last_checked": "2026-09-25T21:32:40.132Z",
             "submissions": [
               {
                 "lab": "Dasa",
@@ -477,7 +525,21 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2021-04-05.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Dasa",
+                "specialty": "cancer",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.161Z"
+          }
         },
         {
           "gene": "PALB2",
@@ -498,7 +560,7 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4861510/",
-            "last_checked": "2026-09-25T20:20:33.875Z",
+            "last_checked": "2026-09-25T21:32:53.797Z",
             "submissions": [
               {
                 "lab": "Ambry Genetics",
@@ -517,10 +579,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2021-04-05.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Ambry Genetics",
+                "specialty": "cancer",
+                "tier": "established",
+                "source": "all"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.161Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:20:33.875Z",
+      "last_checked": "2026-09-25T21:32:53.797Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -559,7 +635,7 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4913995/",
-            "last_checked": "2026-09-25T20:20:55.551Z",
+            "last_checked": "2026-09-25T21:32:59.014Z",
             "submissions": [
               {
                 "lab": "Blueprint Genetics",
@@ -576,10 +652,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2026-06-23.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Blueprint Genetics",
+                "specialty": "cancer",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.161Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:20:55.551Z",
+      "last_checked": "2026-09-25T21:32:59.014Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -618,7 +708,7 @@
             "record_last_updated": "2026-04-13",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3885231/",
-            "last_checked": "2026-09-25T20:21:15.585Z",
+            "last_checked": "2026-09-25T21:33:09.856Z",
             "submissions": [
               {
                 "lab": "Ambry Genetics",
@@ -657,11 +747,31 @@
             "extraction_status": "ok"
           },
           "classification_changed": true,
-          "watch_status": "active"
+          "watch_status": "waiting_on_gc",
+          "decision": {
+            "action": "flag_downgrade",
+            "reason": "Ambry Genetics (established, cancer) now calls it Likely benign. Other labs: Labcorp Genetics Uncertain significance.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Ambry Genetics",
+                "specialty": "cancer",
+                "tier": "established",
+                "source": "all"
+              },
+              {
+                "lab": "Labcorp Genetics",
+                "specialty": "cancer",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.161Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:21:15.585Z",
-      "next_action": "Review PALB2: VUS → Conflicting in ClinVar",
+      "last_checked": "2026-09-25T21:33:09.856Z",
+      "next_action": "Review likely downgrade → patient letter",
       "gc_decisions": [],
       "history": []
     },
@@ -699,7 +809,7 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4861515/",
-            "last_checked": "2026-09-25T20:21:36.392Z",
+            "last_checked": "2026-09-25T21:33:14.248Z",
             "submissions": [
               {
                 "lab": "Ambry Genetics",
@@ -718,7 +828,21 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2020-03-27.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Ambry Genetics",
+                "specialty": "cancer",
+                "tier": "established",
+                "source": "all"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.161Z"
+          }
         },
         {
           "gene": "ATM",
@@ -739,7 +863,7 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4914000/",
-            "last_checked": "2026-09-25T20:22:00.167Z",
+            "last_checked": "2026-09-25T21:33:19.261Z",
             "submissions": [
               {
                 "lab": "Blueprint Genetics",
@@ -756,10 +880,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2020-03-27.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Blueprint Genetics",
+                "specialty": "cancer",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.161Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:22:00.167Z",
+      "last_checked": "2026-09-25T21:33:19.261Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -818,7 +956,7 @@
             "record_last_updated": "2026-03-08",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4532890/",
-            "last_checked": "2026-09-25T20:22:19.528Z",
+            "last_checked": "2026-09-25T21:33:29.588Z",
             "submissions": [
               {
                 "lab": "Quest Diagnostics Nichols Institute San Juan Capistrano",
@@ -848,11 +986,31 @@
             "extraction_status": "ok"
           },
           "classification_changed": true,
-          "watch_status": "active"
+          "watch_status": "active",
+          "decision": {
+            "action": "hold",
+            "reason": "Held: only Labcorp Genetics (standard, cancer) changed; watching for established labs.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Quest Diagnostics Nichols Institute San Juan Capistrano",
+                "specialty": "cancer",
+                "tier": "standard",
+                "source": "default"
+              },
+              {
+                "lab": "Labcorp Genetics (formerly Invitae), Labcorp",
+                "specialty": "cancer",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.161Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:22:19.528Z",
-      "next_action": "Review MSH6: VUS → Conflicting in ClinVar",
+      "last_checked": "2026-09-25T21:33:29.588Z",
+      "next_action": "Watch for an established lab",
       "gc_decisions": [],
       "history": []
     },
@@ -931,15 +1089,22 @@
             "record_last_updated": "2026-02-17",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3070370/",
-            "last_checked": "2026-09-25T20:22:37.322Z",
+            "last_checked": "2026-09-25T21:33:37.445Z",
             "extraction_status": "failed"
           },
           "classification_changed": true,
-          "watch_status": "active"
+          "watch_status": "active",
+          "decision": {
+            "action": "recheck",
+            "reason": "Couldn't read ClinVar; retrying next cycle.",
+            "urgent": false,
+            "trust_snapshot": [],
+            "decided_at": "2026-09-25T21:38:19.161Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:22:37.322Z",
-      "next_action": "Review MYBPC3: VUS → Conflicting in ClinVar",
+      "last_checked": "2026-09-25T21:33:37.445Z",
+      "next_action": "Recheck ClinVar next cycle",
       "gc_decisions": [],
       "history": []
     },
@@ -1057,7 +1222,7 @@
             "record_last_updated": "2026-04-13",
             "record_version": 3,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3875106/",
-            "last_checked": "2026-09-25T20:23:14.351Z",
+            "last_checked": "2026-09-25T21:33:46.943Z",
             "submissions": [
               {
                 "lab": "Ambry Genetics",
@@ -1090,11 +1255,31 @@
             "extraction_status": "ok"
           },
           "classification_changed": true,
-          "watch_status": "active"
+          "watch_status": "waiting_on_gc",
+          "decision": {
+            "action": "flag_upgrade",
+            "reason": "URGENT: Ambry Genetics (established, cancer) now calls it Likely pathogenic [evidence: population data absent, computational evidence, case observations].",
+            "urgent": true,
+            "trust_snapshot": [
+              {
+                "lab": "Ambry Genetics",
+                "specialty": "cancer",
+                "tier": "established",
+                "source": "all"
+              },
+              {
+                "lab": "Labcorp Genetics",
+                "specialty": "cancer",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.161Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:23:14.351Z",
-      "next_action": "Review MSH6: VUS → Conflicting in ClinVar",
+      "last_checked": "2026-09-25T21:33:46.943Z",
+      "next_action": "URGENT: review upgrade → contact patient",
       "gc_decisions": [],
       "history": []
     },
@@ -1192,7 +1377,7 @@
             "record_last_updated": "2026-09-22",
             "record_version": 3,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4292728/",
-            "last_checked": "2026-09-25T20:23:36.376Z",
+            "last_checked": "2026-09-25T21:33:52.542Z",
             "submissions": [
               {
                 "lab": "3billion",
@@ -1238,11 +1423,37 @@
             "extraction_status": "ok"
           },
           "classification_changed": true,
-          "watch_status": "active"
+          "watch_status": "waiting_on_gc",
+          "decision": {
+            "action": "flag_upgrade",
+            "reason": "URGENT: Labcorp Genetics (standard, neuro) now calls it Likely pathogenic [evidence: population data absent, functional evidence, insufficient evidence]; Blueprint Genetics (standard, neuro) now calls it Likely pathogenic [no evidence tags].",
+            "urgent": true,
+            "trust_snapshot": [
+              {
+                "lab": "3billion",
+                "specialty": "neuro",
+                "tier": "standard",
+                "source": "default"
+              },
+              {
+                "lab": "Labcorp Genetics (formerly Invitae), Labcorp",
+                "specialty": "neuro",
+                "tier": "standard",
+                "source": "default"
+              },
+              {
+                "lab": "Blueprint Genetics",
+                "specialty": "neuro",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.161Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:23:36.376Z",
-      "next_action": "Review SCN1A: VUS → Conflicting in ClinVar",
+      "last_checked": "2026-09-25T21:33:52.542Z",
+      "next_action": "URGENT: review upgrade → contact patient",
       "gc_decisions": [],
       "history": []
     },
@@ -1280,7 +1491,7 @@
             "record_last_updated": "2026-03-01",
             "record_version": 3,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3383606/",
-            "last_checked": "2026-09-25T20:23:54.822Z",
+            "last_checked": "2026-09-25T21:34:04.183Z",
             "submissions": [
               {
                 "lab": "GeneDx",
@@ -1309,11 +1520,31 @@
             "extraction_status": "ok"
           },
           "classification_changed": true,
-          "watch_status": "active"
+          "watch_status": "active",
+          "decision": {
+            "action": "hold",
+            "reason": "Held: only Labcorp Genetics (standard, neuro) changed; watching for established labs.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "GeneDx",
+                "specialty": "neuro",
+                "tier": "standard",
+                "source": "default"
+              },
+              {
+                "lab": "Labcorp Genetics (formerly Invitae), Labcorp",
+                "specialty": "neuro",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:23:54.822Z",
-      "next_action": "Review SCN1A: VUS → Conflicting in ClinVar",
+      "last_checked": "2026-09-25T21:34:04.183Z",
+      "next_action": "Watch for an established lab",
       "gc_decisions": [],
       "history": []
     },
@@ -1473,7 +1704,7 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4861518/",
-            "last_checked": "2026-09-25T20:24:18.617Z",
+            "last_checked": "2026-09-25T21:34:08.825Z",
             "submissions": [
               {
                 "lab": "Ambry Genetics",
@@ -1493,7 +1724,21 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2026-07-14.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Ambry Genetics",
+                "specialty": "cancer",
+                "tier": "established",
+                "source": "all"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         },
         {
           "gene": "PMS2",
@@ -1514,7 +1759,7 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4895206/",
-            "last_checked": "2026-09-25T20:24:32.733Z",
+            "last_checked": "2026-09-25T21:34:14.364Z",
             "submissions": [
               {
                 "lab": "Blueprint Genetics",
@@ -1531,10 +1776,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2026-07-14.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Blueprint Genetics",
+                "specialty": "cancer",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:24:32.733Z",
+      "last_checked": "2026-09-25T21:34:14.364Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1573,7 +1832,7 @@
             "record_last_updated": "2026-09-13",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4885370/",
-            "last_checked": "2026-09-25T20:24:50.158Z",
+            "last_checked": "2026-09-25T21:34:25.471Z",
             "submissions": [
               {
                 "lab": "Dasa",
@@ -1592,10 +1851,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2026-02-10.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Dasa",
+                "specialty": "cancer",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:24:50.158Z",
+      "last_checked": "2026-09-25T21:34:25.471Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1634,7 +1907,7 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4919646/",
-            "last_checked": "2026-09-25T20:25:00.556Z",
+            "last_checked": "2026-09-25T21:34:34.705Z",
             "submissions": [
               {
                 "lab": "Blueprint Genetics",
@@ -1651,10 +1924,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2019-09-25.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Blueprint Genetics",
+                "specialty": "cancer",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:25:00.556Z",
+      "last_checked": "2026-09-25T21:34:34.705Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1794,7 +2081,7 @@
             "record_last_updated": "2026-09-13",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4882466/",
-            "last_checked": "2026-09-25T20:25:18.309Z",
+            "last_checked": "2026-09-25T21:34:44.063Z",
             "submissions": [
               {
                 "lab": "Dasa",
@@ -1814,10 +2101,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2024-08-02.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Dasa",
+                "specialty": "neuro",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:25:18.309Z",
+      "last_checked": "2026-09-25T21:34:44.063Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1856,7 +2157,7 @@
             "record_last_updated": "2026-07-27",
             "record_version": 3,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3672027/",
-            "last_checked": "2026-09-25T20:25:46.969Z",
+            "last_checked": "2026-09-25T21:34:52.074Z",
             "submissions": [
               {
                 "lab": "Labcorp Genetics (formerly Invitae)",
@@ -1886,11 +2187,31 @@
             "extraction_status": "ok"
           },
           "classification_changed": true,
-          "watch_status": "active"
+          "watch_status": "active",
+          "decision": {
+            "action": "hold",
+            "reason": "Held: only Labcorp Genetics (standard, neuro) changed; watching for established labs.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Labcorp Genetics (formerly Invitae)",
+                "specialty": "neuro",
+                "tier": "standard",
+                "source": "default"
+              },
+              {
+                "lab": "Ambry Genetics",
+                "specialty": "neuro",
+                "tier": "established",
+                "source": "all"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:25:46.969Z",
-      "next_action": "Review GRIN2A: VUS → Conflicting in ClinVar",
+      "last_checked": "2026-09-25T21:34:52.074Z",
+      "next_action": "Watch for an established lab",
       "gc_decisions": [],
       "history": []
     },
@@ -1989,7 +2310,7 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4961793/",
-            "last_checked": "2026-09-25T20:26:00.378Z",
+            "last_checked": "2026-09-25T21:35:01.619Z",
             "submissions": [
               {
                 "lab": "Blueprint Genetics",
@@ -2006,10 +2327,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2020-01-31.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Blueprint Genetics",
+                "specialty": "cardio",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:26:00.378Z",
+      "last_checked": "2026-09-25T21:35:01.619Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -2088,7 +2423,7 @@
             "record_last_updated": "2026-09-13",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4886374/",
-            "last_checked": "2026-09-25T20:26:19.595Z",
+            "last_checked": "2026-09-25T21:35:12.469Z",
             "submissions": [
               {
                 "lab": "Dasa",
@@ -2108,10 +2443,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2021-09-28.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Dasa",
+                "specialty": "cancer",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:26:19.595Z",
+      "last_checked": "2026-09-25T21:35:12.469Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -2250,7 +2599,7 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4874234/",
-            "last_checked": "2026-09-25T20:26:41.139Z",
+            "last_checked": "2026-09-25T21:35:30.359Z",
             "submissions": [
               {
                 "lab": "CeGaT Center for Human Genetics Tuebingen",
@@ -2269,10 +2618,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2026-04-23.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "CeGaT Center for Human Genetics Tuebingen",
+                "specialty": "cardio",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:26:41.139Z",
+      "last_checked": "2026-09-25T21:35:30.359Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -2331,7 +2694,7 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4911569/",
-            "last_checked": "2026-09-25T20:26:55.538Z",
+            "last_checked": "2026-09-25T21:35:40.958Z",
             "submissions": [
               {
                 "lab": "Blueprint Genetics",
@@ -2348,10 +2711,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2025-05-22.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Blueprint Genetics",
+                "specialty": "cardio",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:26:55.538Z",
+      "last_checked": "2026-09-25T21:35:40.958Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -2613,7 +2990,7 @@
             "record_last_updated": "2026-06-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4856779/",
-            "last_checked": "2026-09-25T20:27:13.155Z",
+            "last_checked": "2026-09-25T21:35:49.772Z",
             "submissions": [
               {
                 "lab": "Myriad Genetics, Inc.",
@@ -2632,11 +3009,25 @@
             "extraction_status": "ok"
           },
           "classification_changed": true,
-          "watch_status": "active"
+          "watch_status": "waiting_on_gc",
+          "decision": {
+            "action": "flag_upgrade",
+            "reason": "URGENT: Myriad Genetics (established, cancer) now calls it Pathogenic [evidence: segregation evidence].",
+            "urgent": true,
+            "trust_snapshot": [
+              {
+                "lab": "Myriad Genetics, Inc.",
+                "specialty": "cancer",
+                "tier": "established",
+                "source": "all"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:27:13.155Z",
-      "next_action": "Review MLH1: VUS → P/LP in ClinVar",
+      "last_checked": "2026-09-25T21:35:49.772Z",
+      "next_action": "URGENT: review upgrade → contact patient",
       "gc_decisions": [],
       "history": []
     },
@@ -2674,7 +3065,7 @@
             "record_last_updated": "2026-04-13",
             "record_version": 2,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3413465/",
-            "last_checked": "2026-09-25T20:27:26.022Z",
+            "last_checked": "2026-09-25T21:35:57.503Z",
             "submissions": [
               {
                 "lab": "Ambry Genetics",
@@ -2707,11 +3098,31 @@
             "extraction_status": "ok"
           },
           "classification_changed": true,
-          "watch_status": "active"
+          "watch_status": "active",
+          "decision": {
+            "action": "hold",
+            "reason": "Held: only Institute for Biomarker Research, Medical Diagnostic Laboratories (standard, cancer) changed; watching for established labs.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Ambry Genetics",
+                "specialty": "cancer",
+                "tier": "established",
+                "source": "all"
+              },
+              {
+                "lab": "Institute for Biomarker Research, Medical Diagnostic Laboratories, L.L.C.",
+                "specialty": "cancer",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:27:26.022Z",
-      "next_action": "Review PALB2: VUS → Conflicting in ClinVar",
+      "last_checked": "2026-09-25T21:35:57.503Z",
+      "next_action": "Watch for an established lab",
       "gc_decisions": [],
       "history": []
     },
@@ -2769,7 +3180,7 @@
             "record_last_updated": "2026-08-16",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4884318/",
-            "last_checked": "2026-09-25T20:27:42.757Z",
+            "last_checked": "2026-09-25T21:36:06.672Z",
             "submissions": [
               {
                 "lab": "Clinical Genetics, Tokyo Medical University",
@@ -2791,11 +3202,25 @@
             "extraction_status": "ok"
           },
           "classification_changed": true,
-          "watch_status": "active"
+          "watch_status": "waiting_on_gc",
+          "decision": {
+            "action": "flag_upgrade",
+            "reason": "URGENT: Clinical Genetics, Tokyo Medical University (standard, cardio) now calls it Pathogenic [evidence: population data absent, segregation evidence, computational evidence, case observations].",
+            "urgent": true,
+            "trust_snapshot": [
+              {
+                "lab": "Clinical Genetics, Tokyo Medical University",
+                "specialty": "cardio",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:27:42.757Z",
-      "next_action": "Review MYH7: VUS → P/LP in ClinVar",
+      "last_checked": "2026-09-25T21:36:06.672Z",
+      "next_action": "URGENT: review upgrade → contact patient",
       "gc_decisions": [],
       "history": []
     },
@@ -2853,7 +3278,7 @@
             "record_last_updated": "2026-02-25",
             "record_version": 5,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/2903685/",
-            "last_checked": "2026-09-25T20:27:54.762Z",
+            "last_checked": "2026-09-25T21:36:15.268Z",
             "submissions": [
               {
                 "lab": "All of Us Research Program, National Institutes of Health",
@@ -2898,11 +3323,37 @@
             "extraction_status": "ok"
           },
           "classification_changed": true,
-          "watch_status": "active"
+          "watch_status": "active",
+          "decision": {
+            "action": "hold",
+            "reason": "Held: only Labcorp Genetics (standard, cardio) changed; watching for established labs.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "All of Us Research Program, National Institutes of Health",
+                "specialty": "cardio",
+                "tier": "standard",
+                "source": "default"
+              },
+              {
+                "lab": "Color Diagnostics, LLC DBA Color Health",
+                "specialty": "cardio",
+                "tier": "standard",
+                "source": "default"
+              },
+              {
+                "lab": "Labcorp Genetics (formerly Invitae), Labcorp",
+                "specialty": "cardio",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:27:54.762Z",
-      "next_action": "Review SCN5A: VUS → Conflicting in ClinVar",
+      "last_checked": "2026-09-25T21:36:15.268Z",
+      "next_action": "Watch for an established lab",
       "gc_decisions": [],
       "history": []
     },
@@ -3000,7 +3451,7 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4949071/",
-            "last_checked": "2026-09-25T20:28:24.024Z",
+            "last_checked": "2026-09-25T21:36:21.631Z",
             "submissions": [
               {
                 "lab": "Blueprint Genetics",
@@ -3017,7 +3468,21 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2024-01-30.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Blueprint Genetics",
+                "specialty": "neuro",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         },
         {
           "gene": "GRIN2A",
@@ -3038,7 +3503,7 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4928540/",
-            "last_checked": "2026-09-25T20:29:08.022Z",
+            "last_checked": "2026-09-25T21:36:32.474Z",
             "submissions": [
               {
                 "lab": "Blueprint Genetics",
@@ -3055,10 +3520,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2024-01-30.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Blueprint Genetics",
+                "specialty": "neuro",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:29:08.022Z",
+      "last_checked": "2026-09-25T21:36:32.474Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3237,7 +3716,7 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4868937/",
-            "last_checked": "2026-09-25T20:29:26.621Z",
+            "last_checked": "2026-09-25T21:36:44.289Z",
             "submissions": [
               {
                 "lab": "Ambry Genetics",
@@ -3256,10 +3735,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2019-01-29.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Ambry Genetics",
+                "specialty": "cancer",
+                "tier": "established",
+                "source": "all"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:29:26.621Z",
+      "last_checked": "2026-09-25T21:36:44.289Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3358,7 +3851,7 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4919643/",
-            "last_checked": "2026-09-25T20:29:47.884Z",
+            "last_checked": "2026-09-25T21:36:51.227Z",
             "submissions": [
               {
                 "lab": "Blueprint Genetics",
@@ -3375,10 +3868,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2024-08-17.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Blueprint Genetics",
+                "specialty": "cancer",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:29:47.884Z",
+      "last_checked": "2026-09-25T21:36:51.227Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3559,7 +4066,7 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4928535/",
-            "last_checked": "2026-09-25T20:29:58.146Z",
+            "last_checked": "2026-09-25T21:36:59.910Z",
             "submissions": [
               {
                 "lab": "Blueprint Genetics",
@@ -3576,7 +4083,21 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2023-06-06.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Blueprint Genetics",
+                "specialty": "neuro",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         },
         {
           "gene": "SCN1A",
@@ -3597,7 +4118,7 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4957498/",
-            "last_checked": "2026-09-25T20:30:15.532Z",
+            "last_checked": "2026-09-25T21:37:06.516Z",
             "submissions": [
               {
                 "lab": "Blueprint Genetics",
@@ -3614,10 +4135,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2023-06-06.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Blueprint Genetics",
+                "specialty": "neuro",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:30:15.532Z",
+      "last_checked": "2026-09-25T21:37:06.516Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3736,7 +4271,7 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4928536/",
-            "last_checked": "2026-09-25T20:30:42.630Z",
+            "last_checked": "2026-09-25T21:37:13.138Z",
             "submissions": [
               {
                 "lab": "Blueprint Genetics",
@@ -3753,10 +4288,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2025-08-12.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Blueprint Genetics",
+                "specialty": "neuro",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:30:42.630Z",
+      "last_checked": "2026-09-25T21:37:13.138Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3876,7 +4425,7 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4910307/",
-            "last_checked": "2026-09-25T20:30:52.671Z",
+            "last_checked": "2026-09-25T21:37:17.031Z",
             "submissions": [
               {
                 "lab": "Blueprint Genetics",
@@ -3893,10 +4442,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2025-03-21.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Blueprint Genetics",
+                "specialty": "cardio",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:30:52.671Z",
+      "last_checked": "2026-09-25T21:37:17.031Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -4117,7 +4680,7 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4957489/",
-            "last_checked": "2026-09-25T20:31:04.597Z",
+            "last_checked": "2026-09-25T21:37:23.219Z",
             "submissions": [
               {
                 "lab": "Blueprint Genetics",
@@ -4134,10 +4697,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2022-02-10.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Blueprint Genetics",
+                "specialty": "neuro",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:31:04.597Z",
+      "last_checked": "2026-09-25T21:37:23.219Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -4176,7 +4753,7 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4860123/",
-            "last_checked": "2026-09-25T20:31:25.088Z",
+            "last_checked": "2026-09-25T21:37:30.463Z",
             "submissions": [
               {
                 "lab": "Ambry Genetics",
@@ -4195,10 +4772,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2024-04-22.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Ambry Genetics",
+                "specialty": "cancer",
+                "tier": "established",
+                "source": "all"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:31:25.088Z",
+      "last_checked": "2026-09-25T21:37:30.463Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -4277,7 +4868,7 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4860308/",
-            "last_checked": "2026-09-25T20:31:42.953Z",
+            "last_checked": "2026-09-25T21:37:38.769Z",
             "submissions": [
               {
                 "lab": "Ambry Genetics",
@@ -4297,10 +4888,24 @@
             "extraction_status": "ok"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2021-03-07.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Ambry Genetics",
+                "specialty": "cancer",
+                "tier": "established",
+                "source": "all"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:31:42.953Z",
+      "last_checked": "2026-09-25T21:37:38.769Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -4399,14 +5004,41 @@
             "record_last_updated": "2026-09-22",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4921250/",
-            "last_checked": "2026-09-25T20:31:57.342Z",
-            "extraction_status": "failed"
+            "last_checked": "2026-09-25T21:37:53.926Z",
+            "extraction_status": "ok",
+            "submissions": [
+              {
+                "lab": "Blueprint Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2024-11-26",
+                "first_in_clinvar": "2026-09-22",
+                "scv_accession": "SCV007787961.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": null,
+                "evidence_tags": []
+              }
+            ],
+            "submissions_summary": "Blueprint: VUS (2024-11-26)"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2020-09-12.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Blueprint Genetics",
+                "specialty": "cardio",
+                "tier": "standard",
+                "source": "default"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:31:57.342Z",
+      "last_checked": "2026-09-25T21:37:53.926Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -4445,29 +5077,65 @@
             "record_last_updated": "2026-07-27",
             "record_version": 1,
             "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4867750/",
-            "last_checked": "2026-09-25T20:33:05.763Z",
-            "extraction_status": "failed"
+            "last_checked": "2026-09-25T21:38:05.534Z",
+            "extraction_status": "ok",
+            "submissions": [
+              {
+                "lab": "Ambry Genetics",
+                "classification": "Uncertain significance",
+                "last_evaluated": "2026-06-09",
+                "first_in_clinvar": "2026-07-19",
+                "scv_accession": "SCV007626186.1",
+                "review_status": "criteria provided, single submitter",
+                "condition": "Hereditary cancer-predisposing syndrome",
+                "evidence_tags": [
+                  "computational_evidence"
+                ]
+              }
+            ],
+            "submissions_summary": "Ambry: VUS (2026-06-09)"
           },
           "classification_changed": false,
-          "watch_status": "quiet"
+          "watch_status": "quiet",
+          "decision": {
+            "action": "quiet",
+            "reason": "No change since 2023-09-17.",
+            "urgent": false,
+            "trust_snapshot": [
+              {
+                "lab": "Ambry Genetics",
+                "specialty": "cancer",
+                "tier": "established",
+                "source": "all"
+              }
+            ],
+            "decided_at": "2026-09-25T21:38:19.162Z"
+          }
         }
       ],
-      "last_checked": "2026-09-25T20:33:05.763Z",
+      "last_checked": "2026-09-25T21:38:05.534Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     }
   ],
   "last_cycle": {
-    "cycle": 2,
-    "started_at": "2026-09-25T20:19:21.133Z",
-    "finished_at": "2026-09-25T20:34:07.141Z",
+    "cycle": 3,
+    "started_at": "2026-09-25T21:32:11.888Z",
+    "finished_at": "2026-09-25T21:38:19.163Z",
     "fetched": 41,
     "unchanged": 41,
     "changed": 0,
     "failed": 0,
-    "liquid_ok": 38,
-    "liquid_failed": 3,
-    "liquid_cached": 0
+    "liquid_ok": 2,
+    "liquid_failed": 1,
+    "liquid_cached": 38,
+    "actions": {
+      "quiet": 29,
+      "flag_downgrade": 2,
+      "hold": 5,
+      "recheck": 1,
+      "flag_upgrade": 4
+    }
   }
 }

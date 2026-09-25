@@ -19,5 +19,5 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["vite.config.ts", "src/agent", "scripts/run-cycle.ts"]
+  "include": ["vite.config.ts", "src/agent", "src/server", "scripts/run-cycle.ts"]
 }
