@@ -16,33 +16,33 @@ import { fileURLToPath } from 'node:url'
 import type { Caseload, Variant } from '../types.ts'
 import { isBenignReclassification, letterImagePath, proteinPosition } from '../lib/letters.ts'
 
-const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..')
+export const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..', '..')
 const OUT_DIR = join(ROOT, 'public', 'letters')
 const ENDPOINT = 'https://api.bfl.ai/v1/flux-2-pro'
 const WIDTH = 1536 // 16:9, multiples of 16
 const HEIGHT = 864
-const POLL_MS = 1500
+export const POLL_MS = 1500
 const TIMEOUT_MS = 3 * 60 * 1000
-const PENDING = new Set(['Pending', 'Reasoning', 'Generating'])
+export const PENDING = new Set(['Pending', 'Reasoning', 'Generating'])
 const CHROME = process.env.CHROME_PATH ?? '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
 
 // Drawings are 2:1 so the before/after fills the frame; FLUX edits keep the input's size.
-const DRAW_W = 1536
-const DRAW_H = 768
+export const DRAW_W = 1536
+export const DRAW_H = 768
 const CARD_W = 672
 const CARDS = [
   { x: 48, tint: '#fdf0dc' }, // then: uncertain
   { x: DRAW_W - 48 - CARD_W, tint: '#e3f3ea' }, // now: benign / likely benign
 ]
-const HELIX_PAD = 56
+export const HELIX_PAD = 56
 const HELIX_Y = 480
 const HELIX_AMP = 70
 const HELIX_WAVE = 205
-const MARK_Y = 210
+export const MARK_Y = 210
 
 /** A DNA double helix across one card; the variant's rung at `frac` is drawn in `color`. */
-function helix(x0: number, frac: number, color: string): { svg: string; rungTop: number; rungX: number } {
-  const len = CARD_W - 2 * HELIX_PAD
+export function helix(x0: number, frac: number, color: string, width = CARD_W): { svg: string; rungTop: number; rungX: number } {
+  const len = width - 2 * HELIX_PAD
   const left = x0 + HELIX_PAD
   const yA = (x: number) => HELIX_Y + HELIX_AMP * Math.sin((2 * Math.PI * (x - left)) / HELIX_WAVE)
   const yB = (x: number) => 2 * HELIX_Y - yA(x)
@@ -64,17 +64,17 @@ function helix(x0: number, frac: number, color: string): { svg: string; rungTop:
 }
 
 /** A marker pinned above the variant's rung, with `symbol` drawn as white strokes on it. */
-function pin(x: number, rungTop: number, color: string, symbol: (cx: number, cy: number) => string): string {
+export function pin(x: number, rungTop: number, color: string, symbol: (cx: number, cy: number) => string): string {
   return `<line x1="${x}" y1="${MARK_Y + 72}" x2="${x}" y2="${rungTop}" stroke="${color}" stroke-width="7" stroke-linecap="round"/>
 <circle cx="${x}" cy="${MARK_Y}" r="72" fill="${color}"/>
 ${symbol(x, MARK_Y)}`
 }
 
-const question = (cx: number, cy: number) =>
+export const question = (cx: number, cy: number) =>
   `<path d="M ${cx - 22} ${cy - 18} C ${cx - 22} ${cy - 50} ${cx + 25} ${cy - 50} ${cx + 25} ${cy - 18} C ${cx + 25} ${cy} ${cx} ${cy + 2} ${cx} ${cy + 16}" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round"/>
 <circle cx="${cx}" cy="${cy + 38}" r="8" fill="#fff"/>`
 
-const check = (cx: number, cy: number) =>
+export const check = (cx: number, cy: number) =>
   `<path d="M ${cx - 30} ${cy + 2} L ${cx - 8} ${cy + 25} L ${cx + 32} ${cy - 22}" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>`
 
 /**
@@ -115,7 +115,7 @@ const EDIT_PROMPT = [
 ].join(' ')
 
 /** Renders the SVG to PNG with headless Chrome (no image libraries in this repo). */
-function rasterize(svg: string, out: string) {
+export function rasterize(svg: string, out: string) {
   const svgPath = out.replace(/\.png$/, '.svg')
   mkdirSync(dirname(out), { recursive: true })
   writeFileSync(svgPath, svg)
@@ -150,9 +150,9 @@ export async function generateLetterImage(apiKey: string, v: Variant, out: strin
   return result
 }
 
-const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
+export const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
-async function httpError(res: Response): Promise<Error> {
+export async function httpError(res: Response): Promise<Error> {
   const body = await res.text().catch(() => '')
   if (res.status === 402) return new Error('402 Insufficient credits: check your BFL balance')
   if (res.status === 401 || res.status === 403) return new Error(`${res.status}: BFL_API_KEY rejected. ${body}`)
