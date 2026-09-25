@@ -124,6 +124,8 @@ export interface CycleSummary {
   liquid_failed?: number
   liquid_cached?: number
   actions?: Partial<Record<DecisionAction, number>>
+  /** Set when the cycle ran on one Variation ID (--variant) instead of the whole caseload */
+  variant_filter?: string
 }
 
 export interface Patient {

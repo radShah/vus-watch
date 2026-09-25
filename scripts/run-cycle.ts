@@ -5,9 +5,11 @@
  * events.
  *
  * Run: npm run cycle
+ *      npm run cycle -- --variant 3672027   (one Variation ID and the cases that carry it)
  */
 import { readFileSync, renameSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
+import { parseArgs } from 'node:util'
 import { fileURLToPath } from 'node:url'
 import { applyDecision, decide, nextAction } from '../src/agent/decide.ts'
 import { appendEvents } from '../src/agent/events.ts'
@@ -84,6 +86,9 @@ async function fetchWithRetry(id: string): Promise<ClinvarRecord> {
 }
 
 async function main() {
+  const { variant: only } = parseArgs({ options: { variant: { type: 'string' } } }).values
+  if (only !== undefined && !/^\d+$/.test(only)) throw new Error(`--variant must be a numeric ClinVar Variation ID, got "${only}"`)
+  const wanted = only ?? REQUIRED_ID
   const caseload = JSON.parse(readFileSync(CASELOAD, 'utf8')) as Caseload
   const prefs = loadPrefs()
   const cycle = (caseload.last_cycle?.cycle ?? 0) + 1
@@ -93,18 +98,18 @@ async function main() {
   const targets = new Map<string, { patient: Patient; variant: Variant }[]>()
   for (const patient of caseload.patients)
     for (const variant of patient.variants)
-      if (inScope(variant)) {
+      if (only ? variant.clinvar.variation_id === only : inScope(variant)) {
         const id = variant.clinvar.variation_id
         targets.set(id, [...(targets.get(id) ?? []), { patient, variant }])
       }
-  if (!targets.has(REQUIRED_ID)) console.warn(`No case carries ${REQUIRED_ID}; fetching it anyway.`)
-  targets.set(REQUIRED_ID, targets.get(REQUIRED_ID) ?? [])
+  if (!targets.has(wanted)) console.warn(`No case carries ${wanted}; fetching it anyway.`)
+  targets.set(wanted, targets.get(wanted) ?? [])
 
   const events: CycleEvent[] = []
   const counts = { fetched: 0, unchanged: 0, changed: 0, failed: 0, liquid_ok: 0, liquid_failed: 0, liquid_cached: 0 }
   const records = new Map<string, ClinvarRecord>()
   const ids = [...targets.keys()]
-  console.log(`Cycle ${cycle}: ${ids.length} variants across ${new Set([...targets.values()].flat().map((t) => t.patient.id)).size} cases`)
+  console.log(`Cycle ${cycle}${only ? ` (--variant ${only})` : ''}: ${ids.length} variants across ${new Set([...targets.values()].flat().map((t) => t.patient.id)).size} cases`)
 
   for (const [i, id] of ids.entries()) {
     if (i) await sleep(DELAY_MS)
@@ -239,7 +244,7 @@ async function main() {
     }
   for (const patient of decidedPatients) patient.next_action = nextAction(patient) ?? patient.next_action
 
-  caseload.last_cycle = { cycle, started_at, finished_at: new Date().toISOString(), ...counts, actions }
+  caseload.last_cycle = { cycle, started_at, finished_at: new Date().toISOString(), ...counts, actions, ...(only && { variant_filter: only }) }
 
   appendEvents(events)
   const tmp = `${CASELOAD}.tmp`
@@ -253,10 +258,13 @@ async function main() {
   console.log(`Liquid extraction: ${counts.liquid_ok} extracted OK · ${counts.liquid_failed} failed · ${counts.liquid_cached} from cache`)
   console.log(`Parser path: ${paths.filter((p) => p === 'nimble_parser').length} nimble_parser, ${paths.filter((p) => p === 'local_parser').length} local_parser`)
   console.log(`Decisions: ${Object.entries(actions).map(([a, n]) => `${n} ${a}`).join(' · ')}`)
-  const req = records.get(REQUIRED_ID)
+  if (only)
+    for (const { patient, variant } of targets.get(only)!)
+      console.log(`  ${patient.id}  ${variant.decision?.action}  ${variant.decision?.reason}`)
+  const req = records.get(wanted)
   if (req) {
     const { raw_path: _raw, ...shown } = req
-    console.log(`\n${REQUIRED_ID} normalized:\n${JSON.stringify(shown, null, 2)}`)
+    console.log(`\n${wanted} normalized:\n${JSON.stringify(shown, null, 2)}`)
   }
 }
 
