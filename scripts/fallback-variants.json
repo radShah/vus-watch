@@ -1,0 +1,5564 @@
+[
+  {
+    "variation_id": "4935334",
+    "accession": "VCV004935334",
+    "title": "NM_007294.4(BRCA1):c.367T>C (p.Ser123Pro)",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-04-26"
+  },
+  {
+    "variation_id": "4935330",
+    "accession": "VCV004935330",
+    "title": "NM_007294.4(BRCA1):c.664A>C (p.Lys222Gln)",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-03-26"
+  },
+  {
+    "variation_id": "4935329",
+    "accession": "VCV004935329",
+    "title": "NM_007294.4(BRCA1):c.860_862del (p.Asn287del)",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-12-22"
+  },
+  {
+    "variation_id": "4935325",
+    "accession": "VCV004935325",
+    "title": "NM_007294.4(BRCA1):c.1709C>G (p.Pro570Arg)",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-02-15"
+  },
+  {
+    "variation_id": "4935324",
+    "accession": "VCV004935324",
+    "title": "NM_007294.4(BRCA1):c.1984C>A (p.His662Asn)",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-05-04"
+  },
+  {
+    "variation_id": "4935323",
+    "accession": "VCV004935323",
+    "title": "NM_007294.4(BRCA1):c.2128A>C (p.Thr710Pro)",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-02-13"
+  },
+  {
+    "variation_id": "4935322",
+    "accession": "VCV004935322",
+    "title": "NM_007294.4(BRCA1):c.2313G>C (p.Leu771Phe)",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2019-04-25"
+  },
+  {
+    "variation_id": "4935315",
+    "accession": "VCV004935315",
+    "title": "NM_007294.4(BRCA1):c.4358-2728AT[2]",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-12-15"
+  },
+  {
+    "variation_id": "4935314",
+    "accession": "VCV004935314",
+    "title": "NM_007294.4(BRCA1):c.4358-2733_4358-2720del",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-08-16"
+  },
+  {
+    "variation_id": "4935306",
+    "accession": "VCV004935306",
+    "title": "NM_007294.4(BRCA1):c.*88C>T",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-11-13"
+  },
+  {
+    "variation_id": "4935304",
+    "accession": "VCV004935304",
+    "title": "NM_007294.4(BRCA1):c.*732C>T",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-02-08"
+  },
+  {
+    "variation_id": "4883931",
+    "accession": "VCV004883931",
+    "title": "NM_007294.4(BRCA1):c.5152+6del",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-04-24"
+  },
+  {
+    "variation_id": "4883316",
+    "accession": "VCV004883316",
+    "title": "NM_007294.4(BRCA1):c.3306T>A (p.Asn1102Lys)",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-05-20"
+  },
+  {
+    "variation_id": "4883311",
+    "accession": "VCV004883311",
+    "title": "NM_007294.4(BRCA1):c.4210C>A (p.Leu1404Met)",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-03-10"
+  },
+  {
+    "variation_id": "4880486",
+    "accession": "VCV004880486",
+    "title": "NM_007294.4(BRCA1):c.5246_5248del (p.Pro1749_Lys1750delinsGln)",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-07-14"
+  },
+  {
+    "variation_id": "4867750",
+    "accession": "VCV004867750",
+    "title": "NM_007294.4(BRCA1):c.3909G>C (p.Leu1303Phe)",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-09"
+  },
+  {
+    "variation_id": "4867749",
+    "accession": "VCV004867749",
+    "title": "NM_007294.4(BRCA1):c.4121G>C (p.Ser1374Thr)",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-08"
+  },
+  {
+    "variation_id": "4867747",
+    "accession": "VCV004867747",
+    "title": "NM_007294.4(BRCA1):c.4500A>C (p.Lys1500Asn)",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-02"
+  },
+  {
+    "variation_id": "4867746",
+    "accession": "VCV004867746",
+    "title": "NM_007294.4(BRCA1):c.2954C>A (p.Pro985His)",
+    "gene": "BRCA1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-30"
+  },
+  {
+    "variation_id": "4890871",
+    "accession": "VCV004890871",
+    "title": "NM_007294.4(BRCA1):c.5075-1585_5194-2201dup",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-07-03"
+  },
+  {
+    "variation_id": "4890846",
+    "accession": "VCV004890846",
+    "title": "NM_007294.4(BRCA1):c.4587dup (p.Lys1530Ter)",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-07-15"
+  },
+  {
+    "variation_id": "4884209",
+    "accession": "VCV004884209",
+    "title": "NM_007294.4(BRCA1):c.241_256del (p.Gln81fs)",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-05-01"
+  },
+  {
+    "variation_id": "4882953",
+    "accession": "VCV004882953",
+    "title": "NM_007294.4(BRCA1):c.726_727del (p.Ser242fs)",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-07-25"
+  },
+  {
+    "variation_id": "4876137",
+    "accession": "VCV004876137",
+    "title": "NM_007294.4(BRCA1):c.451del (p.Ser151fs)",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-12"
+  },
+  {
+    "variation_id": "4876067",
+    "accession": "VCV004876067",
+    "title": "NM_007294.4(BRCA1):c.1014_1015delinsT (p.Lys338fs)",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-30"
+  },
+  {
+    "variation_id": "4876022",
+    "accession": "VCV004876022",
+    "title": "NM_007294.4(BRCA1):c.1611_1612delinsAAA (p.Asn537fs)",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-23"
+  },
+  {
+    "variation_id": "4876014",
+    "accession": "VCV004876014",
+    "title": "NM_007294.4(BRCA1):c.4698_4699del (p.Gly1567fs)",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-21"
+  },
+  {
+    "variation_id": "4876004",
+    "accession": "VCV004876004",
+    "title": "NM_007294.4(BRCA1):c.834_840del (p.His279fs)",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-16"
+  },
+  {
+    "variation_id": "4875788",
+    "accession": "VCV004875788",
+    "title": "NM_007294.4(BRCA1):c.1699_1700del (p.Asn567fs)",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "last_evaluated": "2026-06-01"
+  },
+  {
+    "variation_id": "4871869",
+    "accession": "VCV004871869",
+    "title": "NM_007294.4(BRCA1):c.2850_2851del (p.Arg951fs)",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-22"
+  },
+  {
+    "variation_id": "4871826",
+    "accession": "VCV004871826",
+    "title": "NM_007294.4(BRCA1):c.3504dup (p.Asp1169Ter)",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-12-10"
+  },
+  {
+    "variation_id": "4871825",
+    "accession": "VCV004871825",
+    "title": "NM_007294.4(BRCA1):c.2849dup (p.Ser950_Arg951insTer)",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-12-10"
+  },
+  {
+    "variation_id": "4867744",
+    "accession": "VCV004867744",
+    "title": "NM_007294.4(BRCA1):c.2255T>G (p.Leu752Ter)",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-28"
+  },
+  {
+    "variation_id": "4867740",
+    "accession": "VCV004867740",
+    "title": "NM_007294.4(BRCA1):c.2558_2559delinsCAA (p.Asp853fs)",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-20"
+  },
+  {
+    "variation_id": "4867720",
+    "accession": "VCV004867720",
+    "title": "NM_007294.4(BRCA1):c.2376_2377insTA (p.Lys793Ter)",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-21"
+  },
+  {
+    "variation_id": "4867719",
+    "accession": "VCV004867719",
+    "title": "NM_007294.4(BRCA1):c.1560del (p.Ala521fs)",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-14"
+  },
+  {
+    "variation_id": "4867714",
+    "accession": "VCV004867714",
+    "title": "NM_007294.4(BRCA1):c.807dup (p.His270fs)",
+    "gene": "BRCA1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-22"
+  },
+  {
+    "variation_id": "4919695",
+    "accession": "VCV004919695",
+    "title": "NM_000059.4(BRCA2):c.9028C>A (p.His3010Asn)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-10-07"
+  },
+  {
+    "variation_id": "4919690",
+    "accession": "VCV004919690",
+    "title": "NM_000059.4(BRCA2):c.8811T>A (p.Asn2937Lys)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-04-19"
+  },
+  {
+    "variation_id": "4919688",
+    "accession": "VCV004919688",
+    "title": "NM_000059.4(BRCA2):c.8487G>A (p.Gln2829=)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-10-14"
+  },
+  {
+    "variation_id": "4919686",
+    "accession": "VCV004919686",
+    "title": "NM_000059.4(BRCA2):c.8287G>A (p.Asp2763Asn)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-05-22"
+  },
+  {
+    "variation_id": "4919684",
+    "accession": "VCV004919684",
+    "title": "NM_000059.4(BRCA2):c.7977-3T>C",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-08-04"
+  },
+  {
+    "variation_id": "4919683",
+    "accession": "VCV004919683",
+    "title": "NM_000059.4(BRCA2):c.7688A>G (p.His2563Arg)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-08-16"
+  },
+  {
+    "variation_id": "4919678",
+    "accession": "VCV004919678",
+    "title": "NM_000059.4(BRCA2):c.7008-11C>A",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-03-28"
+  },
+  {
+    "variation_id": "4919668",
+    "accession": "VCV004919668",
+    "title": "NM_000059.4(BRCA2):c.5138A>G (p.Asn1713Ser)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-09-02"
+  },
+  {
+    "variation_id": "4919666",
+    "accession": "VCV004919666",
+    "title": "NM_000059.4(BRCA2):c.4756A>C (p.Thr1586Pro)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2018-02-26"
+  },
+  {
+    "variation_id": "4919663",
+    "accession": "VCV004919663",
+    "title": "NM_000059.4(BRCA2):c.4081C>A (p.Gln1361Lys)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-08-23"
+  },
+  {
+    "variation_id": "4919657",
+    "accession": "VCV004919657",
+    "title": "NM_000059.4(BRCA2):c.3062A>G (p.Glu1021Gly)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-03-27"
+  },
+  {
+    "variation_id": "4919654",
+    "accession": "VCV004919654",
+    "title": "NM_000059.4(BRCA2):c.2117C>T (p.Ala706Val)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2018-07-27"
+  },
+  {
+    "variation_id": "4919653",
+    "accession": "VCV004919653",
+    "title": "NM_000059.4(BRCA2):c.2068G>A (p.Glu690Lys)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2019-09-17"
+  },
+  {
+    "variation_id": "4919650",
+    "accession": "VCV004919650",
+    "title": "NM_000059.4(BRCA2):c.1420C>G (p.Leu474Val)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-01-08"
+  },
+  {
+    "variation_id": "4919646",
+    "accession": "VCV004919646",
+    "title": "NM_000059.4(BRCA2):c.1099G>T (p.Asp367Tyr)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-05-28"
+  },
+  {
+    "variation_id": "4919644",
+    "accession": "VCV004919644",
+    "title": "NM_000059.4(BRCA2):c.423A>C (p.Glu141Asp)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-06-14"
+  },
+  {
+    "variation_id": "4919643",
+    "accession": "VCV004919643",
+    "title": "NM_000059.4(BRCA2):c.329C>G (p.Pro110Arg)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-01-12"
+  },
+  {
+    "variation_id": "4887945",
+    "accession": "VCV004887945",
+    "title": "NM_000059.4(BRCA2):c.5078T>C (p.Leu1693Pro)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-02-23"
+  },
+  {
+    "variation_id": "4885790",
+    "accession": "VCV004885790",
+    "title": "NM_000059.4(BRCA2):c.7187T>G (p.Leu2396Trp)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-10-13"
+  },
+  {
+    "variation_id": "4882924",
+    "accession": "VCV004882924",
+    "title": "NM_000059.4(BRCA2):c.3151T>G (p.Leu1051Val)",
+    "gene": "BRCA2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-12-16"
+  },
+  {
+    "variation_id": "4856498",
+    "accession": "VCV004856498",
+    "title": "NM_000059.4(BRCA2):c.2627A>C (p.Asn876Thr)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-05-01"
+  },
+  {
+    "variation_id": "4842958",
+    "accession": "VCV004842958",
+    "title": "NM_000059.4(BRCA2):c.2351T>C (p.Met784Thr)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-05-01"
+  },
+  {
+    "variation_id": "4802329",
+    "accession": "VCV004802329",
+    "title": "NM_000059.4(BRCA2):c.6687A>C (p.Glu2229Asp)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-05-01"
+  },
+  {
+    "variation_id": "4698460",
+    "accession": "VCV004698460",
+    "title": "NM_000059.4(BRCA2):c.4463A>C (p.His1488Pro)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-05-12"
+  },
+  {
+    "variation_id": "4628944",
+    "accession": "VCV004628944",
+    "title": "NM_000059.4(BRCA2):c.6373A>G (p.Thr2125Ala)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-10-31"
+  },
+  {
+    "variation_id": "4628787",
+    "accession": "VCV004628787",
+    "title": "NM_000059.4(BRCA2):c.125A>T (p.Tyr42Phe)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-01-19"
+  },
+  {
+    "variation_id": "4625915",
+    "accession": "VCV004625915",
+    "title": "NM_000059.4(BRCA2):c.4226T>C (p.Leu1409Ser)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-12-10"
+  },
+  {
+    "variation_id": "4215652",
+    "accession": "VCV004215652",
+    "title": "NM_000059.4(BRCA2):c.8865T>G (p.Ala2955=)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-10-09"
+  },
+  {
+    "variation_id": "3992811",
+    "accession": "VCV003992811",
+    "title": "NM_000059.4(BRCA2):c.7295G>A (p.Arg2432Lys)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-05-13"
+  },
+  {
+    "variation_id": "3992791",
+    "accession": "VCV003992791",
+    "title": "NM_000059.4(BRCA2):c.6T>G (p.Pro2=)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-04-05"
+  },
+  {
+    "variation_id": "3992773",
+    "accession": "VCV003992773",
+    "title": "NM_000059.4(BRCA2):c.8734G>C (p.Ala2912Pro)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-04-09"
+  },
+  {
+    "variation_id": "3992703",
+    "accession": "VCV003992703",
+    "title": "NM_000059.4(BRCA2):c.4268C>A (p.Thr1423Asn)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-12-29"
+  },
+  {
+    "variation_id": "3900119",
+    "accession": "VCV003900119",
+    "title": "NM_000059.4(BRCA2):c.540T>A (p.Ile180=)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-01-20"
+  },
+  {
+    "variation_id": "3895877",
+    "accession": "VCV003895877",
+    "title": "NM_000059.4(BRCA2):c.4707C>T (p.Tyr1569=)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-12-10"
+  },
+  {
+    "variation_id": "3894365",
+    "accession": "VCV003894365",
+    "title": "NM_000059.4(BRCA2):c.9374T>C (p.Leu3125Pro)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-07-21"
+  },
+  {
+    "variation_id": "3825341",
+    "accession": "VCV003825341",
+    "title": "NM_000059.4(BRCA2):c.1256G>A (p.Cys419Tyr)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-05-18"
+  },
+  {
+    "variation_id": "3779421",
+    "accession": "VCV003779421",
+    "title": "NM_000059.4(BRCA2):c.3471G>A (p.Glu1157=)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-09-13"
+  },
+  {
+    "variation_id": "3774435",
+    "accession": "VCV003774435",
+    "title": "NM_000059.4(BRCA2):c.2491G>T (p.Val831Phe)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-07-31"
+  },
+  {
+    "variation_id": "3765269",
+    "accession": "VCV003765269",
+    "title": "NM_000059.4(BRCA2):c.4079A>C (p.Asp1360Ala)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-07-08"
+  },
+  {
+    "variation_id": "3704440",
+    "accession": "VCV003704440",
+    "title": "NM_000059.4(BRCA2):c.8574A>T (p.Gln2858His)",
+    "gene": "BRCA2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-05-01"
+  },
+  {
+    "variation_id": "4919680",
+    "accession": "VCV004919680",
+    "title": "NM_000059.4(BRCA2):c.7316del (p.Gly2439fs)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-11-23"
+  },
+  {
+    "variation_id": "4890763",
+    "accession": "VCV004890763",
+    "title": "NM_000059.4(BRCA2):c.4504C>T (p.Gln1502Ter)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "1-01-01 00"
+  },
+  {
+    "variation_id": "4887439",
+    "accession": "VCV004887439",
+    "title": "NM_000059.4(BRCA2):c.2798_2799dup (p.Gly934fs)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-08"
+  },
+  {
+    "variation_id": "4887223",
+    "accession": "VCV004887223",
+    "title": "NM_000059.4(BRCA2):c.323dup (p.Asn108fs)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-15"
+  },
+  {
+    "variation_id": "4884188",
+    "accession": "VCV004884188",
+    "title": "NM_000059.4(BRCA2):c.2753dup (p.Asn918fs)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-04-07"
+  },
+  {
+    "variation_id": "4883747",
+    "accession": "VCV004883747",
+    "title": "NM_000059.4(BRCA2):c.1629_1632del (p.His543fs)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-04-25"
+  },
+  {
+    "variation_id": "4876165",
+    "accession": "VCV004876165",
+    "title": "NM_000059.4(BRCA2):c.6577G>T (p.Glu2193Ter)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-21"
+  },
+  {
+    "variation_id": "4876161",
+    "accession": "VCV004876161",
+    "title": "NM_000059.4(BRCA2):c.4658del (p.Thr1553fs)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-30"
+  },
+  {
+    "variation_id": "4876123",
+    "accession": "VCV004876123",
+    "title": "NM_000059.4(BRCA2):c.6065C>A (p.Ser2022Ter)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-30"
+  },
+  {
+    "variation_id": "4876090",
+    "accession": "VCV004876090",
+    "title": "NM_000059.4(BRCA2):c.8108_8115delinsTATATAAATAAATAAATAAATATATATTTATTTATCTGAAATATCTA (p.Thr2703_Ser2705delinsIleTyrLysTer)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-17"
+  },
+  {
+    "variation_id": "4876080",
+    "accession": "VCV004876080",
+    "title": "NM_000059.4(BRCA2):c.886dup (p.Tyr296fs)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-01"
+  },
+  {
+    "variation_id": "4876079",
+    "accession": "VCV004876079",
+    "title": "NM_000059.4(BRCA2):c.2080_2081delinsT (p.Asn694fs)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-01"
+  },
+  {
+    "variation_id": "4876076",
+    "accession": "VCV004876076",
+    "title": "NM_000059.4(BRCA2):c.2220del (p.Val741fs)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-27"
+  },
+  {
+    "variation_id": "4876069",
+    "accession": "VCV004876069",
+    "title": "NM_000059.4(BRCA2):c.329_330del (p.Pro110fs)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-26"
+  },
+  {
+    "variation_id": "4876060",
+    "accession": "VCV004876060",
+    "title": "NM_000059.4(BRCA2):c.7453del (p.Gln2485fs)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-20"
+  },
+  {
+    "variation_id": "4876037",
+    "accession": "VCV004876037",
+    "title": "NM_000059.4(BRCA2):c.3089_3100delinsATCT (p.Phe1030fs)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-07"
+  },
+  {
+    "variation_id": "4876034",
+    "accession": "VCV004876034",
+    "title": "NM_000059.4(BRCA2):c.233dup (p.Ile79fs)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-05"
+  },
+  {
+    "variation_id": "4876031",
+    "accession": "VCV004876031",
+    "title": "NM_000059.4(BRCA2):c.8609del (p.Gln2870fs)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-05"
+  },
+  {
+    "variation_id": "4876020",
+    "accession": "VCV004876020",
+    "title": "NM_000059.4(BRCA2):c.5121dup (p.Ala1708fs)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-23"
+  },
+  {
+    "variation_id": "4876016",
+    "accession": "VCV004876016",
+    "title": "NM_000059.4(BRCA2):c.3454_3455delinsA (p.Leu1152fs)",
+    "gene": "BRCA2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-22"
+  },
+  {
+    "variation_id": "4914001",
+    "accession": "VCV004914001",
+    "title": "NM_000051.4(ATM):c.8418+679C>T",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-07-31"
+  },
+  {
+    "variation_id": "4914000",
+    "accession": "VCV004914000",
+    "title": "NM_000051.4(ATM):c.8418+677G>A",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-09-03"
+  },
+  {
+    "variation_id": "4913995",
+    "accession": "VCV004913995",
+    "title": "NM_000051.4(ATM):c.7471T>G (p.Trp2491Gly)",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2019-08-22"
+  },
+  {
+    "variation_id": "4913991",
+    "accession": "VCV004913991",
+    "title": "NM_000051.4(ATM):c.6770A>C (p.Glu2257Ala)",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-04-24"
+  },
+  {
+    "variation_id": "4913990",
+    "accession": "VCV004913990",
+    "title": "NM_000051.4(ATM):c.6428T>A (p.Phe2143Tyr)",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-05-31"
+  },
+  {
+    "variation_id": "4913984",
+    "accession": "VCV004913984",
+    "title": "NM_000051.4(ATM):c.4650G>C (p.Lys1550Asn)",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-11-19"
+  },
+  {
+    "variation_id": "4913976",
+    "accession": "VCV004913976",
+    "title": "NM_000051.4(ATM):c.3749C>G (p.Ser1250Cys)",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-03-27"
+  },
+  {
+    "variation_id": "4913975",
+    "accession": "VCV004913975",
+    "title": "NM_000051.4(ATM):c.3709A>G (p.Ile1237Val)",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-07-22"
+  },
+  {
+    "variation_id": "4913972",
+    "accession": "VCV004913972",
+    "title": "NM_000051.4(ATM):c.3403-11T>A",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-10-10"
+  },
+  {
+    "variation_id": "4913965",
+    "accession": "VCV004913965",
+    "title": "NM_000051.4(ATM):c.2839-581del",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-07-29"
+  },
+  {
+    "variation_id": "4913963",
+    "accession": "VCV004913963",
+    "title": "NM_000051.4(ATM):c.2399C>G (p.Ser800Cys)",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-06-10"
+  },
+  {
+    "variation_id": "4913960",
+    "accession": "VCV004913960",
+    "title": "NM_000051.4(ATM):c.2049C>A (p.His683Gln)",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-08-24"
+  },
+  {
+    "variation_id": "4887346",
+    "accession": "VCV004887346",
+    "title": "NM_000051.4(ATM):c.2146G>A (p.Val716Ile)",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-10"
+  },
+  {
+    "variation_id": "4885668",
+    "accession": "VCV004885668",
+    "title": "NM_000051.4(ATM):c.3291C>A (p.Phe1097Leu)",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-07-04"
+  },
+  {
+    "variation_id": "4885661",
+    "accession": "VCV004885661",
+    "title": "NM_000051.4(ATM):c.5296C>G (p.Pro1766Ala)",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-03-02"
+  },
+  {
+    "variation_id": "4885643",
+    "accession": "VCV004885643",
+    "title": "NM_000051.4(ATM):c.-31+343A>G",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-02-16"
+  },
+  {
+    "variation_id": "4885613",
+    "accession": "VCV004885613",
+    "title": "NM_000051.4(ATM):c.6573A>T (p.Arg2191Ser)",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-01-24"
+  },
+  {
+    "variation_id": "4882718",
+    "accession": "VCV004882718",
+    "title": "NM_000051.4(ATM):c.7981G>A (p.Asp2661Asn)",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-07-24"
+  },
+  {
+    "variation_id": "4882688",
+    "accession": "VCV004882688",
+    "title": "NM_000051.4(ATM):c.6197A>T (p.Gln2066Leu)",
+    "gene": "ATM",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-01-14"
+  },
+  {
+    "variation_id": "4747170",
+    "accession": "VCV004747170",
+    "title": "NM_000051.4(ATM):c.1128A>T (p.Glu376Asp)",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-01-27"
+  },
+  {
+    "variation_id": "4747160",
+    "accession": "VCV004747160",
+    "title": "NM_000051.4(ATM):c.517A>G (p.Arg173Gly)",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-02-03"
+  },
+  {
+    "variation_id": "4706130",
+    "accession": "VCV004706130",
+    "title": "NM_000051.4(ATM):c.3838A>G (p.Lys1280Glu)",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-06-02"
+  },
+  {
+    "variation_id": "3965915",
+    "accession": "VCV003965915",
+    "title": "NM_000051.4(ATM):c.7987G>A (p.Val2663Ile)",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-06-02"
+  },
+  {
+    "variation_id": "3720488",
+    "accession": "VCV003720488",
+    "title": "NM_000051.4(ATM):c.8494C>A (p.Arg2832Ser)",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-10-30"
+  },
+  {
+    "variation_id": "3720478",
+    "accession": "VCV003720478",
+    "title": "NM_000051.4(ATM):c.7733C>T (p.Ala2578Val)",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-01-07"
+  },
+  {
+    "variation_id": "3705177",
+    "accession": "VCV003705177",
+    "title": "NM_000051.4(ATM):c.3441T>G (p.Ile1147Met)",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-04-02"
+  },
+  {
+    "variation_id": "3657710",
+    "accession": "VCV003657710",
+    "title": "NM_000051.4(ATM):c.1583C>T (p.Thr528Ile)",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-10-20"
+  },
+  {
+    "variation_id": "3650983",
+    "accession": "VCV003650983",
+    "title": "NM_000051.4(ATM):c.4109+2dup",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-10-07"
+  },
+  {
+    "variation_id": "3618661",
+    "accession": "VCV003618661",
+    "title": "NM_000051.4(ATM):c.3903G>A (p.Glu1301=)",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-05-27"
+  },
+  {
+    "variation_id": "3453131",
+    "accession": "VCV003453131",
+    "title": "NM_000051.4(ATM):c.609C>A (p.Asp203Glu)",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-12-29"
+  },
+  {
+    "variation_id": "3450926",
+    "accession": "VCV003450926",
+    "title": "NM_000051.4(ATM):c.5005+2T>C",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-04-28"
+  },
+  {
+    "variation_id": "3340387",
+    "accession": "VCV003340387",
+    "title": "NM_000051.4(ATM):c.3781A>G (p.Ile1261Val)",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-10-07"
+  },
+  {
+    "variation_id": "3326259",
+    "accession": "VCV003326259",
+    "title": "NM_000051.4(ATM):c.8467G>A (p.Val2823Ile)",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-10-31"
+  },
+  {
+    "variation_id": "3256365",
+    "accession": "VCV003256365",
+    "title": "NM_000051.4(ATM):c.5232G>T (p.Lys1744Asn)",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-11-06"
+  },
+  {
+    "variation_id": "3256191",
+    "accession": "VCV003256191",
+    "title": "NM_000051.4(ATM):c.5919-12T>C",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-12-29"
+  },
+  {
+    "variation_id": "3254424",
+    "accession": "VCV003254424",
+    "title": "NM_000051.4(ATM):c.3552A>G (p.Gly1184=)",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-09-20"
+  },
+  {
+    "variation_id": "3254186",
+    "accession": "VCV003254186",
+    "title": "NM_000051.4(ATM):c.4109+4T>A",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-02-26"
+  },
+  {
+    "variation_id": "3254070",
+    "accession": "VCV003254070",
+    "title": "NM_000051.4(ATM):c.5006-13T>C",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-12-19"
+  },
+  {
+    "variation_id": "3254008",
+    "accession": "VCV003254008",
+    "title": "NM_000051.4(ATM):c.3154-3T>C",
+    "gene": "ATM",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-01-31"
+  },
+  {
+    "variation_id": "4947328",
+    "accession": "VCV004947328",
+    "title": "NM_007194.4(CHEK2):c.421_424delinsCAGG (p.Lys141_Lys142delinsGlnGlu)",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-04-04"
+  },
+  {
+    "variation_id": "4947326",
+    "accession": "VCV004947326",
+    "title": "NM_007194.4(CHEK2):c.843T>A (p.Asn281Lys)",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-12-22"
+  },
+  {
+    "variation_id": "4883773",
+    "accession": "VCV004883773",
+    "title": "NM_007194.4(CHEK2):c.-7+7C>A",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-01-22"
+  },
+  {
+    "variation_id": "4868948",
+    "accession": "VCV004868948",
+    "title": "NM_007194.4(CHEK2):c.115T>G (p.Ser39Ala)",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-12"
+  },
+  {
+    "variation_id": "4868947",
+    "accession": "VCV004868947",
+    "title": "NM_007194.4(CHEK2):c.91T>G (p.Ser31Ala)",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-12"
+  },
+  {
+    "variation_id": "4868943",
+    "accession": "VCV004868943",
+    "title": "NM_007194.4(CHEK2):c.95C>T (p.Ser32Phe)",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-30"
+  },
+  {
+    "variation_id": "4868942",
+    "accession": "VCV004868942",
+    "title": "NM_007194.4(CHEK2):c.1260-7T>G",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-29"
+  },
+  {
+    "variation_id": "4868938",
+    "accession": "VCV004868938",
+    "title": "NM_007194.4(CHEK2):c.71G>T (p.Ser24Ile)",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-14"
+  },
+  {
+    "variation_id": "4868937",
+    "accession": "VCV004868937",
+    "title": "NM_007194.4(CHEK2):c.1564_1576del (p.Pro522fs)",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-07"
+  },
+  {
+    "variation_id": "4868936",
+    "accession": "VCV004868936",
+    "title": "NM_007194.4(CHEK2):c.137T>C (p.Met46Thr)",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-28"
+  },
+  {
+    "variation_id": "4868934",
+    "accession": "VCV004868934",
+    "title": "NM_007194.4(CHEK2):c.853A>C (p.Ile285Leu)",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-26"
+  },
+  {
+    "variation_id": "4868932",
+    "accession": "VCV004868932",
+    "title": "NM_007194.4(CHEK2):c.846+4A>T",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-23"
+  },
+  {
+    "variation_id": "4868931",
+    "accession": "VCV004868931",
+    "title": "NM_007194.4(CHEK2):c.983T>A (p.Phe328Tyr)",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-20"
+  },
+  {
+    "variation_id": "4868930",
+    "accession": "VCV004868930",
+    "title": "NM_007194.4(CHEK2):c.640A>G (p.Lys214Glu)",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-19"
+  },
+  {
+    "variation_id": "4868929",
+    "accession": "VCV004868929",
+    "title": "NM_007194.4(CHEK2):c.133A>T (p.Thr45Ser)",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-21"
+  },
+  {
+    "variation_id": "4868928",
+    "accession": "VCV004868928",
+    "title": "NM_007194.4(CHEK2):c.19G>T (p.Val7Phe)",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-16"
+  },
+  {
+    "variation_id": "4868926",
+    "accession": "VCV004868926",
+    "title": "NM_007194.4(CHEK2):c.1613T>C (p.Val538Ala)",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-11"
+  },
+  {
+    "variation_id": "4868925",
+    "accession": "VCV004868925",
+    "title": "NM_007194.4(CHEK2):c.1243G>C (p.Val415Leu)",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-07"
+  },
+  {
+    "variation_id": "4868923",
+    "accession": "VCV004868923",
+    "title": "NM_007194.4(CHEK2):c.268C>G (p.Pro90Ala)",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-03-31"
+  },
+  {
+    "variation_id": "4843225",
+    "accession": "VCV004843225",
+    "title": "NM_007194.4(CHEK2):c.847-3T>C",
+    "gene": "CHEK2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-01-13"
+  },
+  {
+    "variation_id": "4071422",
+    "accession": "VCV004071422",
+    "title": "NM_007194.4(CHEK2):c.683G>C (p.Ser228Thr)",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-12-29"
+  },
+  {
+    "variation_id": "3779068",
+    "accession": "VCV003779068",
+    "title": "NM_007194.4(CHEK2):c.1363G>A (p.Val455Ile)",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-07-30"
+  },
+  {
+    "variation_id": "3773344",
+    "accession": "VCV003773344",
+    "title": "NM_007194.4(CHEK2):c.1096-3T>C",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-02-18"
+  },
+  {
+    "variation_id": "2915669",
+    "accession": "VCV002915669",
+    "title": "NM_007194.4(CHEK2):c.593-2A>T",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-12-01"
+  },
+  {
+    "variation_id": "2834928",
+    "accession": "VCV002834928",
+    "title": "NM_007194.4(CHEK2):c.1009-5T>G",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-10-29"
+  },
+  {
+    "variation_id": "2788902",
+    "accession": "VCV002788902",
+    "title": "NM_007194.4(CHEK2):c.1260C>T (p.Cys420=)",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-02-04"
+  },
+  {
+    "variation_id": "2775082",
+    "accession": "VCV002775082",
+    "title": "NM_007194.4(CHEK2):c.-6-6T>C",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-10-01"
+  },
+  {
+    "variation_id": "2775076",
+    "accession": "VCV002775076",
+    "title": "NM_007194.4(CHEK2):c.320-3C>T",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-05-30"
+  },
+  {
+    "variation_id": "2683799",
+    "accession": "VCV002683799",
+    "title": "NM_007194.4(CHEK2):c.346G>A (p.Gly116Arg)",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-07-14"
+  },
+  {
+    "variation_id": "2681874",
+    "accession": "VCV002681874",
+    "title": "NM_007194.4(CHEK2):c.1585G>A (p.Gly529Ser)",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-05-15"
+  },
+  {
+    "variation_id": "2680760",
+    "accession": "VCV002680760",
+    "title": "NM_007194.4(CHEK2):c.908+2dup",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-03-31"
+  },
+  {
+    "variation_id": "2566534",
+    "accession": "VCV002566534",
+    "title": "NM_007194.4(CHEK2):c.1075G>A (p.Glu359Lys)",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2023-10-28"
+  },
+  {
+    "variation_id": "2562256",
+    "accession": "VCV002562256",
+    "title": "NM_007194.4(CHEK2):c.1376-27C>G",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-09-24"
+  },
+  {
+    "variation_id": "2199945",
+    "accession": "VCV002199945",
+    "title": "NM_007194.4(CHEK2):c.1009-5T>C",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-10-04"
+  },
+  {
+    "variation_id": "2115066",
+    "accession": "VCV002115066",
+    "title": "NM_007194.4(CHEK2):c.445-4T>A",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2022-12-02"
+  },
+  {
+    "variation_id": "2087476",
+    "accession": "VCV002087476",
+    "title": "NM_007194.4(CHEK2):c.847-2A>T",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-11-22"
+  },
+  {
+    "variation_id": "2075031",
+    "accession": "VCV002075031",
+    "title": "NM_007194.4(CHEK2):c.1499C>G (p.Ser500Cys)",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-06-11"
+  },
+  {
+    "variation_id": "1930019",
+    "accession": "VCV001930019",
+    "title": "NM_007194.4(CHEK2):c.1095+13C>T",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-09-16"
+  },
+  {
+    "variation_id": "1794563",
+    "accession": "VCV001794563",
+    "title": "NM_007194.4(CHEK2):c.1_3delinsTTT (p.Met1Phe)",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2023-06-22"
+  },
+  {
+    "variation_id": "1790253",
+    "accession": "VCV001790253",
+    "title": "NM_007194.4(CHEK2):c.1095+2dup",
+    "gene": "CHEK2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-04-21"
+  },
+  {
+    "variation_id": "4876166",
+    "accession": "VCV004876166",
+    "title": "NM_007194.4(CHEK2):c.729T>A (p.Cys243Ter)",
+    "gene": "CHEK2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-05"
+  },
+  {
+    "variation_id": "4876127",
+    "accession": "VCV004876127",
+    "title": "NM_007194.4(CHEK2):c.57del (p.Gln20fs)",
+    "gene": "CHEK2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-08"
+  },
+  {
+    "variation_id": "4868946",
+    "accession": "VCV004868946",
+    "title": "NM_007194.4(CHEK2):c.862delinsTG (p.Ile288fs)",
+    "gene": "CHEK2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-11"
+  },
+  {
+    "variation_id": "4868944",
+    "accession": "VCV004868944",
+    "title": "NM_007194.4(CHEK2):c.858del (p.Lys287fs)",
+    "gene": "CHEK2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-02"
+  },
+  {
+    "variation_id": "4868941",
+    "accession": "VCV004868941",
+    "title": "NM_007194.4(CHEK2):c.641del (p.Lys214fs)",
+    "gene": "CHEK2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-20"
+  },
+  {
+    "variation_id": "4868940",
+    "accession": "VCV004868940",
+    "title": "NM_007194.4(CHEK2):c.522dup (p.Val175fs)",
+    "gene": "CHEK2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-26"
+  },
+  {
+    "variation_id": "4868933",
+    "accession": "VCV004868933",
+    "title": "NM_007194.4(CHEK2):c.185_187delinsGGACAGTAGAGACAGTACTGAGCTGAG (p.Ser62_Leu63delinsTrpThrValGluThrValLeuSerTer)",
+    "gene": "CHEK2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-24"
+  },
+  {
+    "variation_id": "4868927",
+    "accession": "VCV004868927",
+    "title": "NM_007194.4(CHEK2):c.1165dup (p.Thr389fs)",
+    "gene": "CHEK2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-14"
+  },
+  {
+    "variation_id": "4868921",
+    "accession": "VCV004868921",
+    "title": "NM_007194.4(CHEK2):c.79_85del (p.Gln27fs)",
+    "gene": "CHEK2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-03-16"
+  },
+  {
+    "variation_id": "4843227",
+    "accession": "VCV004843227",
+    "title": "NM_007194.4(CHEK2):c.517G>T (p.Glu173Ter)",
+    "gene": "CHEK2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-01-15"
+  },
+  {
+    "variation_id": "4843226",
+    "accession": "VCV004843226",
+    "title": "NM_007194.4(CHEK2):c.589A>T (p.Lys197Ter)",
+    "gene": "CHEK2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-01-22"
+  },
+  {
+    "variation_id": "4843224",
+    "accession": "VCV004843224",
+    "title": "NM_007194.4(CHEK2):c.1274del (p.Pro425fs)",
+    "gene": "CHEK2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-01-06"
+  },
+  {
+    "variation_id": "4929026",
+    "accession": "VCV004929026",
+    "title": "NM_024675.4(PALB2):c.931_936del (p.Lys311_Ser312del)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-06-06"
+  },
+  {
+    "variation_id": "4929019",
+    "accession": "VCV004929019",
+    "title": "NM_024675.4(PALB2):c.3130C>G (p.Gln1044Glu)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-07-06"
+  },
+  {
+    "variation_id": "4890870",
+    "accession": "VCV004890870",
+    "title": "NM_024675.4(PALB2):c.1484A>G (p.Glu495Gly)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-08-24"
+  },
+  {
+    "variation_id": "4884507",
+    "accession": "VCV004884507",
+    "title": "NM_024675.4(PALB2):c.2825G>A (p.Arg942Lys)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-17"
+  },
+  {
+    "variation_id": "4883238",
+    "accession": "VCV004883238",
+    "title": "NM_024675.4(PALB2):c.2748+7G>A",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-01-05"
+  },
+  {
+    "variation_id": "4861518",
+    "accession": "VCV004861518",
+    "title": "NM_024675.4(PALB2):c.2681T>C (p.Val894Ala)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-03-31"
+  },
+  {
+    "variation_id": "4861515",
+    "accession": "VCV004861515",
+    "title": "NM_024675.4(PALB2):c.754A>G (p.Thr252Ala)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-12"
+  },
+  {
+    "variation_id": "4861514",
+    "accession": "VCV004861514",
+    "title": "NM_024675.4(PALB2):c.1056G>T (p.Glu352Asp)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-09"
+  },
+  {
+    "variation_id": "4861512",
+    "accession": "VCV004861512",
+    "title": "NM_024675.4(PALB2):c.836A>G (p.Lys279Arg)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-03"
+  },
+  {
+    "variation_id": "4861510",
+    "accession": "VCV004861510",
+    "title": "NM_024675.4(PALB2):c.701A>G (p.Asp234Gly)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-02"
+  },
+  {
+    "variation_id": "4861509",
+    "accession": "VCV004861509",
+    "title": "NM_024675.4(PALB2):c.1711G>C (p.Asp571His)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-30"
+  },
+  {
+    "variation_id": "4861507",
+    "accession": "VCV004861507",
+    "title": "NM_024675.4(PALB2):c.1927T>C (p.Phe643Leu)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-27"
+  },
+  {
+    "variation_id": "4861506",
+    "accession": "VCV004861506",
+    "title": "NM_024675.4(PALB2):c.2489A>T (p.Glu830Val)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-21"
+  },
+  {
+    "variation_id": "4861505",
+    "accession": "VCV004861505",
+    "title": "NM_024675.4(PALB2):c.2723A>G (p.Lys908Arg)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-19"
+  },
+  {
+    "variation_id": "4861504",
+    "accession": "VCV004861504",
+    "title": "NM_024675.4(PALB2):c.3442A>C (p.Thr1148Pro)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-15"
+  },
+  {
+    "variation_id": "4861500",
+    "accession": "VCV004861500",
+    "title": "NM_024675.4(PALB2):c.2890G>C (p.Gly964Arg)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-12"
+  },
+  {
+    "variation_id": "4861499",
+    "accession": "VCV004861499",
+    "title": "NM_024675.4(PALB2):c.1601C>A (p.Ser534Tyr)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-14"
+  },
+  {
+    "variation_id": "4861495",
+    "accession": "VCV004861495",
+    "title": "NM_024675.4(PALB2):c.2935A>G (p.Ser979Gly)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-02"
+  },
+  {
+    "variation_id": "4861492",
+    "accession": "VCV004861492",
+    "title": "NM_024675.4(PALB2):c.3559dup (p.Ter1187LeuextTer?)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-28"
+  },
+  {
+    "variation_id": "4861490",
+    "accession": "VCV004861490",
+    "title": "NM_024675.4(PALB2):c.152C>T (p.Thr51Ile)",
+    "gene": "PALB2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-28"
+  },
+  {
+    "variation_id": "4663799",
+    "accession": "VCV004663799",
+    "title": "NM_024675.4(PALB2):c.2943T>A (p.Ser981Arg)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-10-23"
+  },
+  {
+    "variation_id": "4535512",
+    "accession": "VCV004535512",
+    "title": "NM_024675.4(PALB2):c.621A>C (p.Pro207=)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-09-20"
+  },
+  {
+    "variation_id": "4130336",
+    "accession": "VCV004130336",
+    "title": "NM_024675.4(PALB2):c.3067C>G (p.Gln1023Glu)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-08-13"
+  },
+  {
+    "variation_id": "3903708",
+    "accession": "VCV003903708",
+    "title": "NM_024675.4(PALB2):c.2643T>C (p.Gly881=)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-04-22"
+  },
+  {
+    "variation_id": "3903548",
+    "accession": "VCV003903548",
+    "title": "NM_024675.4(PALB2):c.*7G>A",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-03-04"
+  },
+  {
+    "variation_id": "3885231",
+    "accession": "VCV003885231",
+    "title": "NM_024675.4(PALB2):c.828C>A (p.His276Gln)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-11-18"
+  },
+  {
+    "variation_id": "3780089",
+    "accession": "VCV003780089",
+    "title": "NM_024675.4(PALB2):c.2841G>A (p.Leu947=)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-01-17"
+  },
+  {
+    "variation_id": "3708264",
+    "accession": "VCV003708264",
+    "title": "NM_024675.4(PALB2):c.733G>T (p.Ala245Ser)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-10-21"
+  },
+  {
+    "variation_id": "3656242",
+    "accession": "VCV003656242",
+    "title": "NM_024675.4(PALB2):c.1656G>C (p.Gln552His)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-02-17"
+  },
+  {
+    "variation_id": "3643049",
+    "accession": "VCV003643049",
+    "title": "NM_024675.4(PALB2):c.3216T>G (p.Ile1072Met)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-02-13"
+  },
+  {
+    "variation_id": "3413465",
+    "accession": "VCV003413465",
+    "title": "NM_024675.4(PALB2):c.1685-5T>G",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-09-22"
+  },
+  {
+    "variation_id": "3413444",
+    "accession": "VCV003413444",
+    "title": "NM_024675.4(PALB2):c.2159C>T (p.Thr720Ile)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-03-30"
+  },
+  {
+    "variation_id": "3363690",
+    "accession": "VCV003363690",
+    "title": "NM_024675.4(PALB2):c.3409A>G (p.Ile1137Val)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-02-03"
+  },
+  {
+    "variation_id": "3303987",
+    "accession": "VCV003303987",
+    "title": "NM_024675.4(PALB2):c.2793C>A (p.Leu931=)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-01-17"
+  },
+  {
+    "variation_id": "3240008",
+    "accession": "VCV003240008",
+    "title": "NM_024675.4(PALB2):c.1301A>G (p.Asp434Gly)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-04-16"
+  },
+  {
+    "variation_id": "3228021",
+    "accession": "VCV003228021",
+    "title": "NM_024675.4(PALB2):c.282A>C (p.Glu94Asp)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-01-31"
+  },
+  {
+    "variation_id": "3228020",
+    "accession": "VCV003228020",
+    "title": "NM_024675.4(PALB2):c.2817G>A (p.Leu939=)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-01-17"
+  },
+  {
+    "variation_id": "3228014",
+    "accession": "VCV003228014",
+    "title": "NM_024675.4(PALB2):c.2653C>T (p.Pro885Ser)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-04-17"
+  },
+  {
+    "variation_id": "3227997",
+    "accession": "VCV003227997",
+    "title": "NM_024675.4(PALB2):c.1838A>T (p.Gln613Leu)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-03-08"
+  },
+  {
+    "variation_id": "2850420",
+    "accession": "VCV002850420",
+    "title": "NM_024675.4(PALB2):c.3438G>T (p.Gln1146His)",
+    "gene": "PALB2",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-10-04"
+  },
+  {
+    "variation_id": "4961665",
+    "accession": "VCV004961665",
+    "title": "NM_000249.4(MLH1):c.2096G>T (p.Gly699Val)",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-10-27"
+  },
+  {
+    "variation_id": "4961662",
+    "accession": "VCV004961662",
+    "title": "NM_000249.4(MLH1):c.1610A>C (p.Gln537Pro)",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-05-16"
+  },
+  {
+    "variation_id": "4961659",
+    "accession": "VCV004961659",
+    "title": "NM_000249.4(MLH1):c.1039-6A>G",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-09-13"
+  },
+  {
+    "variation_id": "4961658",
+    "accession": "VCV004961658",
+    "title": "NM_000249.4(MLH1):c.1026G>C (p.Met342Ile)",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-05-30"
+  },
+  {
+    "variation_id": "4885413",
+    "accession": "VCV004885413",
+    "title": "NM_000249.4(MLH1):c.117-97T>C",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-10-31"
+  },
+  {
+    "variation_id": "4882194",
+    "accession": "VCV004882194",
+    "title": "NM_000249.4(MLH1):c.205A>G (p.Arg69Gly)",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-11-20"
+  },
+  {
+    "variation_id": "4882105",
+    "accession": "VCV004882105",
+    "title": "NM_000249.4(MLH1):c.116+156C>T",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-15"
+  },
+  {
+    "variation_id": "4873655",
+    "accession": "VCV004873655",
+    "title": "NM_000249.4(MLH1):c.2187G>A (p.Leu729=)",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-01"
+  },
+  {
+    "variation_id": "4860127",
+    "accession": "VCV004860127",
+    "title": "NM_000249.4(MLH1):c.687A>G (p.Ile229Met)",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-10"
+  },
+  {
+    "variation_id": "4860126",
+    "accession": "VCV004860126",
+    "title": "NM_000249.4(MLH1):c.326A>T (p.His109Leu)",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-10"
+  },
+  {
+    "variation_id": "4860124",
+    "accession": "VCV004860124",
+    "title": "NM_000249.4(MLH1):c.1309C>A (p.Pro437Thr)",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-30"
+  },
+  {
+    "variation_id": "4860123",
+    "accession": "VCV004860123",
+    "title": "NM_000249.4(MLH1):c.1264G>C (p.Gly422Arg)",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-31"
+  },
+  {
+    "variation_id": "4860121",
+    "accession": "VCV004860121",
+    "title": "NM_000249.4(MLH1):c.1529A>G (p.Gln510Arg)",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-01"
+  },
+  {
+    "variation_id": "4860117",
+    "accession": "VCV004860117",
+    "title": "NM_000249.4(MLH1):c.1497G>C (p.Arg499Ser)",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-14"
+  },
+  {
+    "variation_id": "4860116",
+    "accession": "VCV004860116",
+    "title": "NM_000249.4(MLH1):c.1196C>A (p.Pro399His)",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-12"
+  },
+  {
+    "variation_id": "4860112",
+    "accession": "VCV004860112",
+    "title": "NM_000249.4(MLH1):c.1718T>G (p.Val573Gly)",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-04"
+  },
+  {
+    "variation_id": "4860110",
+    "accession": "VCV004860110",
+    "title": "NM_000249.4(MLH1):c.1180G>C (p.Asp394His)",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-28"
+  },
+  {
+    "variation_id": "4860105",
+    "accession": "VCV004860105",
+    "title": "NM_000249.4(MLH1):c.1317A>C (p.Glu439Asp)",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-03"
+  },
+  {
+    "variation_id": "4860104",
+    "accession": "VCV004860104",
+    "title": "NM_000249.4(MLH1):c.592G>A (p.Gly198Arg)",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-02"
+  },
+  {
+    "variation_id": "4860103",
+    "accession": "VCV004860103",
+    "title": "NM_000249.4(MLH1):c.1667+519A>T",
+    "gene": "MLH1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-03"
+  },
+  {
+    "variation_id": "4884076",
+    "accession": "VCV004884076",
+    "title": "NM_000249.4(MLH1):c.2123_2127del (p.Ile708fs)",
+    "gene": "MLH1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-04-14"
+  },
+  {
+    "variation_id": "4876240",
+    "accession": "VCV004876240",
+    "title": "NM_000249.4(MLH1):c.941_957del (p.Val314fs)",
+    "gene": "MLH1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-22"
+  },
+  {
+    "variation_id": "4860120",
+    "accession": "VCV004860120",
+    "title": "NM_000249.4(MLH1):c.1173_1195del (p.Gln391fs)",
+    "gene": "MLH1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-21"
+  },
+  {
+    "variation_id": "4860118",
+    "accession": "VCV004860118",
+    "title": "NM_000249.4(MLH1):c.1164_1219dup (p.Gln407delinsProGlyAsnArgSerLeuMetHisPheCysSerLeuTer)",
+    "gene": "MLH1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-18"
+  },
+  {
+    "variation_id": "4860115",
+    "accession": "VCV004860115",
+    "title": "NM_000249.4(MLH1):c.1525_1535dup (p.Glu512fs)",
+    "gene": "MLH1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-11"
+  },
+  {
+    "variation_id": "4860108",
+    "accession": "VCV004860108",
+    "title": "NM_000249.4(MLH1):c.1917del (p.Leu639fs)",
+    "gene": "MLH1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-16"
+  },
+  {
+    "variation_id": "4860107",
+    "accession": "VCV004860107",
+    "title": "NM_000249.4(MLH1):c.303_304dup (p.Glu102fs)",
+    "gene": "MLH1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-16"
+  },
+  {
+    "variation_id": "4856779",
+    "accession": "VCV004856779",
+    "title": "NM_000249.4(MLH1):c.3G>C (p.Met1Ile)",
+    "gene": "MLH1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-03-03"
+  },
+  {
+    "variation_id": "4856732",
+    "accession": "VCV004856732",
+    "title": "NM_000249.4(MLH1):c.306+1G>T",
+    "gene": "MLH1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-02-03"
+  },
+  {
+    "variation_id": "4827080",
+    "accession": "VCV004827080",
+    "title": "NM_000249.4(MLH1):c.2107G>T (p.Glu703Ter)",
+    "gene": "MLH1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-03-02"
+  },
+  {
+    "variation_id": "4827078",
+    "accession": "VCV004827078",
+    "title": "NM_000249.4(MLH1):c.282delinsAA (p.Ser95fs)",
+    "gene": "MLH1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-03-03"
+  },
+  {
+    "variation_id": "4824790",
+    "accession": "VCV004824790",
+    "title": "NM_000249.4(MLH1):c.2070_2073del (p.Ile691fs)",
+    "gene": "MLH1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-03-04"
+  },
+  {
+    "variation_id": "4819111",
+    "accession": "VCV004819111",
+    "title": "NM_000249.4(MLH1):c.806C>A (p.Ser269Ter)",
+    "gene": "MLH1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-02-18"
+  },
+  {
+    "variation_id": "4813041",
+    "accession": "VCV004813041",
+    "title": "NM_000249.4(MLH1):c.642del (p.Asp214fs)",
+    "gene": "MLH1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-11-19"
+  },
+  {
+    "variation_id": "4736531",
+    "accession": "VCV004736531",
+    "title": "NM_000249.4(MLH1):c.1238del (p.Thr413fs)",
+    "gene": "MLH1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-02-01"
+  },
+  {
+    "variation_id": "4733362",
+    "accession": "VCV004733362",
+    "title": "NM_000249.4(MLH1):c.483del (p.Arg162fs)",
+    "gene": "MLH1",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-12-16"
+  },
+  {
+    "variation_id": "4954977",
+    "accession": "VCV004954977",
+    "title": "NM_000251.3(MSH2):c.1976A>G (p.Lys659Arg)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-03-28"
+  },
+  {
+    "variation_id": "4954976",
+    "accession": "VCV004954976",
+    "title": "NM_000251.3(MSH2):c.1825_1826delinsAT (p.Ala609Ile)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-01-03"
+  },
+  {
+    "variation_id": "4885313",
+    "accession": "VCV004885313",
+    "title": "NM_000251.3(MSH2):c.1718C>G (p.Ala573Gly)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-03-28"
+  },
+  {
+    "variation_id": "4885268",
+    "accession": "VCV004885268",
+    "title": "NM_000251.3(MSH2):c.720C>G (p.Asp240Glu)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-04-25"
+  },
+  {
+    "variation_id": "4881987",
+    "accession": "VCV004881987",
+    "title": "NM_000251.3(MSH2):c.535C>G (p.Pro179Ala)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-12-19"
+  },
+  {
+    "variation_id": "4860314",
+    "accession": "VCV004860314",
+    "title": "NM_000251.3(MSH2):c.538G>C (p.Asp180His)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-02"
+  },
+  {
+    "variation_id": "4860311",
+    "accession": "VCV004860311",
+    "title": "NM_000251.3(MSH2):c.1706A>T (p.Glu569Val)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-05"
+  },
+  {
+    "variation_id": "4860309",
+    "accession": "VCV004860309",
+    "title": "NM_000251.3(MSH2):c.299T>A (p.Val100Asp)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-02"
+  },
+  {
+    "variation_id": "4860308",
+    "accession": "VCV004860308",
+    "title": "NM_000251.3(MSH2):c.407T>G (p.Phe136Cys)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-22"
+  },
+  {
+    "variation_id": "4860304",
+    "accession": "VCV004860304",
+    "title": "NM_000251.3(MSH2):c.1645G>C (p.Val549Leu)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-08"
+  },
+  {
+    "variation_id": "4860302",
+    "accession": "VCV004860302",
+    "title": "NM_000251.3(MSH2):c.506T>A (p.Ile169Lys)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-06"
+  },
+  {
+    "variation_id": "4860298",
+    "accession": "VCV004860298",
+    "title": "NM_000251.3(MSH2):c.2191G>C (p.Glu731Gln)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-23"
+  },
+  {
+    "variation_id": "4860297",
+    "accession": "VCV004860297",
+    "title": "NM_000251.3(MSH2):c.2329T>G (p.Phe777Val)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-24"
+  },
+  {
+    "variation_id": "4860296",
+    "accession": "VCV004860296",
+    "title": "NM_000251.3(MSH2):c.157G>C (p.Ala53Pro)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-20"
+  },
+  {
+    "variation_id": "4860292",
+    "accession": "VCV004860292",
+    "title": "NM_000251.3(MSH2):c.1636A>C (p.Lys546Gln)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-06"
+  },
+  {
+    "variation_id": "4860291",
+    "accession": "VCV004860291",
+    "title": "NM_000251.3(MSH2):c.2086C>A (p.Pro696Thr)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-08"
+  },
+  {
+    "variation_id": "4860290",
+    "accession": "VCV004860290",
+    "title": "NM_000251.3(MSH2):c.173T>A (p.Phe58Tyr)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-03-29"
+  },
+  {
+    "variation_id": "4860289",
+    "accession": "VCV004860289",
+    "title": "NM_000251.3(MSH2):c.584G>T (p.Gly195Val)",
+    "gene": "MSH2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-01"
+  },
+  {
+    "variation_id": "4954974",
+    "accession": "VCV004954974",
+    "title": "NM_000251.3(MSH2):c.1676dup (p.Leu559fs)",
+    "gene": "MSH2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-11-18"
+  },
+  {
+    "variation_id": "4884295",
+    "accession": "VCV004884295",
+    "title": "NM_000251.3(MSH2):c.1816_1822del (p.Val606fs)",
+    "gene": "MSH2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-11"
+  },
+  {
+    "variation_id": "4879419",
+    "accession": "VCV004879419",
+    "title": "NM_000251.3(MSH2):c.2266_2267del (p.Thr756fs)",
+    "gene": "MSH2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-16"
+  },
+  {
+    "variation_id": "4860316",
+    "accession": "VCV004860316",
+    "title": "NM_000251.3(MSH2):c.1650dup (p.Phe551fs)",
+    "gene": "MSH2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-09"
+  },
+  {
+    "variation_id": "4856752",
+    "accession": "VCV004856752",
+    "title": "NM_000251.3(MSH2):c.85_100del (p.Lys29fs)",
+    "gene": "MSH2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-03-02"
+  },
+  {
+    "variation_id": "4849568",
+    "accession": "VCV004849568",
+    "title": "NM_000251.3(MSH2):c.2310dup (p.Ala771fs)",
+    "gene": "MSH2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-03-05"
+  },
+  {
+    "variation_id": "4843795",
+    "accession": "VCV004843795",
+    "title": "NM_000251.3(MSH2):c.548_551dup (p.Phe184fs)",
+    "gene": "MSH2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-01-14"
+  },
+  {
+    "variation_id": "4843793",
+    "accession": "VCV004843793",
+    "title": "NM_000251.3(MSH2):c.2276del (p.Gly759fs)",
+    "gene": "MSH2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-12-29"
+  },
+  {
+    "variation_id": "4843789",
+    "accession": "VCV004843789",
+    "title": "NM_000251.3(MSH2):c.2591_2598dup (p.Glu867fs)",
+    "gene": "MSH2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-12-18"
+  },
+  {
+    "variation_id": "4827512",
+    "accession": "VCV004827512",
+    "title": "NM_000251.3(MSH2):c.1093_1095delinsCC (p.Ala365fs)",
+    "gene": "MSH2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-03-06"
+  },
+  {
+    "variation_id": "4819604",
+    "accession": "VCV004819604",
+    "title": "NM_000251.3(MSH2):c.2575del (p.Glu859fs)",
+    "gene": "MSH2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-01-08"
+  },
+  {
+    "variation_id": "4763767",
+    "accession": "VCV004763767",
+    "title": "NM_000251.3(MSH2):c.1510+2T>G",
+    "gene": "MSH2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-03-23"
+  },
+  {
+    "variation_id": "4736120",
+    "accession": "VCV004736120",
+    "title": "NM_000251.3(MSH2):c.482_485dup (p.Val163fs)",
+    "gene": "MSH2",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-01-25"
+  },
+  {
+    "variation_id": "4955024",
+    "accession": "VCV004955024",
+    "title": "NM_000179.3(MSH6):c.*53G>A",
+    "gene": "MSH6",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-09-11"
+  },
+  {
+    "variation_id": "4955022",
+    "accession": "VCV004955022",
+    "title": "NM_000179.3(MSH6):c.3999T>C (p.Phe1333=)",
+    "gene": "MSH6",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-08-17"
+  },
+  {
+    "variation_id": "4955021",
+    "accession": "VCV004955021",
+    "title": "NM_000179.3(MSH6):c.3965A>C (p.Glu1322Ala)",
+    "gene": "MSH6",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-07-23"
+  },
+  {
+    "variation_id": "4955017",
+    "accession": "VCV004955017",
+    "title": "NM_000179.3(MSH6):c.3509T>A (p.Ile1170Asn)",
+    "gene": "MSH6",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-10-03"
+  },
+  {
+    "variation_id": "4955004",
+    "accession": "VCV004955004",
+    "title": "NM_000179.3(MSH6):c.2090A>C (p.Asp697Ala)",
+    "gene": "MSH6",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-10-15"
+  },
+  {
+    "variation_id": "4955002",
+    "accession": "VCV004955002",
+    "title": "NM_000179.3(MSH6):c.1793A>T (p.Lys598Ile)",
+    "gene": "MSH6",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-06-25"
+  },
+  {
+    "variation_id": "4954997",
+    "accession": "VCV004954997",
+    "title": "NM_000179.3(MSH6):c.1304T>A (p.Leu435Gln)",
+    "gene": "MSH6",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-11-09"
+  },
+  {
+    "variation_id": "4954996",
+    "accession": "VCV004954996",
+    "title": "NM_000179.3(MSH6):c.1037C>A (p.Ser346Tyr)",
+    "gene": "MSH6",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-07-28"
+  },
+  {
+    "variation_id": "4890799",
+    "accession": "VCV004890799",
+    "title": "NM_000179.3(MSH6):c.254C>G (p.Pro85Arg)",
+    "gene": "MSH6",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-01"
+  },
+  {
+    "variation_id": "4886891",
+    "accession": "VCV004886891",
+    "title": "NM_000179.3(MSH6):c.1139A>C (p.Asp380Ala)",
+    "gene": "MSH6",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-26"
+  },
+  {
+    "variation_id": "4886374",
+    "accession": "VCV004886374",
+    "title": "NM_000179.3(MSH6):c.4067_*4del (p.Leu1356_Ter1361delinsXaa)",
+    "gene": "MSH6",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-01-25"
+  },
+  {
+    "variation_id": "4885370",
+    "accession": "VCV004885370",
+    "title": "NM_000179.3(MSH6):c.-87A>C",
+    "gene": "MSH6",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-04-24"
+  },
+  {
+    "variation_id": "4860430",
+    "accession": "VCV004860430",
+    "title": "NM_000179.3(MSH6):c.2249C>G (p.Thr750Arg)",
+    "gene": "MSH6",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-30"
+  },
+  {
+    "variation_id": "4860429",
+    "accession": "VCV004860429",
+    "title": "NM_000179.3(MSH6):c.3302A>G (p.Lys1101Arg)",
+    "gene": "MSH6",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-03-19"
+  },
+  {
+    "variation_id": "4860428",
+    "accession": "VCV004860428",
+    "title": "NM_000179.3(MSH6):c.1358A>G (p.Lys453Arg)",
+    "gene": "MSH6",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-14"
+  },
+  {
+    "variation_id": "4860427",
+    "accession": "VCV004860427",
+    "title": "NM_000179.3(MSH6):c.594G>T (p.Glu198Asp)",
+    "gene": "MSH6",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-14"
+  },
+  {
+    "variation_id": "4759150",
+    "accession": "VCV004759150",
+    "title": "NM_000179.3(MSH6):c.2129T>C (p.Ile710Thr)",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-11-25"
+  },
+  {
+    "variation_id": "4538530",
+    "accession": "VCV004538530",
+    "title": "NM_000179.3(MSH6):c.3673A>T (p.Thr1225Ser)",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-05-18"
+  },
+  {
+    "variation_id": "4532890",
+    "accession": "VCV004532890",
+    "title": "NM_000179.3(MSH6):c.517C>T (p.Leu173=)",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-10-22"
+  },
+  {
+    "variation_id": "3903696",
+    "accession": "VCV003903696",
+    "title": "NM_000179.3(MSH6):c.458-3T>C",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-03-09"
+  },
+  {
+    "variation_id": "3893666",
+    "accession": "VCV003893666",
+    "title": "NM_000179.3(MSH6):c.3955_3963del (p.Lys1319_Arg1321del)",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-11-03"
+  },
+  {
+    "variation_id": "3875106",
+    "accession": "VCV003875106",
+    "title": "NM_000179.3(MSH6):c.3412G>T (p.Gly1138Trp)",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-01-01"
+  },
+  {
+    "variation_id": "3779965",
+    "accession": "VCV003779965",
+    "title": "NM_000179.3(MSH6):c.3173-16_3173-5del",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-03-02"
+  },
+  {
+    "variation_id": "3779962",
+    "accession": "VCV003779962",
+    "title": "NM_000179.3(MSH6):c.3923_3940dup (p.Ile1313_Gln1314insLeuProGluGluValIle)",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-11-13"
+  },
+  {
+    "variation_id": "3718579",
+    "accession": "VCV003718579",
+    "title": "NM_000179.3(MSH6):c.739A>C (p.Lys247Gln)",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-07-09"
+  },
+  {
+    "variation_id": "3703403",
+    "accession": "VCV003703403",
+    "title": "NM_000179.3(MSH6):c.980C>T (p.Thr327Ile)",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-04-22"
+  },
+  {
+    "variation_id": "3649126",
+    "accession": "VCV003649126",
+    "title": "NM_000179.3(MSH6):c.3936_3953del (p.Ile1313_Arg1318del)",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-01-13"
+  },
+  {
+    "variation_id": "3611434",
+    "accession": "VCV003611434",
+    "title": "NM_000179.3(MSH6):c.3172+7del",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-12-14"
+  },
+  {
+    "variation_id": "3572008",
+    "accession": "VCV003572008",
+    "title": "NM_000179.3(MSH6):c.458-8C>A",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-08-25"
+  },
+  {
+    "variation_id": "3572003",
+    "accession": "VCV003572003",
+    "title": "NM_000179.3(MSH6):c.411C>T (p.Ser137=)",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-10-25"
+  },
+  {
+    "variation_id": "3387069",
+    "accession": "VCV003387069",
+    "title": "NM_000179.3(MSH6):c.3025A>G (p.Lys1009Glu)",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-03-23"
+  },
+  {
+    "variation_id": "3387062",
+    "accession": "VCV003387062",
+    "title": "NM_000179.3(MSH6):c.1624C>G (p.Leu542Val)",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-03-03"
+  },
+  {
+    "variation_id": "3296355",
+    "accession": "VCV003296355",
+    "title": "NM_000179.3(MSH6):c.186_187delinsAC (p.Ser63Pro)",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-04-22"
+  },
+  {
+    "variation_id": "3239788",
+    "accession": "VCV003239788",
+    "title": "NM_000179.3(MSH6):c.1531A>G (p.Arg511Gly)",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-03-14"
+  },
+  {
+    "variation_id": "3230516",
+    "accession": "VCV003230516",
+    "title": "NM_000179.3(MSH6):c.1853A>G (p.Gln618Arg)",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-04-29"
+  },
+  {
+    "variation_id": "3073290",
+    "accession": "VCV003073290",
+    "title": "NM_000179.3(MSH6):c.1942A>G (p.Ser648Gly)",
+    "gene": "MSH6",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-05-15"
+  },
+  {
+    "variation_id": "4895210",
+    "accession": "VCV004895210",
+    "title": "NM_000535.7(PMS2):c.22A>T (p.Ser8Cys)",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-05-23"
+  },
+  {
+    "variation_id": "4895207",
+    "accession": "VCV004895207",
+    "title": "NM_000535.7(PMS2):c.76A>G (p.Ile26Val)",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-10-14"
+  },
+  {
+    "variation_id": "4895206",
+    "accession": "VCV004895206",
+    "title": "NM_000535.7(PMS2):c.176A>G (p.Lys59Arg)",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-02-20"
+  },
+  {
+    "variation_id": "4895205",
+    "accession": "VCV004895205",
+    "title": "NM_000535.7(PMS2):c.250+3A>G",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-01-20"
+  },
+  {
+    "variation_id": "4895191",
+    "accession": "VCV004895191",
+    "title": "NM_000535.7(PMS2):c.2330C>A (p.Thr777Asn)",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-06-03"
+  },
+  {
+    "variation_id": "4890798",
+    "accession": "VCV004890798",
+    "title": "NM_000535.7(PMS2):c.1652G>C (p.Cys551Ser)",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-04"
+  },
+  {
+    "variation_id": "4885050",
+    "accession": "VCV004885050",
+    "title": "NM_000535.7(PMS2):c.1968A>C (p.Glu656Asp)",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-11-19"
+  },
+  {
+    "variation_id": "4885022",
+    "accession": "VCV004885022",
+    "title": "NM_000535.7(PMS2):c.264C>G (p.His88Gln)",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-03-12"
+  },
+  {
+    "variation_id": "4885013",
+    "accession": "VCV004885013",
+    "title": "NM_000535.7(PMS2):c.385G>C (p.Ala129Pro)",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-07-01"
+  },
+  {
+    "variation_id": "4881358",
+    "accession": "VCV004881358",
+    "title": "NM_000535.7(PMS2):c.354-25C>T",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-02-09"
+  },
+  {
+    "variation_id": "4881356",
+    "accession": "VCV004881356",
+    "title": "NM_000535.7(PMS2):c.354-23C>G",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-11-05"
+  },
+  {
+    "variation_id": "4862134",
+    "accession": "VCV004862134",
+    "title": "NM_000535.7(PMS2):c.1202A>G (p.Asp401Gly)",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-11"
+  },
+  {
+    "variation_id": "4862133",
+    "accession": "VCV004862133",
+    "title": "NM_000535.7(PMS2):c.718A>C (p.Ile240Leu)",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-08"
+  },
+  {
+    "variation_id": "4862132",
+    "accession": "VCV004862132",
+    "title": "NM_000535.7(PMS2):c.2332T>C (p.Phe778Leu)",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-08"
+  },
+  {
+    "variation_id": "4862129",
+    "accession": "VCV004862129",
+    "title": "NM_000535.7(PMS2):c.2407G>C (p.Val803Leu)",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-27"
+  },
+  {
+    "variation_id": "4862128",
+    "accession": "VCV004862128",
+    "title": "NM_000535.7(PMS2):c.1164T>G (p.His388Gln)",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-27"
+  },
+  {
+    "variation_id": "4862127",
+    "accession": "VCV004862127",
+    "title": "NM_000535.7(PMS2):c.1571C>A (p.Pro524Gln)",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-24"
+  },
+  {
+    "variation_id": "4862125",
+    "accession": "VCV004862125",
+    "title": "NM_000535.7(PMS2):c.1262G>C (p.Arg421Pro)",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-21"
+  },
+  {
+    "variation_id": "4862124",
+    "accession": "VCV004862124",
+    "title": "NM_000535.7(PMS2):c.1640C>T (p.Ser547Leu)",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-19"
+  },
+  {
+    "variation_id": "4862123",
+    "accession": "VCV004862123",
+    "title": "NM_000535.7(PMS2):c.1184C>T (p.Pro395Leu)",
+    "gene": "PMS2",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-17"
+  },
+  {
+    "variation_id": "4921271",
+    "accession": "VCV004921271",
+    "title": "NM_000257.4(MYH7):c.373_379del (p.Val125fs)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-01-15"
+  },
+  {
+    "variation_id": "4921266",
+    "accession": "VCV004921266",
+    "title": "NM_000257.4(MYH7):c.575del (p.Ile192fs)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2018-07-13"
+  },
+  {
+    "variation_id": "4921265",
+    "accession": "VCV004921265",
+    "title": "NM_000257.4(MYH7):c.593T>C (p.Ile198Thr)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2018-07-04"
+  },
+  {
+    "variation_id": "4921261",
+    "accession": "VCV004921261",
+    "title": "NM_000257.4(MYH7):c.703A>T (p.Thr235Ser)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2018-11-19"
+  },
+  {
+    "variation_id": "4921259",
+    "accession": "VCV004921259",
+    "title": "NM_000257.4(MYH7):c.732C>A (p.Phe244Leu)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2018-06-27"
+  },
+  {
+    "variation_id": "4921257",
+    "accession": "VCV004921257",
+    "title": "NM_000257.4(MYH7):c.760G>A (p.Ala254Thr)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-05-04"
+  },
+  {
+    "variation_id": "4921256",
+    "accession": "VCV004921256",
+    "title": "NM_000257.4(MYH7):c.910A>G (p.Thr304Ala)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-07-21"
+  },
+  {
+    "variation_id": "4921252",
+    "accession": "VCV004921252",
+    "title": "NM_000257.4(MYH7):c.1058C>A (p.Thr353Lys)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2017-11-22"
+  },
+  {
+    "variation_id": "4921251",
+    "accession": "VCV004921251",
+    "title": "NM_000257.4(MYH7):c.1102C>A (p.Gln368Lys)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-01-31"
+  },
+  {
+    "variation_id": "4921250",
+    "accession": "VCV004921250",
+    "title": "NM_000257.4(MYH7):c.1108G>C (p.Glu370Gln)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-11-26"
+  },
+  {
+    "variation_id": "4921249",
+    "accession": "VCV004921249",
+    "title": "NM_000257.4(MYH7):c.1180G>T (p.Asp394Tyr)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-04-04"
+  },
+  {
+    "variation_id": "4921247",
+    "accession": "VCV004921247",
+    "title": "NM_000257.4(MYH7):c.1205C>T (p.Pro402Leu)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-09-21"
+  },
+  {
+    "variation_id": "4921245",
+    "accession": "VCV004921245",
+    "title": "NM_000257.4(MYH7):c.1258-7_1263del",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-07-04"
+  },
+  {
+    "variation_id": "4921241",
+    "accession": "VCV004921241",
+    "title": "NM_000257.4(MYH7):c.1441A>C (p.Thr481Pro)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-09-09"
+  },
+  {
+    "variation_id": "4921239",
+    "accession": "VCV004921239",
+    "title": "NM_000257.4(MYH7):c.1452G>C (p.Lys484Asn)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2019-01-17"
+  },
+  {
+    "variation_id": "4921238",
+    "accession": "VCV004921238",
+    "title": "NM_000257.4(MYH7):c.1489G>A (p.Glu497Lys)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-12-16"
+  },
+  {
+    "variation_id": "4921237",
+    "accession": "VCV004921237",
+    "title": "NM_000257.4(MYH7):c.1541G>T (p.Gly514Val)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-03-18"
+  },
+  {
+    "variation_id": "4921236",
+    "accession": "VCV004921236",
+    "title": "NM_000257.4(MYH7):c.1567C>T (p.Leu523Phe)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-06-30"
+  },
+  {
+    "variation_id": "4921233",
+    "accession": "VCV004921233",
+    "title": "NM_000257.4(MYH7):c.1614C>T (p.Cys538=)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-08-15"
+  },
+  {
+    "variation_id": "4921231",
+    "accession": "VCV004921231",
+    "title": "NM_000257.4(MYH7):c.1697C>T (p.Pro566Leu)",
+    "gene": "MYH7",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-08-29"
+  },
+  {
+    "variation_id": "4884318",
+    "accession": "VCV004884318",
+    "title": "NM_000257.4(MYH7):c.1543A>G (p.Met515Val)",
+    "gene": "MYH7",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-08-04"
+  },
+  {
+    "variation_id": "3901153",
+    "accession": "VCV003901153",
+    "title": "NM_000257.4(MYH7):c.2185G>C (p.Ala729Pro)",
+    "gene": "MYH7",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-05-27"
+  },
+  {
+    "variation_id": "3775810",
+    "accession": "VCV003775810",
+    "title": "NM_000257.4(MYH7):c.1833G>C (p.Lys611Asn)",
+    "gene": "MYH7",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-02-15"
+  },
+  {
+    "variation_id": "3636001",
+    "accession": "VCV003636001",
+    "title": "NM_000257.4(MYH7):c.5000T>C (p.Leu1667Pro)",
+    "gene": "MYH7",
+    "classification": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "last_evaluated": "2024-06-21"
+  },
+  {
+    "variation_id": "3354701",
+    "accession": "VCV003354701",
+    "title": "NM_000257.4(MYH7):c.732+2T>C",
+    "gene": "MYH7",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-01-15"
+  },
+  {
+    "variation_id": "3338334",
+    "accession": "VCV003338334",
+    "title": "NM_000257.4(MYH7):c.728G>C (p.Arg243Pro)",
+    "gene": "MYH7",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-03-01"
+  },
+  {
+    "variation_id": "2853260",
+    "accession": "VCV002853260",
+    "title": "NM_000257.4(MYH7):c.746G>C (p.Arg249Pro)",
+    "gene": "MYH7",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-06-11"
+  },
+  {
+    "variation_id": "2840901",
+    "accession": "VCV002840901",
+    "title": "NM_000257.4(MYH7):c.415G>C (p.Val139Leu)",
+    "gene": "MYH7",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-03-09"
+  },
+  {
+    "variation_id": "2780272",
+    "accession": "VCV002780272",
+    "title": "NM_000257.4(MYH7):c.4598T>C (p.Leu1533Pro)",
+    "gene": "MYH7",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-01-31"
+  },
+  {
+    "variation_id": "2736084",
+    "accession": "VCV002736084",
+    "title": "NM_000257.4(MYH7):c.2150A>G (p.Asp717Gly)",
+    "gene": "MYH7",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-01-26"
+  },
+  {
+    "variation_id": "2702266",
+    "accession": "VCV002702266",
+    "title": "NM_000257.4(MYH7):c.5790+2del",
+    "gene": "MYH7",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-04-15"
+  },
+  {
+    "variation_id": "2671917",
+    "accession": "VCV002671917",
+    "title": "NM_000257.4(MYH7):c.4309G>C (p.Ala1437Pro)",
+    "gene": "MYH7",
+    "classification": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "last_evaluated": "2025-03-28"
+  },
+  {
+    "variation_id": "1786737",
+    "accession": "VCV001786737",
+    "title": "NM_000257.4(MYH7):c.2150A>C (p.Asp717Ala)",
+    "gene": "MYH7",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-02-22"
+  },
+  {
+    "variation_id": "1783295",
+    "accession": "VCV001783295",
+    "title": "NM_000257.4(MYH7):c.1955G>A (p.Arg652Lys)",
+    "gene": "MYH7",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-04-13"
+  },
+  {
+    "variation_id": "1687316",
+    "accession": "VCV001687316",
+    "title": "NM_000257.4(MYH7):c.1350G>T (p.Lys450Asn)",
+    "gene": "MYH7",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-01-22"
+  },
+  {
+    "variation_id": "1407730",
+    "accession": "VCV001407730",
+    "title": "NM_000257.4(MYH7):c.4048G>A (p.Glu1350Lys)",
+    "gene": "MYH7",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-08-28"
+  },
+  {
+    "variation_id": "1346134",
+    "accession": "VCV001346134",
+    "title": "NM_000257.4(MYH7):c.2536G>A (p.Glu846Lys)",
+    "gene": "MYH7",
+    "classification": "Pathogenic/Likely pathogenic",
+    "review_status": "criteria provided, multiple submitters, no conflicts",
+    "last_evaluated": "2025-09-10"
+  },
+  {
+    "variation_id": "4911616",
+    "accession": "VCV004911616",
+    "title": "NM_000256.3(MYBPC3):c.139_145delinsCTGGCTG (p.Ser47_Ile49delinsLeuAlaVal)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-01-02"
+  },
+  {
+    "variation_id": "4911615",
+    "accession": "VCV004911615",
+    "title": "NM_000256.3(MYBPC3):c.152C>T (p.Ala51Val)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-09-10"
+  },
+  {
+    "variation_id": "4911613",
+    "accession": "VCV004911613",
+    "title": "NM_000256.3(MYBPC3):c.241_242insGAG (p.Ala80_Val81insGly)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-12-28"
+  },
+  {
+    "variation_id": "4911610",
+    "accession": "VCV004911610",
+    "title": "NM_000256.3(MYBPC3):c.448_450dup (p.Pro150_Asp151insPro)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-11-06"
+  },
+  {
+    "variation_id": "4911605",
+    "accession": "VCV004911605",
+    "title": "NM_000256.3(MYBPC3):c.520T>G (p.Phe174Val)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-02-20"
+  },
+  {
+    "variation_id": "4911603",
+    "accession": "VCV004911603",
+    "title": "NM_000256.3(MYBPC3):c.589G>C (p.Val197Leu)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-07-05"
+  },
+  {
+    "variation_id": "4911599",
+    "accession": "VCV004911599",
+    "title": "NM_000256.3(MYBPC3):c.763A>G (p.Thr255Ala)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-07-01"
+  },
+  {
+    "variation_id": "4911598",
+    "accession": "VCV004911598",
+    "title": "NM_000256.3(MYBPC3):c.767T>C (p.Val256Ala)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-02-09"
+  },
+  {
+    "variation_id": "4911595",
+    "accession": "VCV004911595",
+    "title": "NM_000256.3(MYBPC3):c.904A>G (p.Arg302Gly)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-03-15"
+  },
+  {
+    "variation_id": "4911593",
+    "accession": "VCV004911593",
+    "title": "NM_000256.3(MYBPC3):c.906-37C>A",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-11-04"
+  },
+  {
+    "variation_id": "4911583",
+    "accession": "VCV004911583",
+    "title": "NM_000256.3(MYBPC3):c.1106T>C (p.Leu369Pro)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-10-18"
+  },
+  {
+    "variation_id": "4911579",
+    "accession": "VCV004911579",
+    "title": "NM_000256.3(MYBPC3):c.1224-25T>C",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-09-06"
+  },
+  {
+    "variation_id": "4911573",
+    "accession": "VCV004911573",
+    "title": "NM_000256.3(MYBPC3):c.1445C>G (p.Ala482Gly)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-12-28"
+  },
+  {
+    "variation_id": "4911570",
+    "accession": "VCV004911570",
+    "title": "NM_000256.3(MYBPC3):c.1465G>T (p.Asp489Tyr)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-06-03"
+  },
+  {
+    "variation_id": "4911569",
+    "accession": "VCV004911569",
+    "title": "NM_000256.3(MYBPC3):c.1528C>T (p.His510Tyr)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-07-01"
+  },
+  {
+    "variation_id": "4911568",
+    "accession": "VCV004911568",
+    "title": "NM_000256.3(MYBPC3):c.1538T>C (p.Ile513Thr)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-04-24"
+  },
+  {
+    "variation_id": "4911567",
+    "accession": "VCV004911567",
+    "title": "NM_000256.3(MYBPC3):c.1598A>T (p.Gln533Leu)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2018-05-24"
+  },
+  {
+    "variation_id": "4911565",
+    "accession": "VCV004911565",
+    "title": "NM_000256.3(MYBPC3):c.1766G>C (p.Arg589Pro)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-11-18"
+  },
+  {
+    "variation_id": "4911556",
+    "accession": "VCV004911556",
+    "title": "NM_000256.3(MYBPC3):c.1929A>T (p.Glu643Asp)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-06-07"
+  },
+  {
+    "variation_id": "4911555",
+    "accession": "VCV004911555",
+    "title": "NM_000256.3(MYBPC3):c.2049G>T (p.Trp683Cys)",
+    "gene": "MYBPC3",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-07-14"
+  },
+  {
+    "variation_id": "4751525",
+    "accession": "VCV004751525",
+    "title": "NM_000256.3(MYBPC3):c.1305G>A (p.Gln435=)",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-02-11"
+  },
+  {
+    "variation_id": "3773673",
+    "accession": "VCV003773673",
+    "title": "NM_000256.3(MYBPC3):c.1898-1G>T",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-03-04"
+  },
+  {
+    "variation_id": "3731124",
+    "accession": "VCV003731124",
+    "title": "NM_000256.3(MYBPC3):c.2308+5G>A",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-09-05"
+  },
+  {
+    "variation_id": "3572875",
+    "accession": "VCV003572875",
+    "title": "NM_000256.3(MYBPC3):c.772+4A>T",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-01-23"
+  },
+  {
+    "variation_id": "3400422",
+    "accession": "VCV003400422",
+    "title": "NM_000256.3(MYBPC3):c.505+1_505+4delinsCT",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-01-26"
+  },
+  {
+    "variation_id": "3387141",
+    "accession": "VCV003387141",
+    "title": "NM_000256.3(MYBPC3):c.840_851+5del",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-08-29"
+  },
+  {
+    "variation_id": "3377189",
+    "accession": "VCV003377189",
+    "title": "NM_000256.3(MYBPC3):c.2309-1G>A",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-05-12"
+  },
+  {
+    "variation_id": "3376675",
+    "accession": "VCV003376675",
+    "title": "NM_000256.3(MYBPC3):c.1224-33G>A",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-04-28"
+  },
+  {
+    "variation_id": "3258073",
+    "accession": "VCV003258073",
+    "title": "NM_000256.3(MYBPC3):c.2149-3C>G",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-09-02"
+  },
+  {
+    "variation_id": "3230872",
+    "accession": "VCV003230872",
+    "title": "NM_000256.3(MYBPC3):c.2081C>T (p.Pro694Leu)",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-05-20"
+  },
+  {
+    "variation_id": "3070419",
+    "accession": "VCV003070419",
+    "title": "NM_000256.3(MYBPC3):c.1242C>T (p.Ser414=)",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-12-04"
+  },
+  {
+    "variation_id": "3070370",
+    "accession": "VCV003070370",
+    "title": "NM_000256.3(MYBPC3):c.2149-6C>G",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-07-01"
+  },
+  {
+    "variation_id": "3069859",
+    "accession": "VCV003069859",
+    "title": "NM_000256.3(MYBPC3):c.2116G>A (p.Gly706Ser)",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-06-04"
+  },
+  {
+    "variation_id": "3069464",
+    "accession": "VCV003069464",
+    "title": "NM_000256.3(MYBPC3):c.2114C>A (p.Thr705Lys)",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-11-25"
+  },
+  {
+    "variation_id": "3016790",
+    "accession": "VCV003016790",
+    "title": "NM_000256.3(MYBPC3):c.2338A>G (p.Ile780Val)",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-05-11"
+  },
+  {
+    "variation_id": "2900819",
+    "accession": "VCV002900819",
+    "title": "NM_000256.3(MYBPC3):c.408G>A (p.Gly136=)",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-06-17"
+  },
+  {
+    "variation_id": "2887489",
+    "accession": "VCV002887489",
+    "title": "NM_000256.3(MYBPC3):c.3663G>A (p.Leu1221=)",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2023-08-15"
+  },
+  {
+    "variation_id": "2884374",
+    "accession": "VCV002884374",
+    "title": "NM_000256.3(MYBPC3):c.879G>A (p.Leu293=)",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-12-21"
+  },
+  {
+    "variation_id": "2866875",
+    "accession": "VCV002866875",
+    "title": "NM_000256.3(MYBPC3):c.293-1G>C",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-10-29"
+  },
+  {
+    "variation_id": "2866523",
+    "accession": "VCV002866523",
+    "title": "NM_000256.3(MYBPC3):c.772G>C (p.Glu258Gln)",
+    "gene": "MYBPC3",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-05-15"
+  },
+  {
+    "variation_id": "4911618",
+    "accession": "VCV004911618",
+    "title": "NM_000256.3(MYBPC3):c.126G>A (p.Trp42Ter)",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-09-06"
+  },
+  {
+    "variation_id": "4860512",
+    "accession": "VCV004860512",
+    "title": "NM_000256.3(MYBPC3):c.2247C>A (p.Tyr749Ter)",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-12"
+  },
+  {
+    "variation_id": "4856629",
+    "accession": "VCV004856629",
+    "title": "NM_000256.3(MYBPC3):c.185dup (p.Arg63fs)",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-04"
+  },
+  {
+    "variation_id": "4856628",
+    "accession": "VCV004856628",
+    "title": "NM_000256.3(MYBPC3):c.2215G>T (p.Glu739Ter)",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-04"
+  },
+  {
+    "variation_id": "4856627",
+    "accession": "VCV004856627",
+    "title": "NM_000256.3(MYBPC3):c.2540_2547delinsT (p.Tyr847fs)",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-04"
+  },
+  {
+    "variation_id": "4856626",
+    "accession": "VCV004856626",
+    "title": "NM_000256.3(MYBPC3):c.3097del (p.Arg1033fs)",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-04"
+  },
+  {
+    "variation_id": "4856625",
+    "accession": "VCV004856625",
+    "title": "NM_000256.3(MYBPC3):c.3103del (p.Ala1035fs)",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-04"
+  },
+  {
+    "variation_id": "4856624",
+    "accession": "VCV004856624",
+    "title": "NM_000256.3(MYBPC3):c.3148G>T (p.Glu1050Ter)",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-04"
+  },
+  {
+    "variation_id": "4856623",
+    "accession": "VCV004856623",
+    "title": "NM_000256.3(MYBPC3):c.3236del (p.Gly1079fs)",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-04"
+  },
+  {
+    "variation_id": "4856622",
+    "accession": "VCV004856622",
+    "title": "NM_000256.3(MYBPC3):c.3580dup (p.Ala1194fs)",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-04"
+  },
+  {
+    "variation_id": "4856617",
+    "accession": "VCV004856617",
+    "title": "NM_000256.3(MYBPC3):c.1078A>T (p.Lys360Ter)",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-04"
+  },
+  {
+    "variation_id": "4856616",
+    "accession": "VCV004856616",
+    "title": "NM_000256.3(MYBPC3):c.1351+1G>T",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-04"
+  },
+  {
+    "variation_id": "4856615",
+    "accession": "VCV004856615",
+    "title": "NM_000256.3(MYBPC3):c.1558G>T (p.Glu520Ter)",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-04"
+  },
+  {
+    "variation_id": "4856614",
+    "accession": "VCV004856614",
+    "title": "NM_000256.3(MYBPC3):c.1624+2T>G",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-04"
+  },
+  {
+    "variation_id": "4856613",
+    "accession": "VCV004856613",
+    "title": "NM_000256.3(MYBPC3):c.181_202del (p.Gly61fs)",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-04"
+  },
+  {
+    "variation_id": "4856612",
+    "accession": "VCV004856612",
+    "title": "NM_000256.3(MYBPC3):c.655-2del",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-04"
+  },
+  {
+    "variation_id": "4856611",
+    "accession": "VCV004856611",
+    "title": "NM_000256.3(MYBPC3):c.696del (p.Phe233fs)",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-04"
+  },
+  {
+    "variation_id": "4855852",
+    "accession": "VCV004855852",
+    "title": "NM_000256.3(MYBPC3):c.3033del (p.Gln1012fs)",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-05-14"
+  },
+  {
+    "variation_id": "4854359",
+    "accession": "VCV004854359",
+    "title": "NM_000256.3(MYBPC3):c.1224-1G>C",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-01-13"
+  },
+  {
+    "variation_id": "4851432",
+    "accession": "VCV004851432",
+    "title": "NM_000256.3(MYBPC3):c.3633_3634del (p.Lys1211fs)",
+    "gene": "MYBPC3",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-04-13"
+  },
+  {
+    "variation_id": "4910351",
+    "accession": "VCV004910351",
+    "title": "NM_000218.3(KCNQ1):c.1831G>C (p.Asp611His)",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-01-31"
+  },
+  {
+    "variation_id": "4910340",
+    "accession": "VCV004910340",
+    "title": "NM_000218.3(KCNQ1):c.1532G>C (p.Arg511Pro)",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-11-01"
+  },
+  {
+    "variation_id": "4910323",
+    "accession": "VCV004910323",
+    "title": "NM_000218.3(KCNQ1):c.1514+5G>C",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-09-28"
+  },
+  {
+    "variation_id": "4910308",
+    "accession": "VCV004910308",
+    "title": "NM_000218.3(KCNQ1):c.1381T>C (p.Tyr461His)",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-10-15"
+  },
+  {
+    "variation_id": "4910307",
+    "accession": "VCV004910307",
+    "title": "NM_000218.3(KCNQ1):c.1339C>G (p.Pro447Ala)",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-09-03"
+  },
+  {
+    "variation_id": "4910297",
+    "accession": "VCV004910297",
+    "title": "NM_000218.3(KCNQ1):c.1032+6T>C",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-05-10"
+  },
+  {
+    "variation_id": "4910294",
+    "accession": "VCV004910294",
+    "title": "NM_000218.3(KCNQ1):c.985G>T (p.Ala329Ser)",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2018-10-25"
+  },
+  {
+    "variation_id": "4910293",
+    "accession": "VCV004910293",
+    "title": "NM_000218.3(KCNQ1):c.978G>T (p.Lys326Asn)",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-02-13"
+  },
+  {
+    "variation_id": "4910290",
+    "accession": "VCV004910290",
+    "title": "NM_000218.3(KCNQ1):c.888C>A (p.Phe296Leu)",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2018-09-18"
+  },
+  {
+    "variation_id": "4910288",
+    "accession": "VCV004910288",
+    "title": "NM_000218.3(KCNQ1):c.880_894del (p.Val294_Ser298del)",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-08-03"
+  },
+  {
+    "variation_id": "4910274",
+    "accession": "VCV004910274",
+    "title": "NM_000218.3(KCNQ1):c.379T>C (p.Phe127Leu)",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-09-25"
+  },
+  {
+    "variation_id": "4910273",
+    "accession": "VCV004910273",
+    "title": "NM_000218.3(KCNQ1):c.326G>A (p.Arg109His)",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2019-11-21"
+  },
+  {
+    "variation_id": "4910271",
+    "accession": "VCV004910271",
+    "title": "NM_000218.3(KCNQ1):c.310A>G (p.Thr104Ala)",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-11-17"
+  },
+  {
+    "variation_id": "4910269",
+    "accession": "VCV004910269",
+    "title": "NM_000218.3(KCNQ1):c.200C>A (p.Pro67Gln)",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-12-01"
+  },
+  {
+    "variation_id": "4910265",
+    "accession": "VCV004910265",
+    "title": "NM_000218.3(KCNQ1):c.52G>T (p.Gly18Cys)",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-05-08"
+  },
+  {
+    "variation_id": "4875016",
+    "accession": "VCV004875016",
+    "title": "NM_000218.3(KCNQ1):c.1394-15384del",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-01"
+  },
+  {
+    "variation_id": "4874234",
+    "accession": "VCV004874234",
+    "title": "NM_000218.3(KCNQ1):c.1393+34601A>G",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-01"
+  },
+  {
+    "variation_id": "4858668",
+    "accession": "VCV004858668",
+    "title": "NM_000218.3(KCNQ1):c.188C>A (p.Pro63His)",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-11"
+  },
+  {
+    "variation_id": "4855536",
+    "accession": "VCV004855536",
+    "title": "NM_000218.3(KCNQ1):c.1032+3A>C",
+    "gene": "KCNQ1",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2025-11-16"
+  },
+  {
+    "variation_id": "4961800",
+    "accession": "VCV004961800",
+    "title": "NM_000335.5(SCN5A):c.611C>G (p.Ala204Gly)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2018-11-07"
+  },
+  {
+    "variation_id": "4961799",
+    "accession": "VCV004961799",
+    "title": "NM_000335.5(SCN5A):c.631G>T (p.Asp211Tyr)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2019-02-26"
+  },
+  {
+    "variation_id": "4961795",
+    "accession": "VCV004961795",
+    "title": "NM_000335.5(SCN5A):c.788T>C (p.Val263Ala)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2018-11-26"
+  },
+  {
+    "variation_id": "4961793",
+    "accession": "VCV004961793",
+    "title": "NM_000335.5(SCN5A):c.840C>G (p.Cys280Trp)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2017-06-08"
+  },
+  {
+    "variation_id": "4961792",
+    "accession": "VCV004961792",
+    "title": "NM_000335.5(SCN5A):c.927T>G (p.Ser309Arg)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-06-06"
+  },
+  {
+    "variation_id": "4961790",
+    "accession": "VCV004961790",
+    "title": "NM_000335.5(SCN5A):c.1012G>A (p.Gly338Ser)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-08-05"
+  },
+  {
+    "variation_id": "4961789",
+    "accession": "VCV004961789",
+    "title": "NM_000335.5(SCN5A):c.1029G>C (p.Lys343Asn)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-05-29"
+  },
+  {
+    "variation_id": "4961786",
+    "accession": "VCV004961786",
+    "title": "NM_000335.5(SCN5A):c.1087C>T (p.Leu363Phe)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-07-27"
+  },
+  {
+    "variation_id": "4961785",
+    "accession": "VCV004961785",
+    "title": "NM_000335.5(SCN5A):c.1115A>T (p.Asp372Val)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-09-09"
+  },
+  {
+    "variation_id": "4961781",
+    "accession": "VCV004961781",
+    "title": "NM_000335.5(SCN5A):c.1153G>C (p.Ala385Pro)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-05-25"
+  },
+  {
+    "variation_id": "4961778",
+    "accession": "VCV004961778",
+    "title": "NM_000335.5(SCN5A):c.1339-11C>G",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-04-17"
+  },
+  {
+    "variation_id": "4961776",
+    "accession": "VCV004961776",
+    "title": "NM_000335.5(SCN5A):c.1502A>T (p.Asp501Val)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2019-05-07"
+  },
+  {
+    "variation_id": "4961761",
+    "accession": "VCV004961761",
+    "title": "NM_000335.5(SCN5A):c.2272G>A (p.Gly758Arg)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-09-05"
+  },
+  {
+    "variation_id": "4961760",
+    "accession": "VCV004961760",
+    "title": "NM_000335.5(SCN5A):c.2272G>T (p.Gly758Trp)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-03-31"
+  },
+  {
+    "variation_id": "4961757",
+    "accession": "VCV004961757",
+    "title": "NM_000335.5(SCN5A):c.2432G>C (p.Arg811Pro)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-05-13"
+  },
+  {
+    "variation_id": "4961754",
+    "accession": "VCV004961754",
+    "title": "NM_000335.5(SCN5A):c.2589G>C (p.Lys863Asn)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-03-11"
+  },
+  {
+    "variation_id": "4961752",
+    "accession": "VCV004961752",
+    "title": "NM_000335.5(SCN5A):c.2759T>C (p.Leu920Ser)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-06-20"
+  },
+  {
+    "variation_id": "4961750",
+    "accession": "VCV004961750",
+    "title": "NM_000335.5(SCN5A):c.2789T>C (p.Val930Ala)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-10-25"
+  },
+  {
+    "variation_id": "4961748",
+    "accession": "VCV004961748",
+    "title": "NM_000335.5(SCN5A):c.3079C>A (p.Arg1027=)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-12-21"
+  },
+  {
+    "variation_id": "4961735",
+    "accession": "VCV004961735",
+    "title": "NM_000335.5(SCN5A):c.3745T>G (p.Phe1249Val)",
+    "gene": "SCN5A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2017-10-11"
+  },
+  {
+    "variation_id": "4681250",
+    "accession": "VCV004681250",
+    "title": "NM_000335.5(SCN5A):c.1174TTC[1] (p.Phe393del)",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-03-11"
+  },
+  {
+    "variation_id": "4530664",
+    "accession": "VCV004530664",
+    "title": "NM_000335.5(SCN5A):c.2236GAG[1] (p.Glu747del)",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-11-11"
+  },
+  {
+    "variation_id": "3895404",
+    "accession": "VCV003895404",
+    "title": "NM_000335.5(SCN5A):c.1046A>G (p.Asp349Gly)",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-01-27"
+  },
+  {
+    "variation_id": "3730692",
+    "accession": "VCV003730692",
+    "title": "NM_000335.5(SCN5A):c.3228+4G>A",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-08-06"
+  },
+  {
+    "variation_id": "3438254",
+    "accession": "VCV003438254",
+    "title": "NM_000335.5(SCN5A):c.3822C>A (p.Asp1274Glu)",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-03-11"
+  },
+  {
+    "variation_id": "3392575",
+    "accession": "VCV003392575",
+    "title": "NM_000335.5(SCN5A):c.5734C>T (p.Arg1912Cys)",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-04-21"
+  },
+  {
+    "variation_id": "3377054",
+    "accession": "VCV003377054",
+    "title": "NM_000335.5(SCN5A):c.2024-11T>A",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-10-08"
+  },
+  {
+    "variation_id": "3371829",
+    "accession": "VCV003371829",
+    "title": "NM_000335.5(SCN5A):c.3110G>T (p.Gly1037Val)",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-08-08"
+  },
+  {
+    "variation_id": "3229485",
+    "accession": "VCV003229485",
+    "title": "NM_000335.5(SCN5A):c.2608G>C (p.Asp870His)",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-06-25"
+  },
+  {
+    "variation_id": "3071709",
+    "accession": "VCV003071709",
+    "title": "NM_000335.5(SCN5A):c.4719G>C (p.Glu1573Asp)",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-05-07"
+  },
+  {
+    "variation_id": "3070961",
+    "accession": "VCV003070961",
+    "title": "NM_000335.5(SCN5A):c.263del (p.Ser88fs)",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2023-08-23"
+  },
+  {
+    "variation_id": "3070898",
+    "accession": "VCV003070898",
+    "title": "NM_000335.5(SCN5A):c.5283C>G (p.Ile1761Met)",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-09-22"
+  },
+  {
+    "variation_id": "3070783",
+    "accession": "VCV003070783",
+    "title": "NM_000335.5(SCN5A):c.274-14C>G",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-08-27"
+  },
+  {
+    "variation_id": "3069611",
+    "accession": "VCV003069611",
+    "title": "NM_000335.5(SCN5A):c.3603G>A (p.Val1201=)",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-04-09"
+  },
+  {
+    "variation_id": "3068546",
+    "accession": "VCV003068546",
+    "title": "NM_000335.5(SCN5A):c.5899A>G (p.Ile1967Val)",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-09-30"
+  },
+  {
+    "variation_id": "2903685",
+    "accession": "VCV002903685",
+    "title": "NM_000335.5(SCN5A):c.2064C>T (p.Asn688=)",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-04-27"
+  },
+  {
+    "variation_id": "2874532",
+    "accession": "VCV002874532",
+    "title": "NM_000335.5(SCN5A):c.1621G>A (p.Ala541Thr)",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-01-13"
+  },
+  {
+    "variation_id": "2774452",
+    "accession": "VCV002774452",
+    "title": "NM_000335.5(SCN5A):c.3664-12C>G",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-09-25"
+  },
+  {
+    "variation_id": "2663524",
+    "accession": "VCV002663524",
+    "title": "NM_000335.5(SCN5A):c.4416C>G (p.Phe1472Leu)",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-06-18"
+  },
+  {
+    "variation_id": "2587166",
+    "accession": "VCV002587166",
+    "title": "NM_000335.5(SCN5A):c.5987A>G (p.His1996Arg)",
+    "gene": "SCN5A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-08-24"
+  },
+  {
+    "variation_id": "4928540",
+    "accession": "VCV004928540",
+    "title": "NM_001134407.3(GRIN2A):c.65C>A (p.Ala22Glu)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-06-07"
+  },
+  {
+    "variation_id": "4928539",
+    "accession": "VCV004928539",
+    "title": "NM_001134407.3(GRIN2A):c.169C>T (p.Pro57Ser)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-05-12"
+  },
+  {
+    "variation_id": "4928538",
+    "accession": "VCV004928538",
+    "title": "NM_001134407.3(GRIN2A):c.286C>T (p.His96Tyr)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-06-16"
+  },
+  {
+    "variation_id": "4928536",
+    "accession": "VCV004928536",
+    "title": "NM_001134407.3(GRIN2A):c.333G>C (p.Gln111His)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-09-07"
+  },
+  {
+    "variation_id": "4928535",
+    "accession": "VCV004928535",
+    "title": "NM_001134407.3(GRIN2A):c.415G>A (p.Asp139Asn)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-01-03"
+  },
+  {
+    "variation_id": "4928534",
+    "accession": "VCV004928534",
+    "title": "NM_001134407.3(GRIN2A):c.464C>G (p.Ala155Gly)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2019-12-12"
+  },
+  {
+    "variation_id": "4928533",
+    "accession": "VCV004928533",
+    "title": "NM_001134407.3(GRIN2A):c.490G>A (p.Asp164Asn)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-01-13"
+  },
+  {
+    "variation_id": "4928531",
+    "accession": "VCV004928531",
+    "title": "NM_001134407.3(GRIN2A):c.700G>A (p.Asp234Asn)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2018-12-31"
+  },
+  {
+    "variation_id": "4928528",
+    "accession": "VCV004928528",
+    "title": "NM_001134407.3(GRIN2A):c.1346G>A (p.Gly449Glu)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-10-02"
+  },
+  {
+    "variation_id": "4928519",
+    "accession": "VCV004928519",
+    "title": "NM_001134407.3(GRIN2A):c.1801A>G (p.Ile601Val)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-05-11"
+  },
+  {
+    "variation_id": "4928517",
+    "accession": "VCV004928517",
+    "title": "NM_001134407.3(GRIN2A):c.2081T>G (p.Ile694Ser)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-05-21"
+  },
+  {
+    "variation_id": "4928513",
+    "accession": "VCV004928513",
+    "title": "NM_001134407.3(GRIN2A):c.2595G>T (p.Arg865Ser)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-03-23"
+  },
+  {
+    "variation_id": "4928511",
+    "accession": "VCV004928511",
+    "title": "NM_001134407.3(GRIN2A):c.3029C>T (p.Pro1010Leu)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-07-30"
+  },
+  {
+    "variation_id": "4928510",
+    "accession": "VCV004928510",
+    "title": "NM_001134407.3(GRIN2A):c.3293G>T (p.Cys1098Phe)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-07-03"
+  },
+  {
+    "variation_id": "4928509",
+    "accession": "VCV004928509",
+    "title": "NM_001134407.3(GRIN2A):c.3295A>G (p.Ser1099Gly)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-07-03"
+  },
+  {
+    "variation_id": "4928508",
+    "accession": "VCV004928508",
+    "title": "NM_001134407.3(GRIN2A):c.3379G>A (p.Gly1127Ser)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2018-09-24"
+  },
+  {
+    "variation_id": "4928506",
+    "accession": "VCV004928506",
+    "title": "NM_001134407.3(GRIN2A):c.3613G>A (p.Glu1205Lys)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2019-11-29"
+  },
+  {
+    "variation_id": "4928503",
+    "accession": "VCV004928503",
+    "title": "NM_001134407.3(GRIN2A):c.4128C>T (p.Arg1376=)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-05-27"
+  },
+  {
+    "variation_id": "4928502",
+    "accession": "VCV004928502",
+    "title": "NM_001134407.3(GRIN2A):c.4204C>G (p.Arg1402Gly)",
+    "gene": "GRIN2A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-04-26"
+  },
+  {
+    "variation_id": "4267035",
+    "accession": "VCV004267035",
+    "title": "NM_001134407.3(GRIN2A):c.3817C>T (p.Gln1273Ter)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-09-08"
+  },
+  {
+    "variation_id": "3672027",
+    "accession": "VCV003672027",
+    "title": "NM_001134407.3(GRIN2A):c.1152C>A (p.Ser384Arg)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-04-15"
+  },
+  {
+    "variation_id": "3661756",
+    "accession": "VCV003661756",
+    "title": "NM_001134407.3(GRIN2A):c.1183T>C (p.Ser395Pro)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-12-31"
+  },
+  {
+    "variation_id": "3337156",
+    "accession": "VCV003337156",
+    "title": "NM_001134407.3(GRIN2A):c.414+1G>A",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-01-28"
+  },
+  {
+    "variation_id": "3019440",
+    "accession": "VCV003019440",
+    "title": "NM_001134407.3(GRIN2A):c.3172C>T (p.His1058Tyr)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-09-27"
+  },
+  {
+    "variation_id": "2887955",
+    "accession": "VCV002887955",
+    "title": "NM_001134407.3(GRIN2A):c.3635C>A (p.Thr1212Lys)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2023-09-15"
+  },
+  {
+    "variation_id": "2801873",
+    "accession": "VCV002801873",
+    "title": "NM_001134407.3(GRIN2A):c.4330del (p.Val1444fs)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2023-12-09"
+  },
+  {
+    "variation_id": "2760229",
+    "accession": "VCV002760229",
+    "title": "NM_001134407.3(GRIN2A):c.3756G>C (p.Gln1252His)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-03-18"
+  },
+  {
+    "variation_id": "2505888",
+    "accession": "VCV002505888",
+    "title": "NM_001134407.3(GRIN2A):c.1880G>A (p.Ser627Asn)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2023-06-11"
+  },
+  {
+    "variation_id": "2415048",
+    "accession": "VCV002415048",
+    "title": "NM_001134407.3(GRIN2A):c.3250G>C (p.Asp1084His)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-09-20"
+  },
+  {
+    "variation_id": "2330761",
+    "accession": "VCV002330761",
+    "title": "NM_001134407.3(GRIN2A):c.4220C>T (p.Ser1407Leu)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2023-11-27"
+  },
+  {
+    "variation_id": "2251833",
+    "accession": "VCV002251833",
+    "title": "NM_001134407.3(GRIN2A):c.1008-6T>G",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2022-10-29"
+  },
+  {
+    "variation_id": "2182518",
+    "accession": "VCV002182518",
+    "title": "NM_001134407.3(GRIN2A):c.2537G>A (p.Arg846His)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-06-09"
+  },
+  {
+    "variation_id": "2161129",
+    "accession": "VCV002161129",
+    "title": "NM_001134407.3(GRIN2A):c.4357G>T (p.Val1453Leu)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-02-21"
+  },
+  {
+    "variation_id": "2156242",
+    "accession": "VCV002156242",
+    "title": "NM_001134407.3(GRIN2A):c.916A>G (p.Met306Val)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-10-29"
+  },
+  {
+    "variation_id": "2139181",
+    "accession": "VCV002139181",
+    "title": "NM_001134407.3(GRIN2A):c.3602G>A (p.Ser1201Asn)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-09-20"
+  },
+  {
+    "variation_id": "2115589",
+    "accession": "VCV002115589",
+    "title": "NM_001134407.3(GRIN2A):c.404T>C (p.Met135Thr)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2023-12-11"
+  },
+  {
+    "variation_id": "1983824",
+    "accession": "VCV001983824",
+    "title": "NM_001134407.3(GRIN2A):c.3432C>A (p.Asn1144Lys)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2023-05-10"
+  },
+  {
+    "variation_id": "1878902",
+    "accession": "VCV001878902",
+    "title": "NM_001134407.3(GRIN2A):c.1990G>A (p.Gly664Ser)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-06-10"
+  },
+  {
+    "variation_id": "1878668",
+    "accession": "VCV001878668",
+    "title": "NM_001134407.3(GRIN2A):c.4006C>T (p.Leu1336Phe)",
+    "gene": "GRIN2A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2023-11-27"
+  },
+  {
+    "variation_id": "4957498",
+    "accession": "VCV004957498",
+    "title": "NM_001165963.4(SCN1A):c.115C>T (p.Pro39Ser)",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-07-29"
+  },
+  {
+    "variation_id": "4957497",
+    "accession": "VCV004957497",
+    "title": "NM_001165963.4(SCN1A):c.133G>A (p.Asp45Asn)",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-10-24"
+  },
+  {
+    "variation_id": "4957496",
+    "accession": "VCV004957496",
+    "title": "NM_001165963.4(SCN1A):c.142G>A (p.Gly48Ser)",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-01-17"
+  },
+  {
+    "variation_id": "4957492",
+    "accession": "VCV004957492",
+    "title": "NM_001165963.4(SCN1A):c.264+6T>A",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-12-16"
+  },
+  {
+    "variation_id": "4957491",
+    "accession": "VCV004957491",
+    "title": "NM_001165963.4(SCN1A):c.287G>A (p.Gly96Glu)",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2019-02-06"
+  },
+  {
+    "variation_id": "4957489",
+    "accession": "VCV004957489",
+    "title": "NM_001165963.4(SCN1A):c.384-18T>C",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-08-21"
+  },
+  {
+    "variation_id": "4957488",
+    "accession": "VCV004957488",
+    "title": "NM_001165963.4(SCN1A):c.384-6A>G",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-02-03"
+  },
+  {
+    "variation_id": "4957485",
+    "accession": "VCV004957485",
+    "title": "NM_001165963.4(SCN1A):c.653T>A (p.Phe218Tyr)",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-05-24"
+  },
+  {
+    "variation_id": "4957483",
+    "accession": "VCV004957483",
+    "title": "NM_001165963.4(SCN1A):c.800_802dup (p.Gln267_Leu268insGln)",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-10-25"
+  },
+  {
+    "variation_id": "4957479",
+    "accession": "VCV004957479",
+    "title": "NM_001165963.4(SCN1A):c.964+4A>G",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-04-11"
+  },
+  {
+    "variation_id": "4957476",
+    "accession": "VCV004957476",
+    "title": "NM_001165963.4(SCN1A):c.1166A>T (p.Gln389Leu)",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2019-06-14"
+  },
+  {
+    "variation_id": "4957473",
+    "accession": "VCV004957473",
+    "title": "NM_001165963.4(SCN1A):c.1227G>C (p.Leu409Phe)",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-01-26"
+  },
+  {
+    "variation_id": "4957468",
+    "accession": "VCV004957468",
+    "title": "NM_001165963.4(SCN1A):c.1337A>C (p.Gln446Pro)",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-10-13"
+  },
+  {
+    "variation_id": "4957466",
+    "accession": "VCV004957466",
+    "title": "NM_001165963.4(SCN1A):c.1364A>G (p.Gln455Arg)",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-02-13"
+  },
+  {
+    "variation_id": "4957465",
+    "accession": "VCV004957465",
+    "title": "NM_001165963.4(SCN1A):c.1463A>T (p.Lys488Met)",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-02-13"
+  },
+  {
+    "variation_id": "4957460",
+    "accession": "VCV004957460",
+    "title": "NM_001165963.4(SCN1A):c.1925A>C (p.His642Pro)",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-07-04"
+  },
+  {
+    "variation_id": "4957458",
+    "accession": "VCV004957458",
+    "title": "NM_001165963.4(SCN1A):c.2190C>T (p.Ser730=)",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2018-10-31"
+  },
+  {
+    "variation_id": "4957456",
+    "accession": "VCV004957456",
+    "title": "NM_001165963.4(SCN1A):c.2339T>C (p.Leu780Ser)",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-04-27"
+  },
+  {
+    "variation_id": "4957453",
+    "accession": "VCV004957453",
+    "title": "NM_001165963.4(SCN1A):c.2416G>C (p.Val806Leu)",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-07-05"
+  },
+  {
+    "variation_id": "4957447",
+    "accession": "VCV004957447",
+    "title": "NM_001165963.4(SCN1A):c.2776G>A (p.Asp926Asn)",
+    "gene": "SCN1A",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-04-11"
+  },
+  {
+    "variation_id": "4857448",
+    "accession": "VCV004857448",
+    "title": "NM_001165963.4(SCN1A):c.1159C>T (p.Leu387Phe)",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-05-18"
+  },
+  {
+    "variation_id": "4800260",
+    "accession": "VCV004800260",
+    "title": "NM_001165963.4(SCN1A):c.4891T>C (p.Ser1631Pro)",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-02-26"
+  },
+  {
+    "variation_id": "4528287",
+    "accession": "VCV004528287",
+    "title": "NM_001165963.4(SCN1A):c.1279G>A (p.Glu427Lys)",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-01-21"
+  },
+  {
+    "variation_id": "4292751",
+    "accession": "VCV004292751",
+    "title": "NM_001165963.4(SCN1A):c.4853-25T>A",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-04-29"
+  },
+  {
+    "variation_id": "4292728",
+    "accession": "VCV004292728",
+    "title": "NM_001165963.4(SCN1A):c.4655G>A (p.Cys1552Tyr)",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-09-16"
+  },
+  {
+    "variation_id": "4277465",
+    "accession": "VCV004277465",
+    "title": "NM_001165963.4(SCN1A):c.3684_3686del (p.Leu1230del)",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-09-24"
+  },
+  {
+    "variation_id": "4085402",
+    "accession": "VCV004085402",
+    "title": "NM_001165963.4(SCN1A):c.4781C>T (p.Ser1594Phe)",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-07-01"
+  },
+  {
+    "variation_id": "4073664",
+    "accession": "VCV004073664",
+    "title": "NM_001165963.4(SCN1A):c.5422T>A (p.Phe1808Ile)",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-06-04"
+  },
+  {
+    "variation_id": "3793180",
+    "accession": "VCV003793180",
+    "title": "NM_001165963.4(SCN1A):c.611C>T (p.Thr204Ile)",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-05-23"
+  },
+  {
+    "variation_id": "3634025",
+    "accession": "VCV003634025",
+    "title": "NM_001165963.4(SCN1A):c.3638G>C (p.Arg1213Pro)",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-04-17"
+  },
+  {
+    "variation_id": "3625115",
+    "accession": "VCV003625115",
+    "title": "NM_001165963.4(SCN1A):c.3764C>T (p.Ala1255Val)",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-09-02"
+  },
+  {
+    "variation_id": "3384846",
+    "accession": "VCV003384846",
+    "title": "NM_001165963.4(SCN1A):c.4504GAA[1] (p.Glu1503del)",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-12-22"
+  },
+  {
+    "variation_id": "3383606",
+    "accession": "VCV003383606",
+    "title": "NM_001165963.4(SCN1A):c.874A>G (p.Ile292Val)",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-05-30"
+  },
+  {
+    "variation_id": "2900450",
+    "accession": "VCV002900450",
+    "title": "NM_001165963.4(SCN1A):c.4002+2455G>A",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2026-02-01"
+  },
+  {
+    "variation_id": "2874523",
+    "accession": "VCV002874523",
+    "title": "NM_001165963.4(SCN1A):c.2524C>T (p.Leu842Phe)",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-03-26"
+  },
+  {
+    "variation_id": "2861938",
+    "accession": "VCV002861938",
+    "title": "NM_001165963.4(SCN1A):c.1110G>T (p.Trp370Cys)",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-01-15"
+  },
+  {
+    "variation_id": "2854750",
+    "accession": "VCV002854750",
+    "title": "NM_001165963.4(SCN1A):c.4611C>T (p.Phe1537=)",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2024-07-06"
+  },
+  {
+    "variation_id": "2841832",
+    "accession": "VCV002841832",
+    "title": "NM_001165963.4(SCN1A):c.1378-3T>G",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-07-01"
+  },
+  {
+    "variation_id": "2768909",
+    "accession": "VCV002768909",
+    "title": "NM_001165963.4(SCN1A):c.5071A>G (p.Asn1691Asp)",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2023-10-16"
+  },
+  {
+    "variation_id": "2761787",
+    "accession": "VCV002761787",
+    "title": "NM_001165963.4(SCN1A):c.5108A>G (p.Asp1703Gly)",
+    "gene": "SCN1A",
+    "classification": "Conflicting classifications of pathogenicity",
+    "review_status": "criteria provided, conflicting classifications",
+    "last_evaluated": "2025-12-17"
+  },
+  {
+    "variation_id": "4957495",
+    "accession": "VCV004957495",
+    "title": "NM_001165963.4(SCN1A):c.195T>A (p.Tyr65Ter)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-06-29"
+  },
+  {
+    "variation_id": "4957474",
+    "accession": "VCV004957474",
+    "title": "NM_001165963.4(SCN1A):c.1209dup (p.Val404fs)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-08-22"
+  },
+  {
+    "variation_id": "4957454",
+    "accession": "VCV004957454",
+    "title": "NM_001165963.4(SCN1A):c.2362G>T (p.Glu788Ter)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2022-10-20"
+  },
+  {
+    "variation_id": "4957449",
+    "accession": "VCV004957449",
+    "title": "NM_001165963.4(SCN1A):c.2748C>G (p.Tyr916Ter)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-01-11"
+  },
+  {
+    "variation_id": "4957439",
+    "accession": "VCV004957439",
+    "title": "NM_001165963.4(SCN1A):c.3306C>G (p.Tyr1102Ter)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-05-03"
+  },
+  {
+    "variation_id": "4957422",
+    "accession": "VCV004957422",
+    "title": "NM_001165963.4(SCN1A):c.4027del (p.Ala1343fs)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-02-07"
+  },
+  {
+    "variation_id": "4957414",
+    "accession": "VCV004957414",
+    "title": "NM_001165963.4(SCN1A):c.4271_4272del (p.Ser1424fs)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-05-25"
+  },
+  {
+    "variation_id": "4957383",
+    "accession": "VCV004957383",
+    "title": "NM_001165963.4(SCN1A):c.5414_5415del (p.Asp1804_Phe1805insTer)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-09-25"
+  },
+  {
+    "variation_id": "4888042",
+    "accession": "VCV004888042",
+    "title": "NM_001165963.4(SCN1A):c.2943del (p.Val982fs)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-02-09"
+  },
+  {
+    "variation_id": "4887908",
+    "accession": "VCV004887908",
+    "title": "NM_001165963.4(SCN1A):c.5590T>C (p.Cys1864Arg)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-02-11"
+  },
+  {
+    "variation_id": "4887819",
+    "accession": "VCV004887819",
+    "title": "NM_001165963.4(SCN1A):c.2686G>C (p.Val896Leu)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-02-14"
+  },
+  {
+    "variation_id": "4884832",
+    "accession": "VCV004884832",
+    "title": "NM_001165963.4(SCN1A):c.1010G>A (p.Gly337Glu)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "no assertion criteria provided",
+    "last_evaluated": "1-01-01 00"
+  },
+  {
+    "variation_id": "4876697",
+    "accession": "VCV004876697",
+    "title": "NM_001165963.4(SCN1A):c.3576T>A (p.Cys1192Ter)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-26"
+  },
+  {
+    "variation_id": "4876695",
+    "accession": "VCV004876695",
+    "title": "NM_001165963.4(SCN1A):c.4286_4338del (p.Ala1429fs)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-01-05"
+  },
+  {
+    "variation_id": "4875463",
+    "accession": "VCV004875463",
+    "title": "NM_001165963.4(SCN1A):c.389_391delinsGTGCATGCTAATTATGTGCATTATGTGCATTATGT (p.Phe130_Ser131delinsCysAlaCysTer)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-01"
+  },
+  {
+    "variation_id": "4874950",
+    "accession": "VCV004874950",
+    "title": "NM_001165963.4(SCN1A):c.1604_1608del (p.Arg535fs)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-01"
+  },
+  {
+    "variation_id": "4874133",
+    "accession": "VCV004874133",
+    "title": "NM_001165963.4(SCN1A):c.3811T>C (p.Trp1271Arg)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-05-01"
+  },
+  {
+    "variation_id": "4871757",
+    "accession": "VCV004871757",
+    "title": "NM_001165963.4(SCN1A):c.5265del (p.Cys1756fs)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-01-05"
+  },
+  {
+    "variation_id": "4864125",
+    "accession": "VCV004864125",
+    "title": "NM_001165963.4(SCN1A):c.5424C>G (p.Phe1808Leu)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-03-27"
+  },
+  {
+    "variation_id": "4852863",
+    "accession": "VCV004852863",
+    "title": "NM_001165963.4(SCN1A):c.429_430dup (p.Phe144fs)",
+    "gene": "SCN1A",
+    "classification": "Pathogenic",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-06-30"
+  },
+  {
+    "variation_id": "4949088",
+    "accession": "VCV004949088",
+    "title": "NM_001323289.2(CDKL5):c.2432C>T (p.Ala811Val)",
+    "gene": "CDKL5",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-01-20"
+  },
+  {
+    "variation_id": "4949083",
+    "accession": "VCV004949083",
+    "title": "NM_001323289.2(CDKL5):c.2084C>T (p.Thr695Ile)",
+    "gene": "CDKL5",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2021-08-17"
+  },
+  {
+    "variation_id": "4949082",
+    "accession": "VCV004949082",
+    "title": "NM_001323289.2(CDKL5):c.1724A>G (p.Glu575Gly)",
+    "gene": "CDKL5",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-07-15"
+  },
+  {
+    "variation_id": "4949080",
+    "accession": "VCV004949080",
+    "title": "NM_001323289.2(CDKL5):c.1250T>C (p.Phe417Ser)",
+    "gene": "CDKL5",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-03-27"
+  },
+  {
+    "variation_id": "4949078",
+    "accession": "VCV004949078",
+    "title": "NM_001323289.2(CDKL5):c.971C>T (p.Ser324Phe)",
+    "gene": "CDKL5",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-11-07"
+  },
+  {
+    "variation_id": "4949076",
+    "accession": "VCV004949076",
+    "title": "NM_001323289.2(CDKL5):c.658C>A (p.Leu220Ile)",
+    "gene": "CDKL5",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2023-08-15"
+  },
+  {
+    "variation_id": "4949075",
+    "accession": "VCV004949075",
+    "title": "NM_001323289.2(CDKL5):c.463+4A>C",
+    "gene": "CDKL5",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2019-09-19"
+  },
+  {
+    "variation_id": "4949073",
+    "accession": "VCV004949073",
+    "title": "NM_001323289.2(CDKL5):c.405T>A (p.Asp135Glu)",
+    "gene": "CDKL5",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2020-12-12"
+  },
+  {
+    "variation_id": "4949071",
+    "accession": "VCV004949071",
+    "title": "NM_001323289.2(CDKL5):c.269A>G (p.Glu90Gly)",
+    "gene": "CDKL5",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2019-04-05"
+  },
+  {
+    "variation_id": "4882466",
+    "accession": "VCV004882466",
+    "title": "NM_001323289.2(CDKL5):c.518C>T (p.Ala173Val)",
+    "gene": "CDKL5",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-12-12"
+  },
+  {
+    "variation_id": "4882292",
+    "accession": "VCV004882292",
+    "title": "NM_001323289.2(CDKL5):c.434A>G (p.His145Arg)",
+    "gene": "CDKL5",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2024-12-23"
+  },
+  {
+    "variation_id": "4868614",
+    "accession": "VCV004868614",
+    "title": "NM_001323289.2(CDKL5):c.1087A>G (p.Asn363Asp)",
+    "gene": "CDKL5",
+    "classification": "Uncertain significance",
+    "review_status": "criteria provided, single submitter",
+    "last_evaluated": "2026-06-10"
+  }
+]
