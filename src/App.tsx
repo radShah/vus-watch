@@ -22,6 +22,7 @@ export default function App() {
       <TopBar clinic={caseload.clinic.name} department={caseload.clinic.department} gcName={caseload.gc.name} />
       <SummaryStrip
         patients={patients}
+        lastCycle={caseload.last_cycle}
         onReset={() => setFilters(EMPTY_FILTERS)}
         onPick={({ vus, watch }) =>
           setFilters({ ...EMPTY_FILTERS, result: vus ? 'VUS' : 'All', watch: watch ? [watch] : [] })

@@ -14,9 +14,33 @@ export interface Variant {
     classification: string
     review_status: string
     last_evaluated: string | null
+    /** Set by the agent cycle (live ClinVar page via Nimble). */
+    record_version?: number
+    record_last_updated?: string
+    last_checked?: string
+    source_url?: string
   }
   classification_changed: boolean
   watch_status: WatchStatus
+}
+
+/** One observed change on ClinVar, recorded by the agent cycle. */
+export interface HistoryEntry {
+  field: 'classification' | 'record_version'
+  old: string | number | null
+  new: string | number
+  source_url: string
+  observed_at: string
+}
+
+export interface CycleSummary {
+  cycle: number
+  started_at: string
+  finished_at: string
+  fetched: number
+  unchanged: number
+  changed: number
+  failed: number
 }
 
 export interface Patient {
@@ -37,7 +61,7 @@ export interface Patient {
   last_checked: string
   next_action: string
   gc_decisions: unknown[]
-  history: unknown[]
+  history: HistoryEntry[]
 }
 
 export interface Caseload {
@@ -48,4 +72,5 @@ export interface Caseload {
   clinic: { name: string; department: string }
   gc: { name: string }
   patients: Patient[]
+  last_cycle?: CycleSummary
 }

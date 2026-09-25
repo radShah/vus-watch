@@ -8,9 +8,12 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "seed": "tsx scripts/seed-caseload.ts"
+    "seed": "tsx scripts/seed-caseload.ts",
+    "cycle": "tsx scripts/run-cycle.ts"
   },
   "dependencies": {
+    "@nimble-way/nimble-js": "^1.5.0",
+    "linkedom": "^0.18.13",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },

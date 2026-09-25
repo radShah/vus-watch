@@ -84,6 +84,15 @@ export function PatientDrawer({ patient: p, onClose }: { patient: Patient; onClo
                   <div className="mt-0.5 text-[11px] text-slate-600">{v.clinvar.classification}</div>
                   <div className="text-[11px] text-slate-600">Review status: {v.clinvar.review_status}</div>
                   <div className="text-[11px] text-slate-600">Last evaluated: {fmtDate(v.clinvar.last_evaluated)}</div>
+                  {v.clinvar.record_version != null && (
+                    <div className="text-[11px] text-slate-600">
+                      Record version {v.clinvar.record_version}
+                      {v.clinvar.record_last_updated && ` · updated ${fmtDate(v.clinvar.record_last_updated)}`}
+                    </div>
+                  )}
+                  {v.clinvar.last_checked && (
+                    <div className="text-[11px] text-slate-600">Last checked {fmtDateTime(v.clinvar.last_checked)}</div>
+                  )}
                 </div>
               </div>
               <div className="flex items-center justify-between border-t border-slate-200 px-2 py-1 text-[11px]">
@@ -104,7 +113,30 @@ export function PatientDrawer({ patient: p, onClose }: { patient: Patient; onClo
         </Block>
 
         <Block title="Agent activity">
-          <p className="text-xs italic text-slate-400">No agent activity yet.</p>
+          {p.history.length ? (
+            <ul className="space-y-1.5">
+              {[...p.history].reverse().map((h, i) => (
+                <li key={i} className="text-xs">
+                  <div className="text-slate-800">
+                    <span className="font-semibold">{h.field === 'classification' ? 'Classification' : 'Record version'}</span>
+                    : {String(h.old ?? '—')} → <span className="font-semibold">{String(h.new)}</span>
+                  </div>
+                  <div className="text-[11px] text-slate-500">
+                    Observed {fmtDateTime(h.observed_at)} ·{' '}
+                    <a href={h.source_url} target="_blank" rel="noreferrer" className="text-blue-700 hover:underline">
+                      ClinVar ↗
+                    </a>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p className="text-xs italic text-slate-400">
+              {p.variants.some((v) => v.clinvar.last_checked)
+                ? `No changes observed. Last checked ${fmtDateTime(p.last_checked)}.`
+                : 'No agent activity yet.'}
+            </p>
+          )}
         </Block>
 
         <Block title="GC decisions">

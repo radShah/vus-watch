@@ -178,9 +178,17 @@ export function Worklist({ patients, selectedId, onSelect }: Props) {
                 </td>
                 <td className="px-2 py-1">
                   {p.variants.map((v, i) => (
-                    <div key={i} className="flex items-center gap-1 whitespace-nowrap">
-                      <ClassBadge desc={v.clinvar.classification} />
-                      <Stars n={reviewStars(v.clinvar.review_status)} title={v.clinvar.review_status} />
+                    <div key={i} className="whitespace-nowrap">
+                      <div className="flex items-center gap-1">
+                        <ClassBadge desc={v.clinvar.classification} />
+                        <Stars n={reviewStars(v.clinvar.review_status)} title={v.clinvar.review_status} />
+                      </div>
+                      {v.clinvar.last_checked && (
+                        <div className="text-[10px] text-slate-500">
+                          {v.clinvar.record_version != null && `v${v.clinvar.record_version} · `}checked{' '}
+                          {fmtDate(v.clinvar.last_checked).slice(0, 5)}
+                        </div>
+                      )}
                     </div>
                   ))}
                 </td>

@@ -141,13 +141,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4957473/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2024-01-26"
+            "last_evaluated": "2024-01-26",
+            "record_last_updated": "2026-09-22",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4957473/",
+            "last_checked": "2026-09-25T19:53:20.315Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:53:20.315Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -202,13 +206,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4860314/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2026-06-02"
+            "last_evaluated": "2026-06-02",
+            "record_last_updated": "2026-07-27",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4860314/",
+            "last_checked": "2026-09-25T19:53:36.914Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:53:36.914Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -344,13 +352,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3254186/",
             "classification": "Conflicting classifications of pathogenicity",
             "review_status": "criteria provided, conflicting classifications",
-            "last_evaluated": "2025-02-26"
+            "last_evaluated": "2025-02-26",
+            "record_last_updated": "2026-04-13",
+            "record_version": 2,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3254186/",
+            "last_checked": "2026-09-25T19:53:50.486Z"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:53:50.486Z",
       "next_action": "Review ATM: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -385,7 +397,11 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4885268/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2025-04-25"
+            "last_evaluated": "2025-04-25",
+            "record_last_updated": "2026-09-13",
+            "record_version": 2,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4885268/",
+            "last_checked": "2026-09-25T19:53:57.385Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
@@ -405,13 +421,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4861510/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2026-06-02"
+            "last_evaluated": "2026-06-02",
+            "record_last_updated": "2026-07-27",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4861510/",
+            "last_checked": "2026-09-25T19:54:04.358Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:54:04.358Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -446,13 +466,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4913995/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2019-08-22"
+            "last_evaluated": "2019-08-22",
+            "record_last_updated": "2026-09-22",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4913995/",
+            "last_checked": "2026-09-25T19:54:11.744Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:54:11.744Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -487,13 +511,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3885231/",
             "classification": "Conflicting classifications of pathogenicity",
             "review_status": "criteria provided, conflicting classifications",
-            "last_evaluated": "2025-11-18"
+            "last_evaluated": "2025-11-18",
+            "record_last_updated": "2026-04-13",
+            "record_version": 2,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3885231/",
+            "last_checked": "2026-09-25T19:54:18.691Z"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:54:18.691Z",
       "next_action": "Review PALB2: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -528,7 +556,11 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4861515/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2026-06-12"
+            "last_evaluated": "2026-06-12",
+            "record_last_updated": "2026-07-27",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4861515/",
+            "last_checked": "2026-09-25T19:54:31.980Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
@@ -548,13 +580,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4914000/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2024-09-03"
+            "last_evaluated": "2024-09-03",
+            "record_last_updated": "2026-09-22",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4914000/",
+            "last_checked": "2026-09-25T19:54:44.791Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:54:44.791Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -609,13 +645,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4532890/",
             "classification": "Conflicting classifications of pathogenicity",
             "review_status": "criteria provided, conflicting classifications",
-            "last_evaluated": "2025-10-22"
+            "last_evaluated": "2025-10-22",
+            "record_last_updated": "2026-03-08",
+            "record_version": 2,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4532890/",
+            "last_checked": "2026-09-25T19:54:57.640Z"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:54:57.640Z",
       "next_action": "Review MSH6: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -691,13 +731,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3070370/",
             "classification": "Conflicting classifications of pathogenicity",
             "review_status": "criteria provided, conflicting classifications",
-            "last_evaluated": "2025-07-01"
+            "last_evaluated": "2025-07-01",
+            "record_last_updated": "2026-02-17",
+            "record_version": 2,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3070370/",
+            "last_checked": "2026-09-25T19:55:06.772Z"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:55:06.772Z",
       "next_action": "Review MYBPC3: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -812,13 +856,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3875106/",
             "classification": "Conflicting classifications of pathogenicity",
             "review_status": "criteria provided, conflicting classifications",
-            "last_evaluated": "2026-01-01"
+            "last_evaluated": "2026-01-01",
+            "record_last_updated": "2026-04-13",
+            "record_version": 3,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3875106/",
+            "last_checked": "2026-09-25T19:55:13.804Z"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:55:13.804Z",
       "next_action": "Review MSH6: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -913,13 +961,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4292728/",
             "classification": "Conflicting classifications of pathogenicity",
             "review_status": "criteria provided, conflicting classifications",
-            "last_evaluated": "2025-09-16"
+            "last_evaluated": "2025-09-16",
+            "record_last_updated": "2026-09-22",
+            "record_version": 3,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4292728/",
+            "last_checked": "2026-09-25T19:55:31.586Z"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:55:31.586Z",
       "next_action": "Review SCN1A: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -954,13 +1006,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3383606/",
             "classification": "Conflicting classifications of pathogenicity",
             "review_status": "criteria provided, conflicting classifications",
-            "last_evaluated": "2024-05-30"
+            "last_evaluated": "2024-05-30",
+            "record_last_updated": "2026-03-01",
+            "record_version": 3,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3383606/",
+            "last_checked": "2026-09-25T19:55:39.490Z"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:55:39.490Z",
       "next_action": "Review SCN1A: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -1117,7 +1173,11 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4861518/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2026-03-31"
+            "last_evaluated": "2026-03-31",
+            "record_last_updated": "2026-07-27",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4861518/",
+            "last_checked": "2026-09-25T19:55:50.847Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
@@ -1137,13 +1197,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4895206/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2024-02-20"
+            "last_evaluated": "2024-02-20",
+            "record_last_updated": "2026-09-22",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4895206/",
+            "last_checked": "2026-09-25T19:55:56.189Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:55:56.189Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1178,13 +1242,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4885370/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2025-04-24"
+            "last_evaluated": "2025-04-24",
+            "record_last_updated": "2026-09-13",
+            "record_version": 2,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4885370/",
+            "last_checked": "2026-09-25T19:56:06.869Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:56:06.869Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1219,13 +1287,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4919646/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2024-05-28"
+            "last_evaluated": "2024-05-28",
+            "record_last_updated": "2026-09-22",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4919646/",
+            "last_checked": "2026-09-25T19:56:16.924Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:56:16.924Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1361,13 +1433,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4882466/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2024-12-12"
+            "last_evaluated": "2024-12-12",
+            "record_last_updated": "2026-09-13",
+            "record_version": 2,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4882466/",
+            "last_checked": "2026-09-25T19:56:24.407Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:56:24.407Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1402,13 +1478,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3672027/",
             "classification": "Conflicting classifications of pathogenicity",
             "review_status": "criteria provided, conflicting classifications",
-            "last_evaluated": "2026-04-15"
+            "last_evaluated": "2026-04-15",
+            "record_last_updated": "2026-07-27",
+            "record_version": 3,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3672027/",
+            "last_checked": "2026-09-25T19:56:30.213Z"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:56:30.213Z",
       "next_action": "Review GRIN2A: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -1504,13 +1584,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4961793/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2017-06-08"
+            "last_evaluated": "2017-06-08",
+            "record_last_updated": "2026-09-22",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4961793/",
+            "last_checked": "2026-09-25T19:56:40.037Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:56:40.037Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1585,13 +1669,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4886374/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2026-01-25"
+            "last_evaluated": "2026-01-25",
+            "record_last_updated": "2026-09-13",
+            "record_version": 2,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4886374/",
+            "last_checked": "2026-09-25T19:56:54.522Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:56:54.522Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1726,13 +1814,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4874234/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2026-05-01"
+            "last_evaluated": "2026-05-01",
+            "record_last_updated": "2026-07-27",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4874234/",
+            "last_checked": "2026-09-25T19:57:00.268Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:57:00.268Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -1787,13 +1879,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4911569/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2022-07-01"
+            "last_evaluated": "2022-07-01",
+            "record_last_updated": "2026-09-22",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4911569/",
+            "last_checked": "2026-09-25T19:57:11.044Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:57:11.044Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -2051,13 +2147,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4856779/",
             "classification": "Pathogenic",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2026-03-03"
+            "last_evaluated": "2026-03-03",
+            "record_last_updated": "2026-06-27",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4856779/",
+            "last_checked": "2026-09-25T19:57:30.631Z"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:57:30.631Z",
       "next_action": "Review MLH1: VUS → P/LP in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -2092,13 +2192,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3413465/",
             "classification": "Conflicting classifications of pathogenicity",
             "review_status": "criteria provided, conflicting classifications",
-            "last_evaluated": "2025-09-22"
+            "last_evaluated": "2025-09-22",
+            "record_last_updated": "2026-04-13",
+            "record_version": 2,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3413465/",
+            "last_checked": "2026-09-25T19:57:40.343Z"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:57:40.343Z",
       "next_action": "Review PALB2: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -2153,13 +2257,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4884318/",
             "classification": "Pathogenic",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2026-08-04"
+            "last_evaluated": "2026-08-04",
+            "record_last_updated": "2026-08-16",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4884318/",
+            "last_checked": "2026-09-25T19:57:54.123Z"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:57:54.123Z",
       "next_action": "Review MYH7: VUS → P/LP in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -2214,13 +2322,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/2903685/",
             "classification": "Conflicting classifications of pathogenicity",
             "review_status": "criteria provided, conflicting classifications",
-            "last_evaluated": "2025-04-27"
+            "last_evaluated": "2025-04-27",
+            "record_last_updated": "2026-02-25",
+            "record_version": 5,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/2903685/",
+            "last_checked": "2026-09-25T19:58:00.252Z"
           },
           "classification_changed": true,
           "watch_status": "active"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:58:00.252Z",
       "next_action": "Review SCN5A: VUS → Conflicting in ClinVar",
       "gc_decisions": [],
       "history": []
@@ -2315,7 +2427,11 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4949071/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2019-04-05"
+            "last_evaluated": "2019-04-05",
+            "record_last_updated": "2026-09-22",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4949071/",
+            "last_checked": "2026-09-25T19:58:08.681Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
@@ -2335,13 +2451,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4928540/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2022-06-07"
+            "last_evaluated": "2022-06-07",
+            "record_last_updated": "2026-09-22",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4928540/",
+            "last_checked": "2026-09-25T19:58:20.144Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:58:20.144Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -2516,13 +2636,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4868937/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2026-05-07"
+            "last_evaluated": "2026-05-07",
+            "record_last_updated": "2026-07-27",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4868937/",
+            "last_checked": "2026-09-25T19:58:29.026Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:58:29.026Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -2617,13 +2741,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4919643/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2024-01-12"
+            "last_evaluated": "2024-01-12",
+            "record_last_updated": "2026-09-22",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4919643/",
+            "last_checked": "2026-09-25T19:58:41.827Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:58:41.827Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -2800,7 +2928,11 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4928535/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2024-01-03"
+            "last_evaluated": "2024-01-03",
+            "record_last_updated": "2026-09-22",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4928535/",
+            "last_checked": "2026-09-25T19:58:48.343Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
@@ -2820,13 +2952,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4957498/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2024-07-29"
+            "last_evaluated": "2024-07-29",
+            "record_last_updated": "2026-09-22",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4957498/",
+            "last_checked": "2026-09-25T19:58:56.160Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:58:56.160Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -2941,13 +3077,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4928536/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2023-09-07"
+            "last_evaluated": "2023-09-07",
+            "record_last_updated": "2026-09-22",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4928536/",
+            "last_checked": "2026-09-25T19:59:06.502Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:59:06.502Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3063,13 +3203,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4910307/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2020-09-03"
+            "last_evaluated": "2020-09-03",
+            "record_last_updated": "2026-09-22",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4910307/",
+            "last_checked": "2026-09-25T19:59:51.381Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T19:59:51.381Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3286,13 +3430,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4957489/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2020-08-21"
+            "last_evaluated": "2020-08-21",
+            "record_last_updated": "2026-09-22",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4957489/",
+            "last_checked": "2026-09-25T20:00:00.945Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T20:00:00.945Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3327,13 +3475,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4860123/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2026-05-31"
+            "last_evaluated": "2026-05-31",
+            "record_last_updated": "2026-07-27",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4860123/",
+            "last_checked": "2026-09-25T20:00:06.717Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T20:00:06.717Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3408,13 +3560,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4860308/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2026-05-22"
+            "last_evaluated": "2026-05-22",
+            "record_last_updated": "2026-07-27",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4860308/",
+            "last_checked": "2026-09-25T20:00:13.671Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T20:00:13.671Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3509,13 +3665,17 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4921250/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2024-11-26"
+            "last_evaluated": "2024-11-26",
+            "record_last_updated": "2026-09-22",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4921250/",
+            "last_checked": "2026-09-25T20:00:22.053Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T20:00:22.053Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
@@ -3550,16 +3710,29 @@
             "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4867750/",
             "classification": "Uncertain significance",
             "review_status": "criteria provided, single submitter",
-            "last_evaluated": "2026-06-09"
+            "last_evaluated": "2026-06-09",
+            "record_last_updated": "2026-07-27",
+            "record_version": 1,
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/4867750/",
+            "last_checked": "2026-09-25T20:00:31.057Z"
           },
           "classification_changed": false,
           "watch_status": "quiet"
         }
       ],
-      "last_checked": "2026-09-25T19:20:27.781Z",
+      "last_checked": "2026-09-25T20:00:31.057Z",
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
     }
-  ]
+  ],
+  "last_cycle": {
+    "cycle": 1,
+    "started_at": "2026-09-25T19:53:20.312Z",
+    "finished_at": "2026-09-25T20:00:37.209Z",
+    "fetched": 41,
+    "unchanged": 41,
+    "changed": 0,
+    "failed": 0
+  }
 }
