@@ -5117,6 +5117,49 @@
       "next_action": "Routine ClinVar recheck",
       "gc_decisions": [],
       "history": []
+    },
+    {
+      "id": "P121",
+      "mrn": "CH5120937",
+      "name": "Grace Okafor",
+      "dob": "1979-11-02",
+      "age": 46,
+      "sex": "F",
+      "clinic_area": "Cancer",
+      "indication": "Family history: mother with breast cancer, dx age 48",
+      "ordering_provider": "Dr. Helen Marsh (Breast Surgery)",
+      "testing_lab": "Ambry Genetics",
+      "test_name": "Hereditary breast and ovarian cancer panel (25 genes)",
+      "report_date": "2022-08-15",
+      "result_category": "VUS",
+      "variants": [
+        {
+          "gene": "BRCA2",
+          "hgvs": "NM_000059.4(BRCA2):c.8948A>T (p.Asp2983Val)",
+          "zygosity": "Heterozygous",
+          "reported_classification": {
+            "classification": "Uncertain significance",
+            "lab": "Ambry Genetics",
+            "date": "2022-08-15"
+          },
+          "clinvar": {
+            "variation_id": "1686523",
+            "vcv": "VCV001686523",
+            "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/1686523/",
+            "classification": "Likely benign",
+            "review_status": "reviewed by expert panel",
+            "last_evaluated": "2026-07-23",
+            "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/1686523/",
+            "last_checked": "2026-09-25T21:42:14.585Z"
+          },
+          "classification_changed": true,
+          "watch_status": "letter_drafted"
+        }
+      ],
+      "last_checked": "2026-09-25T21:42:14.585Z",
+      "next_action": "Review draft letter → send",
+      "gc_decisions": [],
+      "history": []
     }
   ],
   "last_cycle": {

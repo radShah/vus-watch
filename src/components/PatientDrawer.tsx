@@ -4,6 +4,7 @@ import { caseStatus, fmtDate, fmtDateTime, reviewStars } from '../lib/clinical'
 import { post } from '../lib/api'
 import { lookupTier, specialtyOf } from '../lib/labTrust'
 import { ActionChip, ClassBadge, Stars, TierChip, WatchChip } from './Chips'
+import { LetterPreview } from './LetterPreview'
 
 function Field({ label, children }: { label: string; children: ReactNode }) {
   return (
@@ -261,6 +262,8 @@ export function PatientDrawer({ patient: p, prefs, onClose }: { patient: Patient
             </div>
           ))}
         </Block>
+
+        <LetterPreview patient={p} />
 
         <Block title="Next action">
           <p className="text-xs text-slate-800">{p.next_action}</p>
